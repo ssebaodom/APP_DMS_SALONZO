@@ -1,0 +1,312 @@
+2024-02-06 11:20:25.086 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-06 11:20:26.240 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-06 11:20:26.245 +07:00 [INF] Hosting environment: Development
+2024-02-06 11:20:26.247 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.ServerAPI
+2024-02-06 11:20:26.296 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2024-02-06 11:20:26.532 +07:00 [INF] Request finished in 238.1099ms 200 text/html;charset=utf-8
+2024-02-06 11:20:26.582 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2024-02-06 11:20:26.593 +07:00 [INF] Request finished in 11.0212ms 200 application/javascript; charset=utf-8
+2024-02-06 11:20:26.600 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2024-02-06 11:20:26.806 +07:00 [INF] Request finished in 206.1278ms 200 text/javascript; charset=UTF-8
+2024-02-06 11:20:26.964 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2024-02-06 11:20:27.399 +07:00 [INF] Request finished in 435.0801ms 200 application/json;charset=utf-8
+2024-02-06 11:23:13.825 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/users/signin application/json 161
+2024-02-06 11:23:13.834 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/signin 
+QueryString:  
+Request Body: {
+    "hostId": "https://salonzo-cloud.sse.net.vn",
+    "userName": "dat",
+    "password": "123abc",
+    "devideToken": "",
+    "language": "V"  
+}
+
+
+
+ 
+
+2024-02-06 11:23:13.838 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-02-06 11:23:14.038 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI)'
+2024-02-06 11:23:14.076 +07:00 [INF] Route matched with {action = "Signin", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.SignInResponse] Signin(SSE.Common.Api.v1.Requests.User.SigninRequest) on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2024-02-06 11:23:14.863 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI) - Validation state: "Valid"
+2024-02-06 11:23:15.167 +07:00 [INF] Entity Framework Core 3.1.7 initialized 'GlobalDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=1000 
+2024-02-06 11:23:16.009 +07:00 [INF] Executed DbCommand (71ms) [Parameters=[@__hostId_0='?' (Size = -1) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [d].[HostId], [d].[UserName], [d].[ServerName], [d].[SqlPassLogin], [d].[SqlUserLogin], [d].[SysDbName]
+FROM [DbSysInfo] AS [d]
+WHERE [d].[HostId] = @__hostId_0
+2024-02-06 11:23:16.877 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2006.1821ms.
+2024-02-06 11:23:16.884 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.SignInResponse'.
+2024-02-06 11:23:16.901 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI) in 2820.9665ms
+2024-02-06 11:23:16.904 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI)'
+2024-02-06 11:23:16.909 +07:00 [INF] Request finished in 3084.5785ms 200 application/json; charset=utf-8
+2024-02-06 11:23:21.382 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/users/companies  
+2024-02-06 11:23:21.385 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/companies 
+QueryString:  
+Request Body:  
+
+2024-02-06 11:23:21.443 +07:00 [INF] Successfully validated the token.
+2024-02-06 11:23:21.449 +07:00 [INF] Authorization was successful.
+2024-02-06 11:23:21.451 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI)'
+2024-02-06 11:23:21.455 +07:00 [INF] Route matched with {action = "GetCompanies", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.GetCompaniesResponse] GetCompanies() on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2024-02-06 11:23:21.587 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI) - Validation state: "Valid"
+2024-02-06 11:23:21.736 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 146.9862ms.
+2024-02-06 11:23:21.738 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.GetCompaniesResponse'.
+2024-02-06 11:23:21.747 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI) in 290.251ms
+2024-02-06 11:23:21.749 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI)'
+2024-02-06 11:23:21.751 +07:00 [INF] Request finished in 368.6579ms 200 application/json; charset=utf-8
+2024-02-06 11:23:23.988 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/users/units  
+2024-02-06 11:23:23.991 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/units 
+QueryString:  
+Request Body:  
+
+2024-02-06 11:23:23.994 +07:00 [INF] Successfully validated the token.
+2024-02-06 11:23:23.998 +07:00 [INF] Authorization was successful.
+2024-02-06 11:23:24.001 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI)'
+2024-02-06 11:23:24.005 +07:00 [INF] Route matched with {action = "GetUnits", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.GetUnitsResponse] GetUnits() on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2024-02-06 11:23:24.139 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI) - Validation state: "Valid"
+2024-02-06 11:23:24.317 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 176.6144ms.
+2024-02-06 11:23:24.319 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.GetUnitsResponse'.
+2024-02-06 11:23:24.325 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI) in 317.4066ms
+2024-02-06 11:23:24.326 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI)'
+2024-02-06 11:23:24.328 +07:00 [INF] Request finished in 340.2083ms 200 application/json; charset=utf-8
+2024-02-06 11:23:46.125 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/todos/report-location-v2 multipart/form-data; boundary=--------------------------794723396741137501213686 799
+2024-02-06 11:23:46.128 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/todos/report-location-v2 
+QueryString:  
+Request Body: ----------------------------794723396741137501213686
+Content-Disposition: form-data; name="Datetime"
+
+2023-02-22 08:37:55.053244
+----------------------------794723396741137501213686
+Content-Disposition: form-data; name="Customer"
+
+01ZZ
+----------------------------794723396741137501213686
+Content-Disposition: form-data; name="LatLong"
+
+123.123123
+----------------------------794723396741137501213686
+Content-Disposition: form-data; name="Location"
+
+262 nguyen huy tuong
+----------------------------794723396741137501213686
+Content-Disposition: form-data; name="Description"
+Content-Type: application/json
+
+ádaksld
+----------------------------794723396741137501213686
+Content-Disposition: form-data; name="Note"
+
+ada
+----------------------------794723396741137501213686--
+ 
+
+2024-02-06 11:23:46.134 +07:00 [INF] Successfully validated the token.
+2024-02-06 11:23:46.138 +07:00 [INF] Authorization was successful.
+2024-02-06 11:23:46.141 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.DMSController.ReportLocationV2 (SSE.ServerAPI)'
+2024-02-06 11:23:46.154 +07:00 [INF] Route matched with {action = "ReportLocationV2", controller = "DMS"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Common.CommonResponse] ReportLocationV2(SSE.Common.Api.v1.Requests.Todos.ReportLocationRequestV2) on controller SSE_Server.Api.v1.Controllers.DMSController (SSE.ServerAPI).
+2024-02-06 11:23:46.316 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.DMSController.ReportLocationV2 (SSE.ServerAPI) - Validation state: "Valid"
+2024-02-06 11:24:03.452 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.DMSController.ReportLocationV2 (SSE.ServerAPI) in 17294.9137ms
+2024-02-06 11:24:03.454 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.DMSController.ReportLocationV2 (SSE.ServerAPI)'
+2024-02-06 11:24:03.538 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Data.SqlClient.SqlException (0x80131904): Error converting data type varchar to smalldatetime.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReader(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.ExecuteScalarImplAsync[T](IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1247
+   at SSE.Core.Services.Dapper.DapperService.ExecuteScalarAsync[T](String sql, Object parameters, CommandType commandType) in F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.Core\Services\Dapper\DapperService.cs:line 170
+   at SSE.DataAccess.Api.v1.Implements.DMSDAL.ReportLocationV2(ReportLocationRequestV2 request) in F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.DataAccess\Api\v1\Implements\DMSDAL.cs:line 971
+   at SSE.Business.Api.v1.Implements.DMSBLL.ReportLocationV2(ReportLocationRequestV2 request) in F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.Business\Api\v1\Implements\DMSBLL.cs:line 1116
+   at SSE_Server.Api.v1.Controllers.DMSController.ReportLocationV2(ReportLocationRequestV2 request) in F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.ServerAPI\Api\v1\Controllers\DMSController.cs:line 246
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at SSE.Common.Services.ApiLoggingMiddleware.InvokeAsync(HttpContext context) in F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.Core\Services\Middleware\ApiLoggingMiddleware.cs:line 58
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:c015bc49-6458-4fcc-99f7-6e326d812d57
+Error Number:8114,State:5,Class:16
+2024-02-06 11:24:03.630 +07:00 [INF] Request finished in 17504.6911ms 500 text/plain
+2024-02-06 11:25:02.162 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/todos/report-location-v2 multipart/form-data; boundary=--------------------------953348400778207951176168 783
+2024-02-06 11:25:02.166 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/todos/report-location-v2 
+QueryString:  
+Request Body: ----------------------------953348400778207951176168
+Content-Disposition: form-data; name="Datetime"
+
+2023-02-22
+----------------------------953348400778207951176168
+Content-Disposition: form-data; name="Customer"
+
+01ZZ
+----------------------------953348400778207951176168
+Content-Disposition: form-data; name="LatLong"
+
+123.123123
+----------------------------953348400778207951176168
+Content-Disposition: form-data; name="Location"
+
+262 nguyen huy tuong
+----------------------------953348400778207951176168
+Content-Disposition: form-data; name="Description"
+Content-Type: application/json
+
+ádaksld
+----------------------------953348400778207951176168
+Content-Disposition: form-data; name="Note"
+
+ada
+----------------------------953348400778207951176168--
+ 
+
+2024-02-06 11:25:02.178 +07:00 [INF] Successfully validated the token.
+2024-02-06 11:25:02.181 +07:00 [INF] Authorization was successful.
+2024-02-06 11:25:02.183 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.DMSController.ReportLocationV2 (SSE.ServerAPI)'
+2024-02-06 11:25:02.185 +07:00 [INF] Route matched with {action = "ReportLocationV2", controller = "DMS"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Common.CommonResponse] ReportLocationV2(SSE.Common.Api.v1.Requests.Todos.ReportLocationRequestV2) on controller SSE_Server.Api.v1.Controllers.DMSController (SSE.ServerAPI).
+2024-02-06 11:25:02.330 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.DMSController.ReportLocationV2 (SSE.ServerAPI) - Validation state: "Valid"
+2024-02-06 11:25:34.984 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-06 11:25:35.459 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-06 11:25:35.461 +07:00 [INF] Hosting environment: Development
+2024-02-06 11:25:35.464 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.ServerAPI
+2024-02-06 11:25:35.498 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2024-02-06 11:25:35.711 +07:00 [INF] Request finished in 215.8709ms 200 text/html;charset=utf-8
+2024-02-06 11:25:35.754 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2024-02-06 11:25:35.765 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2024-02-06 11:25:35.766 +07:00 [INF] Request finished in 10.805ms 200 application/javascript; charset=utf-8
+2024-02-06 11:25:35.794 +07:00 [INF] Request finished in 29.0208ms 200 text/javascript; charset=UTF-8
+2024-02-06 11:25:35.875 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2024-02-06 11:25:36.153 +07:00 [INF] Request finished in 278.1197ms 200 application/json;charset=utf-8
+2024-02-06 11:26:18.126 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/todos/report-location-v2 multipart/form-data; boundary=--------------------------250989682740259031228419 783
+2024-02-06 11:26:18.136 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/todos/report-location-v2 
+QueryString:  
+Request Body: ----------------------------250989682740259031228419
+Content-Disposition: form-data; name="Datetime"
+
+2023-02-22
+----------------------------250989682740259031228419
+Content-Disposition: form-data; name="Customer"
+
+01ZZ
+----------------------------250989682740259031228419
+Content-Disposition: form-data; name="LatLong"
+
+123.123123
+----------------------------250989682740259031228419
+Content-Disposition: form-data; name="Location"
+
+262 nguyen huy tuong
+----------------------------250989682740259031228419
+Content-Disposition: form-data; name="Description"
+Content-Type: application/json
+
+ádaksld
+----------------------------250989682740259031228419
+Content-Disposition: form-data; name="Note"
+
+ada
+----------------------------250989682740259031228419--
+ 
+
+2024-02-06 11:26:18.142 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-02-06 11:26:18.351 +07:00 [INF] Successfully validated the token.
+2024-02-06 11:26:18.358 +07:00 [INF] Authorization was successful.
+2024-02-06 11:26:18.360 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.DMSController.ReportLocationV2 (SSE.ServerAPI)'
+2024-02-06 11:26:18.397 +07:00 [INF] Route matched with {action = "ReportLocationV2", controller = "DMS"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Common.CommonResponse] ReportLocationV2(SSE.Common.Api.v1.Requests.Todos.ReportLocationRequestV2) on controller SSE_Server.Api.v1.Controllers.DMSController (SSE.ServerAPI).
+2024-02-06 11:26:25.249 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Common.CommonResponse'.
+2024-02-06 11:26:25.285 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.DMSController.ReportLocationV2 (SSE.ServerAPI) in 6882.4289ms
+2024-02-06 11:26:25.288 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.DMSController.ReportLocationV2 (SSE.ServerAPI)'
+2024-02-06 11:26:25.292 +07:00 [INF] Request finished in 7165.9289ms 200 application/json; charset=utf-8
+2024-02-06 11:27:22.326 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-06 11:27:22.715 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-06 11:27:22.717 +07:00 [INF] Hosting environment: Development
+2024-02-06 11:27:22.725 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.ServerAPI
+2024-02-06 11:27:22.747 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2024-02-06 11:27:22.873 +07:00 [INF] Request finished in 127.4402ms 200 text/html;charset=utf-8
+2024-02-06 11:27:23.005 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2024-02-06 11:27:23.014 +07:00 [INF] Request finished in 8.288ms 200 application/javascript; charset=utf-8
+2024-02-06 11:27:23.017 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2024-02-06 11:27:23.042 +07:00 [INF] Request finished in 24.7933ms 200 text/javascript; charset=UTF-8
+2024-02-06 11:27:23.129 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2024-02-06 11:27:23.400 +07:00 [INF] Request finished in 270.8606ms 200 application/json;charset=utf-8
+2024-02-06 11:27:58.019 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/todos/report-location-v2 multipart/form-data; boundary=--------------------------656457465518610064426850 799
+2024-02-06 11:27:58.031 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/todos/report-location-v2 
+QueryString:  
+Request Body: ----------------------------656457465518610064426850
+Content-Disposition: form-data; name="Datetime"
+
+2023-02-22 08:37:55.053244
+----------------------------656457465518610064426850
+Content-Disposition: form-data; name="Customer"
+
+01ZZ
+----------------------------656457465518610064426850
+Content-Disposition: form-data; name="LatLong"
+
+123.123123
+----------------------------656457465518610064426850
+Content-Disposition: form-data; name="Location"
+
+262 nguyen huy tuong
+----------------------------656457465518610064426850
+Content-Disposition: form-data; name="Description"
+Content-Type: application/json
+
+ádaksld
+----------------------------656457465518610064426850
+Content-Disposition: form-data; name="Note"
+
+ada
+----------------------------656457465518610064426850--
+ 
+
+2024-02-06 11:27:58.038 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-02-06 11:27:58.492 +07:00 [INF] Successfully validated the token.
+2024-02-06 11:27:58.499 +07:00 [INF] Authorization was successful.
+2024-02-06 11:27:58.524 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.DMSController.ReportLocationV2 (SSE.ServerAPI)'
+2024-02-06 11:27:58.558 +07:00 [INF] Route matched with {action = "ReportLocationV2", controller = "DMS"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Common.CommonResponse] ReportLocationV2(SSE.Common.Api.v1.Requests.Todos.ReportLocationRequestV2) on controller SSE_Server.Api.v1.Controllers.DMSController (SSE.ServerAPI).
+2024-02-06 11:27:59.426 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.DMSController.ReportLocationV2 (SSE.ServerAPI) - Validation state: "Valid"
+2024-02-06 11:27:59.796 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.DMSController.ReportLocationV2 (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 363.0884ms.
+2024-02-06 11:27:59.803 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Common.CommonResponse'.
+2024-02-06 11:27:59.843 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.DMSController.ReportLocationV2 (SSE.ServerAPI) in 1279.2426ms
+2024-02-06 11:27:59.845 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.DMSController.ReportLocationV2 (SSE.ServerAPI)'
+2024-02-06 11:27:59.848 +07:00 [INF] Request finished in 1829.6983ms 200 application/json; charset=utf-8

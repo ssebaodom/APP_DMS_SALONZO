@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.Web">
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <RootNamespace>SSE_Server</RootNamespace>
+        <NoWin32Manifest>true</NoWin32Manifest>
+        <UserSecretsId>f5e7c6b8-1135-4e59-80d7-17d57beb4eca</UserSecretsId>
+        <ReferencePath>C:\Program Files (x86)\SAP BusinessObjects\Crystal Reports for .NET Framework 4.0\Common\SAP BusinessObjects Enterprise XI 4.0\win32_x86\dotnet\</ReferencePath>
+    </PropertyGroup>
+    <ItemGroup>
+        <Compile Remove="Controllers\**" />
+        <Compile Remove="logs\**" />
+        <Compile Remove="Models\**" />
+        <Compile Remove="Services\**" />
+        <Content Remove="Controllers\**" />
+        <Content Remove="logs\**" />
+        <Content Remove="Models\**" />
+        <Content Remove="Services\**" />
+        <EmbeddedResource Remove="Controllers\**" />
+        <EmbeddedResource Remove="logs\**" />
+        <EmbeddedResource Remove="Models\**" />
+        <EmbeddedResource Remove="Services\**" />
+        <None Remove="Controllers\**" />
+        <None Remove="logs\**" />
+        <None Remove="Models\**" />
+        <None Remove="Services\**" />
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.0.2" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="3.0.3" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.0.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.0.0" />
+        <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.0.0" />
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\SSE.Business\SSE.Business.csproj" />
+        <ProjectReference Include="..\SSE.Common\SSE.Common.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+      <Reference Include="CrystalDecisions.CrystalReports.Design">
+        <HintPath>C:\Windows\assembly\GAC_MSIL\CrystalDecisions.CrystalReports.Design\12.0.2000.0__692fbea5521e1304\CrystalDecisions.CrystalReports.Design.dll</HintPath>
+      </Reference>
+      <Reference Include="CrystalDecisions.CrystalReports.Engine">
+        <HintPath>C:\Windows\assembly\GAC_MSIL\CrystalDecisions.CrystalReports.Engine\12.0.2000.0__692fbea5521e1304\CrystalDecisions.CrystalReports.Engine.dll</HintPath>
+        <Private></Private>
+      </Reference>
+      <Reference Include="CrystalDecisions.ReportAppServer.ClientDoc">
+        <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\CrystalDecisions.ReportAppServer.ClientDoc\v4.0_13.0.4000.0__692fbea5521e1304\CrystalDecisions.ReportAppServer.ClientDoc.dll</HintPath>
+      </Reference>
+      <Reference Include="CrystalDecisions.ReportAppServer.CubeDefModel">
+        <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\CrystalDecisions.ReportAppServer.CubeDefModel\v4.0_13.0.4000.0__692fbea5521e1304\CrystalDecisions.ReportAppServer.CubeDefModel.dll</HintPath>
+      </Reference>
+      <Reference Include="CrystalDecisions.ReportAppServer.DataDefModel">
+        <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\CrystalDecisions.ReportAppServer.DataDefModel\v4.0_13.0.4000.0__692fbea5521e1304\CrystalDecisions.ReportAppServer.DataDefModel.dll</HintPath>
+      </Reference>
+      <Reference Include="CrystalDecisions.ReportAppServer.DataSetConversion">
+        <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\CrystalDecisions.ReportAppServer.DataSetConversion\v4.0_13.0.4000.0__692fbea5521e1304\CrystalDecisions.ReportAppServer.DataSetConversion.dll</HintPath>
+      </Reference>
+      <Reference Include="CrystalDecisions.ReportAppServer.ReportDefModel">
+        <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\CrystalDecisions.ReportAppServer.ReportDefModel\v4.0_13.0.4000.0__692fbea5521e1304\CrystalDecisions.ReportAppServer.ReportDefModel.dll</HintPath>
+      </Reference>
+      <Reference Include="CrystalDecisions.ReportSource">
+        <HintPath>C:\Windows\assembly\GAC_MSIL\CrystalDecisions.ReportSource\12.0.2000.0__692fbea5521e1304\CrystalDecisions.ReportSource.dll</HintPath>
+      </Reference>
+      <Reference Include="CrystalDecisions.Shared">
+        <HintPath>C:\Windows\assembly\GAC_MSIL\CrystalDecisions.Shared\12.0.2000.0__692fbea5521e1304\CrystalDecisions.Shared.dll</HintPath>
+      </Reference>
+      <Reference Include="CrystalDecisions.Web">
+        <HintPath>C:\Windows\assembly\GAC_MSIL\CrystalDecisions.Web\12.0.2000.0__692fbea5521e1304\CrystalDecisions.Web.dll</HintPath>
+      </Reference>
+      <Reference Include="CrystalDecisions.Windows.Forms">
+        <HintPath>C:\Windows\assembly\GAC_MSIL\CrystalDecisions.Windows.Forms\12.0.2000.0__692fbea5521e1304\CrystalDecisions.Windows.Forms.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+    <ItemGroup>
+      <Service Include="{c0c07587-41a7-46c8-8fbd-3f9c8ebe2ddc}" />
+    </ItemGroup>
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+      <NoWarn>1701;1702</NoWarn>
+    </PropertyGroup>
+    <Target Name="PostBuild" AfterTargets="PostBuildEvent"></Target>
+</Project>

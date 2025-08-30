@@ -1,0 +1,462 @@
+2023-12-23 16:19:23.209 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-23 16:19:23.997 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-23 16:19:23.999 +07:00 [INF] Hosting environment: Development
+2023-12-23 16:19:24.001 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI
+2023-12-23 16:19:24.038 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2023-12-23 16:19:24.234 +07:00 [INF] Request finished in 197.6201ms 200 text/html;charset=utf-8
+2023-12-23 16:19:24.239 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2023-12-23 16:19:24.251 +07:00 [INF] Request finished in 11.9412ms 200 application/javascript; charset=utf-8
+2023-12-23 16:19:24.253 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2023-12-23 16:19:24.324 +07:00 [INF] Request finished in 70.3567ms 200 text/javascript; charset=UTF-8
+2023-12-23 16:19:24.387 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2023-12-23 16:19:24.613 +07:00 [INF] Request finished in 225.2506ms 200 application/json;charset=utf-8
+2023-12-23 16:19:32.819 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/users/signin application/json 164
+2023-12-23 16:19:32.829 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/signin 
+QueryString:  
+Request Body: {
+    "hostId": "https://thienvuong-cloud.sse.net.vn",
+    "userName": "dat",
+    "password": "123abc",
+    "devideToken": "",
+    "language": "V"  
+}
+
+
+
+ 
+
+2023-12-23 16:19:32.833 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-23 16:19:33.018 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI)'
+2023-12-23 16:19:33.058 +07:00 [INF] Route matched with {action = "Signin", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.SignInResponse] Signin(SSE.Common.Api.v1.Requests.User.SigninRequest) on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-23 16:19:33.842 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-23 16:19:34.172 +07:00 [INF] Entity Framework Core 3.1.7 initialized 'GlobalDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=1000 
+2023-12-23 16:19:35.127 +07:00 [INF] Executed DbCommand (71ms) [Parameters=[@__hostId_0='?' (Size = -1) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [d].[HostId], [d].[UserName], [d].[ServerName], [d].[SqlPassLogin], [d].[SqlUserLogin], [d].[SysDbName]
+FROM [DbSysInfo] AS [d]
+WHERE [d].[HostId] = @__hostId_0
+2023-12-23 16:19:36.060 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2211.031ms.
+2023-12-23 16:19:36.068 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.SignInResponse'.
+2023-12-23 16:19:36.086 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI) in 3022.7997ms
+2023-12-23 16:19:36.090 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI)'
+2023-12-23 16:19:36.095 +07:00 [INF] Request finished in 3276.7981ms 200 application/json; charset=utf-8
+2023-12-23 16:19:37.671 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/users/companies  
+2023-12-23 16:19:37.675 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/companies 
+QueryString:  
+Request Body:  
+
+2023-12-23 16:19:37.732 +07:00 [INF] Successfully validated the token.
+2023-12-23 16:19:37.738 +07:00 [INF] Authorization was successful.
+2023-12-23 16:19:37.739 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI)'
+2023-12-23 16:19:37.744 +07:00 [INF] Route matched with {action = "GetCompanies", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.GetCompaniesResponse] GetCompanies() on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-23 16:19:37.895 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-23 16:19:38.049 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 152.2431ms.
+2023-12-23 16:19:38.051 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.GetCompaniesResponse'.
+2023-12-23 16:19:38.061 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI) in 315.3196ms
+2023-12-23 16:19:38.063 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI)'
+2023-12-23 16:19:38.065 +07:00 [INF] Request finished in 394.2384ms 200 application/json; charset=utf-8
+2023-12-23 16:19:39.825 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/users/units  
+2023-12-23 16:19:39.829 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/units 
+QueryString:  
+Request Body:  
+
+2023-12-23 16:19:39.833 +07:00 [INF] Successfully validated the token.
+2023-12-23 16:19:39.836 +07:00 [INF] Authorization was successful.
+2023-12-23 16:19:39.838 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI)'
+2023-12-23 16:19:39.842 +07:00 [INF] Route matched with {action = "GetUnits", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.GetUnitsResponse] GetUnits() on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-23 16:19:39.969 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-23 16:19:40.423 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 452.1439ms.
+2023-12-23 16:19:40.426 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.GetUnitsResponse'.
+2023-12-23 16:19:40.433 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI) in 588.056ms
+2023-12-23 16:19:40.435 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI)'
+2023-12-23 16:19:40.437 +07:00 [INF] Request finished in 611.6754ms 200 application/json; charset=utf-8
+2023-12-23 16:19:43.543 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/home/get-slider-images  
+2023-12-23 16:19:43.546 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/home/get-slider-images 
+QueryString:  
+Request Body:  
+
+2023-12-23 16:19:43.551 +07:00 [INF] Successfully validated the token.
+2023-12-23 16:19:43.554 +07:00 [INF] Authorization was successful.
+2023-12-23 16:19:43.556 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.HomeController.GetSliderImages (SSE.ServerAPI)'
+2023-12-23 16:19:43.563 +07:00 [INF] Route matched with {action = "GetSliderImages", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Common.DynamicResponse] GetSliderImages() on controller SSE_Server.Api.v1.Controllers.HomeController (SSE.ServerAPI).
+2023-12-23 16:19:43.716 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.HomeController.GetSliderImages (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-23 16:19:43.914 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.HomeController.GetSliderImages (SSE.ServerAPI) in 347.6335ms
+2023-12-23 16:19:43.917 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.HomeController.GetSliderImages (SSE.ServerAPI)'
+2023-12-23 16:19:44.003 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.ThrowZeroRows(Row row) in /_/Dapper/SqlMapper.cs:line 1158
+   at Dapper.SqlMapper.GridReader.ReadRow[T](Type type, Row row) in /_/Dapper/SqlMapper.GridReader.cs:line 201
+   at Dapper.SqlMapper.GridReader.ReadFirst[T]() in /_/Dapper/SqlMapper.GridReader.cs:line 70
+   at SSE.DataAccess.Api.v1.Implements.HomeDAL.GetSliderImages(Int64 UserId, String UnitId) in F:\Project2023\API\DMS\Version 1.0.0\SSE.DataAccess\Api\v1\Implements\HomeDAL.cs:line 143
+   at SSE.Business.Api.v1.Implements.HomeBLL.GetSliderImages() in F:\Project2023\API\DMS\Version 1.0.0\SSE.Business\Api\v1\Implements\HomeBLL.cs:line 184
+   at SSE_Server.Api.v1.Controllers.HomeController.GetSliderImages() in F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI\Api\v1\Controllers\HomeController.cs:line 54
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at SSE.Common.Services.ApiLoggingMiddleware.InvokeAsync(HttpContext context) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Core\Services\Middleware\ApiLoggingMiddleware.cs:line 58
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-23 16:19:44.087 +07:00 [INF] Request finished in 543.8521ms 500 text/plain
+2023-12-23 16:20:17.862 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/home/get-slider-images  
+2023-12-23 16:20:17.864 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/home/get-slider-images 
+QueryString:  
+Request Body:  
+
+2023-12-23 16:20:17.870 +07:00 [INF] Successfully validated the token.
+2023-12-23 16:20:17.872 +07:00 [INF] Authorization was successful.
+2023-12-23 16:20:17.874 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.HomeController.GetSliderImages (SSE.ServerAPI)'
+2023-12-23 16:20:17.876 +07:00 [INF] Route matched with {action = "GetSliderImages", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Common.DynamicResponse] GetSliderImages() on controller SSE_Server.Api.v1.Controllers.HomeController (SSE.ServerAPI).
+2023-12-23 16:20:18.056 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.HomeController.GetSliderImages (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-23 16:20:18.200 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.HomeController.GetSliderImages (SSE.ServerAPI) in 321.2589ms
+2023-12-23 16:20:18.201 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.HomeController.GetSliderImages (SSE.ServerAPI)'
+2023-12-23 16:20:18.278 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.ThrowZeroRows(Row row) in /_/Dapper/SqlMapper.cs:line 1158
+   at Dapper.SqlMapper.GridReader.ReadRow[T](Type type, Row row) in /_/Dapper/SqlMapper.GridReader.cs:line 201
+   at Dapper.SqlMapper.GridReader.ReadFirst[T]() in /_/Dapper/SqlMapper.GridReader.cs:line 70
+   at SSE.DataAccess.Api.v1.Implements.HomeDAL.GetSliderImages(Int64 UserId, String UnitId) in F:\Project2023\API\DMS\Version 1.0.0\SSE.DataAccess\Api\v1\Implements\HomeDAL.cs:line 143
+   at SSE.Business.Api.v1.Implements.HomeBLL.GetSliderImages() in F:\Project2023\API\DMS\Version 1.0.0\SSE.Business\Api\v1\Implements\HomeBLL.cs:line 184
+   at SSE_Server.Api.v1.Controllers.HomeController.GetSliderImages() in F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI\Api\v1\Controllers\HomeController.cs:line 54
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at SSE.Common.Services.ApiLoggingMiddleware.InvokeAsync(HttpContext context) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Core\Services\Middleware\ApiLoggingMiddleware.cs:line 58
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-23 16:20:18.285 +07:00 [INF] Request finished in 423.2598ms 500 text/plain
+2023-12-23 16:27:47.005 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-23 16:27:47.493 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-23 16:27:47.496 +07:00 [INF] Hosting environment: Development
+2023-12-23 16:27:47.500 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI
+2023-12-23 16:27:47.549 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2023-12-23 16:27:47.741 +07:00 [INF] Request finished in 195.0431ms 200 text/html;charset=utf-8
+2023-12-23 16:27:47.754 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2023-12-23 16:27:47.766 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2023-12-23 16:27:47.769 +07:00 [INF] Request finished in 14.8224ms 200 application/javascript; charset=utf-8
+2023-12-23 16:27:47.785 +07:00 [INF] Request finished in 18.838ms 200 text/javascript; charset=UTF-8
+2023-12-23 16:27:47.859 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2023-12-23 16:27:48.094 +07:00 [INF] Request finished in 235.6969ms 200 application/json;charset=utf-8
+2023-12-23 16:28:06.692 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/home/get-slider-images  
+2023-12-23 16:28:06.702 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/home/get-slider-images 
+QueryString:  
+Request Body:  
+
+2023-12-23 16:28:06.710 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-23 16:28:06.931 +07:00 [INF] Successfully validated the token.
+2023-12-23 16:28:06.940 +07:00 [INF] Authorization was successful.
+2023-12-23 16:28:06.942 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.HomeController.GetSliderImages (SSE.ServerAPI)'
+2023-12-23 16:28:06.971 +07:00 [INF] Route matched with {action = "GetSliderImages", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.Home.GetListSliderImageResponse] GetSliderImages() on controller SSE_Server.Api.v1.Controllers.HomeController (SSE.ServerAPI).
+2023-12-23 16:28:07.507 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.HomeController.GetSliderImages (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-23 16:28:08.139 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.HomeController.GetSliderImages (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 625.2359ms.
+2023-12-23 16:28:08.147 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.Home.GetListSliderImageResponse'.
+2023-12-23 16:28:08.201 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.HomeController.GetSliderImages (SSE.ServerAPI) in 1224.894ms
+2023-12-23 16:28:08.205 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.HomeController.GetSliderImages (SSE.ServerAPI)'
+2023-12-23 16:28:08.208 +07:00 [INF] Request finished in 1516.8532ms 200 application/json; charset=utf-8
+2023-12-23 16:31:12.815 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/home/get-slider-images  
+2023-12-23 16:31:12.818 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/home/get-slider-images 
+QueryString:  
+Request Body:  
+
+2023-12-23 16:31:12.832 +07:00 [INF] Successfully validated the token.
+2023-12-23 16:31:12.834 +07:00 [INF] Authorization was successful.
+2023-12-23 16:31:12.837 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.HomeController.GetSliderImages (SSE.ServerAPI)'
+2023-12-23 16:31:12.840 +07:00 [INF] Route matched with {action = "GetSliderImages", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.Home.GetListSliderImageResponse] GetSliderImages() on controller SSE_Server.Api.v1.Controllers.HomeController (SSE.ServerAPI).
+2023-12-23 16:31:13.006 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.HomeController.GetSliderImages (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-23 16:31:13.093 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.HomeController.GetSliderImages (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 85.6393ms.
+2023-12-23 16:31:13.096 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.Home.GetListSliderImageResponse'.
+2023-12-23 16:31:13.099 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.HomeController.GetSliderImages (SSE.ServerAPI) in 257.7292ms
+2023-12-23 16:31:13.101 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.HomeController.GetSliderImages (SSE.ServerAPI)'
+2023-12-23 16:31:13.104 +07:00 [INF] Request finished in 289.7105ms 200 application/json; charset=utf-8
+2023-12-23 16:31:27.992 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/home/get-slider-images  
+2023-12-23 16:31:27.995 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/home/get-slider-images 
+QueryString:  
+Request Body:  
+
+2023-12-23 16:31:27.998 +07:00 [INF] Successfully validated the token.
+2023-12-23 16:31:28.002 +07:00 [INF] Authorization was successful.
+2023-12-23 16:31:28.005 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.HomeController.GetSliderImages (SSE.ServerAPI)'
+2023-12-23 16:31:28.007 +07:00 [INF] Route matched with {action = "GetSliderImages", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.Home.GetListSliderImageResponse] GetSliderImages() on controller SSE_Server.Api.v1.Controllers.HomeController (SSE.ServerAPI).
+2023-12-23 16:31:28.180 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.HomeController.GetSliderImages (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-23 16:31:28.244 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.HomeController.GetSliderImages (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 58.6077ms.
+2023-12-23 16:31:28.246 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.Home.GetListSliderImageResponse'.
+2023-12-23 16:31:28.248 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.HomeController.GetSliderImages (SSE.ServerAPI) in 239.2448ms
+2023-12-23 16:31:28.250 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.HomeController.GetSliderImages (SSE.ServerAPI)'
+2023-12-23 16:31:28.253 +07:00 [INF] Request finished in 260.9164ms 200 application/json; charset=utf-8
+2023-12-23 16:37:00.378 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/home/reports application/json 52
+2023-12-23 16:37:00.384 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/home/reports 
+QueryString:  
+Request Body: {
+    "report_id" : "C005",
+    "time_id":"013"
+} 
+
+2023-12-23 16:37:00.387 +07:00 [INF] Successfully validated the token.
+2023-12-23 16:37:00.389 +07:00 [INF] Authorization was successful.
+2023-12-23 16:37:00.390 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.HomeController.GetReportData (SSE.ServerAPI)'
+2023-12-23 16:37:00.402 +07:00 [INF] Route matched with {action = "GetReportData", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.Home.GetReportDataResponse] GetReportData(SSE.Common.Api.v1.Requests.Home.RepostDataRequest) on controller SSE_Server.Api.v1.Controllers.HomeController (SSE.ServerAPI).
+2023-12-23 16:37:00.586 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.HomeController.GetReportData (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-23 16:37:00.829 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.HomeController.GetReportData (SSE.ServerAPI) in 424.5961ms
+2023-12-23 16:37:00.832 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.HomeController.GetReportData (SSE.ServerAPI)'
+2023-12-23 16:37:00.916 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No columns were selected
+   at Dapper.SqlMapper.GetDapperRowDeserializer(IDataRecord reader, Int32 startBound, Int32 length, Boolean returnNullIfFirstMissing) in /_/Dapper/SqlMapper.cs:line 1821
+   at Dapper.SqlMapper.GetDeserializer(Type type, IDataReader reader, Int32 startBound, Int32 length, Boolean returnNullIfFirstMissing) in /_/Dapper/SqlMapper.cs:line 1789
+   at Dapper.SqlMapper.GridReader.ReadImpl[T](Type type, Boolean buffered) in /_/Dapper/SqlMapper.GridReader.cs:line 157
+   at Dapper.SqlMapper.GridReader.Read[T](Boolean buffered) in /_/Dapper/SqlMapper.GridReader.cs:line 64
+   at SSE.DataAccess.Api.v1.Implements.HomeDAL.GetReportData(RepostDataRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.DataAccess\Api\v1\Implements\HomeDAL.cs:line 86
+   at SSE.Business.Api.v1.Implements.HomeBLL.GetReportData(RepostDataRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Business\Api\v1\Implements\HomeBLL.cs:line 163
+   at SSE_Server.Api.v1.Controllers.HomeController.GetReportData(RepostDataRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI\Api\v1\Controllers\HomeController.cs:line 42
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at SSE.Common.Services.ApiLoggingMiddleware.InvokeAsync(HttpContext context) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Core\Services\Middleware\ApiLoggingMiddleware.cs:line 58
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-23 16:37:01.007 +07:00 [INF] Request finished in 629.3644ms 500 text/plain
+2023-12-23 16:37:08.897 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/home  
+2023-12-23 16:37:08.899 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/home 
+QueryString:  
+Request Body:  
+
+2023-12-23 16:37:08.902 +07:00 [INF] Successfully validated the token.
+2023-12-23 16:37:08.904 +07:00 [INF] Authorization was successful.
+2023-12-23 16:37:08.906 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.HomeController.GetDefaultData (SSE.ServerAPI)'
+2023-12-23 16:37:08.914 +07:00 [INF] Route matched with {action = "GetDefaultData", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.Home.GetDefaultDataResponse] GetDefaultData() on controller SSE_Server.Api.v1.Controllers.HomeController (SSE.ServerAPI).
+2023-12-23 16:37:09.063 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.HomeController.GetDefaultData (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-23 16:37:09.535 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.HomeController.GetDefaultData (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 470.5508ms.
+2023-12-23 16:37:09.538 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.Home.GetDefaultDataResponse'.
+2023-12-23 16:37:09.551 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.HomeController.GetDefaultData (SSE.ServerAPI) in 634.7156ms
+2023-12-23 16:37:09.553 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.HomeController.GetDefaultData (SSE.ServerAPI)'
+2023-12-23 16:37:09.555 +07:00 [INF] Request finished in 658.2725ms 200 application/json; charset=utf-8
+2023-12-23 16:42:17.721 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/home  
+2023-12-23 16:42:17.723 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/home 
+QueryString:  
+Request Body:  
+
+2023-12-23 16:42:17.726 +07:00 [INF] Successfully validated the token.
+2023-12-23 16:42:17.728 +07:00 [INF] Authorization was successful.
+2023-12-23 16:42:17.730 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.HomeController.GetDefaultData (SSE.ServerAPI)'
+2023-12-23 16:42:17.733 +07:00 [INF] Route matched with {action = "GetDefaultData", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.Home.GetDefaultDataResponse] GetDefaultData() on controller SSE_Server.Api.v1.Controllers.HomeController (SSE.ServerAPI).
+2023-12-23 16:42:17.884 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.HomeController.GetDefaultData (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-23 16:42:18.595 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.HomeController.GetDefaultData (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 708.9405ms.
+2023-12-23 16:42:18.597 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.Home.GetDefaultDataResponse'.
+2023-12-23 16:42:18.602 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.HomeController.GetDefaultData (SSE.ServerAPI) in 867.5155ms
+2023-12-23 16:42:18.605 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.HomeController.GetDefaultData (SSE.ServerAPI)'
+2023-12-23 16:42:18.607 +07:00 [INF] Request finished in 886.8305ms 200 application/json; charset=utf-8
+2023-12-23 17:19:07.157 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-23 17:19:07.946 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-23 17:19:07.949 +07:00 [INF] Hosting environment: Development
+2023-12-23 17:19:07.951 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI
+2023-12-23 17:19:07.986 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2023-12-23 17:19:08.155 +07:00 [INF] Request finished in 170.2972ms 200 text/html;charset=utf-8
+2023-12-23 17:19:08.161 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2023-12-23 17:19:08.175 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2023-12-23 17:19:08.179 +07:00 [INF] Request finished in 18.4779ms 200 application/javascript; charset=utf-8
+2023-12-23 17:19:08.239 +07:00 [INF] Request finished in 64.8921ms 200 text/javascript; charset=UTF-8
+2023-12-23 17:19:08.300 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2023-12-23 17:19:08.529 +07:00 [INF] Request finished in 229.2715ms 200 application/json;charset=utf-8
+2023-12-23 17:26:13.414 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-23 17:26:13.851 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-23 17:26:13.853 +07:00 [INF] Hosting environment: Development
+2023-12-23 17:26:13.855 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI
+2023-12-23 17:26:13.890 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2023-12-23 17:26:14.053 +07:00 [INF] Request finished in 165.0522ms 200 text/html;charset=utf-8
+2023-12-23 17:26:14.089 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2023-12-23 17:26:14.096 +07:00 [INF] Request finished in 6.9687ms 200 application/javascript; charset=utf-8
+2023-12-23 17:26:14.103 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2023-12-23 17:26:14.128 +07:00 [INF] Request finished in 25.1426ms 200 text/javascript; charset=UTF-8
+2023-12-23 17:26:14.242 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2023-12-23 17:26:14.516 +07:00 [INF] Request finished in 274.1942ms 200 application/json;charset=utf-8
+2023-12-23 17:27:22.389 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/order/find-product-all-store?voucher_code=HDF&dateFrom=%272023-12-01%2014:55:35.920&dateTo=2023-12-22%2014:55:35.920  
+2023-12-23 17:27:22.395 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/order/find-product-all-store 
+QueryString: ?voucher_code=HDF&dateFrom=%272023-12-01%2014:55:35.920&dateTo=2023-12-22%2014:55:35.920 
+Request Body:  
+
+2023-12-23 17:27:22.399 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-23 17:27:22.853 +07:00 [INF] Successfully validated the token.
+2023-12-23 17:27:22.866 +07:00 [INF] Authorization was successful.
+2023-12-23 17:27:22.870 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.OrderController.FindProductAllStore (SSE.ServerAPI)'
+2023-12-23 17:27:22.903 +07:00 [INF] Route matched with {action = "FindProductAllStore", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Common.DynamicResponse] FindProductAllStore(System.String) on controller SSE_Server.Api.v1.Controllers.OrderController (SSE.ServerAPI).
+2023-12-23 17:27:23.759 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.OrderController.FindProductAllStore (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-23 17:27:24.564 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.OrderController.FindProductAllStore (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 798.3696ms.
+2023-12-23 17:27:24.572 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Common.DynamicResponse'.
+2023-12-23 17:27:24.624 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.OrderController.FindProductAllStore (SSE.ServerAPI) in 1716.4243ms
+2023-12-23 17:27:24.627 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.OrderController.FindProductAllStore (SSE.ServerAPI)'
+2023-12-23 17:27:24.636 +07:00 [INF] Request finished in 2247.0544ms 200 application/json; charset=utf-8
+2023-12-23 17:27:55.848 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/order/get-dynacmic-list?voucher_code=HDF&dateFrom=%272023-12-01%2014:55:35.920&dateTo=2023-12-22%2014:55:35.920  
+2023-12-23 17:27:55.852 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/order/get-dynacmic-list 
+QueryString: ?voucher_code=HDF&dateFrom=%272023-12-01%2014:55:35.920&dateTo=2023-12-22%2014:55:35.920 
+Request Body:  
+
+2023-12-23 17:27:55.867 +07:00 [INF] Successfully validated the token.
+2023-12-23 17:27:55.870 +07:00 [INF] Authorization was successful.
+2023-12-23 17:27:55.872 +07:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2023-12-23 17:27:55.874 +07:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2023-12-23 17:27:55.877 +07:00 [INF] Request finished in 29.5061ms 405 
+2023-12-23 17:28:18.038 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-23 17:28:18.470 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-23 17:28:18.472 +07:00 [INF] Hosting environment: Development
+2023-12-23 17:28:18.474 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI
+2023-12-23 17:28:18.501 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2023-12-23 17:28:18.634 +07:00 [INF] Request finished in 134.4469ms 200 text/html;charset=utf-8
+2023-12-23 17:28:18.656 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2023-12-23 17:28:18.660 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2023-12-23 17:28:18.664 +07:00 [INF] Request finished in 8.6834ms 200 application/javascript; charset=utf-8
+2023-12-23 17:28:18.679 +07:00 [INF] Request finished in 18.2788ms 200 text/javascript; charset=UTF-8
+2023-12-23 17:28:18.762 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2023-12-23 17:28:19.035 +07:00 [INF] Request finished in 273.397ms 200 application/json;charset=utf-8
+2023-12-23 17:29:20.463 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/order/get-dynacmic-list?voucher_code=HDF&dateFrom=%272023-12-01%2014:55:35.920&dateTo=2023-12-22%2014:55:35.920  
+2023-12-23 17:29:20.468 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/order/get-dynacmic-list 
+QueryString: ?voucher_code=HDF&dateFrom=%272023-12-01%2014:55:35.920&dateTo=2023-12-22%2014:55:35.920 
+Request Body:  
+
+2023-12-23 17:29:20.473 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-23 17:29:20.679 +07:00 [INF] Successfully validated the token.
+2023-12-23 17:29:20.688 +07:00 [INF] Authorization was successful.
+2023-12-23 17:29:20.691 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI)'
+2023-12-23 17:29:20.727 +07:00 [INF] Route matched with {action = "GetDynamicList", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.Order.GetDynamicListResponse] GetDynamicList(System.String, Int32, Int32) on controller SSE_Server.Api.v1.Controllers.OrderController (SSE.ServerAPI).
+2023-12-23 17:29:21.215 +07:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2023-12-23 17:29:21.269 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI) in 536.3518ms
+2023-12-23 17:29:21.273 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI)'
+2023-12-23 17:29:21.277 +07:00 [INF] Request finished in 814.3012ms 400 application/problem+json; charset=utf-8
+2023-12-23 17:29:29.108 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/order/get-dynacmic-list?voucher_code=HDF&dateFrom=2023-12-01%2014:55:35.920&dateTo=2023-12-22%2014:55:35.920  
+2023-12-23 17:29:29.115 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/order/get-dynacmic-list 
+QueryString: ?voucher_code=HDF&dateFrom=2023-12-01%2014:55:35.920&dateTo=2023-12-22%2014:55:35.920 
+Request Body:  
+
+2023-12-23 17:29:29.130 +07:00 [INF] Successfully validated the token.
+2023-12-23 17:29:29.133 +07:00 [INF] Authorization was successful.
+2023-12-23 17:29:29.134 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI)'
+2023-12-23 17:29:29.136 +07:00 [INF] Route matched with {action = "GetDynamicList", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.Order.GetDynamicListResponse] GetDynamicList(System.String, Int32, Int32) on controller SSE_Server.Api.v1.Controllers.OrderController (SSE.ServerAPI).
+2023-12-23 17:29:29.268 +07:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2023-12-23 17:29:29.270 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI) in 132.9562ms
+2023-12-23 17:29:29.272 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI)'
+2023-12-23 17:29:29.274 +07:00 [INF] Request finished in 167.1849ms 400 application/problem+json; charset=utf-8
+2023-12-23 17:29:39.915 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/order/get-dynacmic-list?voucher_code=HDF&dateFrom=2023-12-01&dateTo=2023-12-22  
+2023-12-23 17:29:39.918 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/order/get-dynacmic-list 
+QueryString: ?voucher_code=HDF&dateFrom=2023-12-01&dateTo=2023-12-22 
+Request Body:  
+
+2023-12-23 17:29:39.923 +07:00 [INF] Successfully validated the token.
+2023-12-23 17:29:39.926 +07:00 [INF] Authorization was successful.
+2023-12-23 17:29:39.928 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI)'
+2023-12-23 17:29:39.930 +07:00 [INF] Route matched with {action = "GetDynamicList", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.Order.GetDynamicListResponse] GetDynamicList(System.String, Int32, Int32) on controller SSE_Server.Api.v1.Controllers.OrderController (SSE.ServerAPI).
+2023-12-23 17:29:40.068 +07:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2023-12-23 17:29:40.071 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI) in 138.8781ms
+2023-12-23 17:29:40.073 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI)'
+2023-12-23 17:29:40.075 +07:00 [INF] Request finished in 160.4845ms 400 application/problem+json; charset=utf-8
+2023-12-23 17:30:29.025 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-23 17:30:29.448 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-23 17:30:29.450 +07:00 [INF] Hosting environment: Development
+2023-12-23 17:30:29.451 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI
+2023-12-23 17:30:29.482 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2023-12-23 17:30:29.627 +07:00 [INF] Request finished in 146.1289ms 200 text/html;charset=utf-8
+2023-12-23 17:30:29.660 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2023-12-23 17:30:29.660 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2023-12-23 17:30:29.669 +07:00 [INF] Request finished in 9.3465ms 200 application/javascript; charset=utf-8
+2023-12-23 17:30:29.683 +07:00 [INF] Request finished in 23.5773ms 200 text/javascript; charset=UTF-8
+2023-12-23 17:30:29.775 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2023-12-23 17:30:30.055 +07:00 [INF] Request finished in 279.7908ms 200 application/json;charset=utf-8
+2023-12-23 17:31:04.839 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/order/get-dynacmic-list?voucher_code=HDF&dateFrom=2023-12-01&dateTo=2023-12-22  
+2023-12-23 17:31:04.845 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/order/get-dynacmic-list 
+QueryString: ?voucher_code=HDF&dateFrom=2023-12-01&dateTo=2023-12-22 
+Request Body:  
+
+2023-12-23 17:31:04.849 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-23 17:31:05.058 +07:00 [INF] Successfully validated the token.
+2023-12-23 17:31:05.065 +07:00 [INF] Authorization was successful.
+2023-12-23 17:31:05.067 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI)'
+2023-12-23 17:31:05.102 +07:00 [INF] Route matched with {action = "GetDynamicList", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.Order.GetDynamicListResponse] GetDynamicList(System.String, System.String, System.String) on controller SSE_Server.Api.v1.Controllers.OrderController (SSE.ServerAPI).
+2023-12-23 17:31:05.606 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-23 17:31:06.309 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 697.0738ms.
+2023-12-23 17:31:06.317 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.Order.GetDynamicListResponse'.
+2023-12-23 17:31:06.367 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI) in 1260.5803ms
+2023-12-23 17:31:06.370 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI)'
+2023-12-23 17:31:06.379 +07:00 [INF] Request finished in 1539.837ms 200 application/json; charset=utf-8

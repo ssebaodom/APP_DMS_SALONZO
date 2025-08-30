@@ -1,0 +1,102 @@
+<div
+  style="
+    width: 800px;
+    border: 1px solid black;
+    padding: 1em;
+    font-size: 14px;
+    margin-bottom: 10px;
+  "
+>
+  <div style="width: 800px">
+    <div style="width: 800px; margin-bottom: 2em">
+      <div
+        style="font-weight: 800; font-family: 'Times New Roman', Times, seri"
+      >
+        SALONZO
+      </div>
+      <div style="margin-bottom: 0.5em">
+        <span style="font-weight: 400">Địa chỉ: </span>
+      </div>
+    </div>
+    <div style="width: 800px; text-align: center">
+      <span
+        style="
+          font-weight: 800;
+          font-family: 'Times New Roman', Times, seri;
+          font-size: 23px;
+        "
+        >Phiếu nghỉ phép</span
+      >
+      <div style="margin-bottom: 0.5em">
+        <i style="font-weight: 400"
+          >Ngày {{master.ngay}} tháng {{master.thang}} năm {{master.nam}}</i
+        >
+      </div>
+    </div>
+
+    <table style="width: 800px; margin: 50px 0px 30px 0px">
+      <tr style="width: 800px">
+        <th style="vertical-align: baseline">
+          <div style="text-align: left">
+            <p style="font-weight: 400">Nhân viên: {{master.ten_nv}}</p>
+            <p style="font-weight: 400">Bộ phận: {{master.ten_kh}}</p>
+            <p style="font-weight: 400">
+              Từ ngày: {{master.ten_kh}} - Đến ngày: {{master.ten_kh}}
+            </p>
+            <p style="font-weight: 400">Loại nghỉ: {{master.ten_kh}}</p>
+            <p style="font-weight: 400">Ca: {{master.ten_kh}}</p>
+            <p style="font-weight: 400">Công: {{master.ten_kh}}</p>
+            <p style="font-weight: 400">Số giờ: {{master.ten_kh}}</p>
+            <p style="font-weight: 400">Diễn giải: {{master.ten_kh}}</p>
+          </div>
+        </th>
+      </tr>
+    </table>
+
+    ---detailData---
+    <div>
+      <div style="margin-bottom: 1em; margin-top: 1em">
+        <span style="font-weight: 400"
+          >Trạng thái: {{master.u_status_name}}</span
+        >
+      </div>
+      <div style="margin-bottom: 1em">
+        <span style="font-weight: 400">Lý do duyệt: {{master.ghi_chu}}</span>
+      </div>
+    </div>
+    <div style="text-align: right; margin-right: 1em">
+      <i style="font-weight: 400">Ngày ..... tháng ..... năm ..... </i>
+    </div>
+    <table style="width: 800px; margin-top: 0.5em; table-layout: fixed">
+      <tr style="width: 800px">
+        <th style="padding-right: 2px; text-align: left">
+          <div style="padding: 0.25em; min-height: 150px">
+            <div style="font-weight: 600; width: 100%; text-align: center">
+              NGƯỜI DUYỆT
+            </div>
+            <div style="font-weight: 200; width: 100%; text-align: center">
+              <i>(Ký, họ tên)</i>
+            </div>
+            <div style="margin-left: 2px; font-weight: normal">
+              <span style="font-weight: 400"></span>
+            </div>
+          </div>
+        </th>
+
+        <th style="padding-left: 2px; text-align: left">
+          <div style="padding: 0.25em; min-height: 150px">
+            <div style="font-weight: 600; width: 100%; text-align: center">
+              NGƯỜI LẬP
+            </div>
+            <div style="font-weight: 200; width: 100%; text-align: center">
+              <i>(Ký, họ tên)</i>
+            </div>
+            <div style="margin-left: 7px; font-weight: normal">
+              <span style="font-weight: 400"></span>
+            </div>
+          </div>
+        </th>
+      </tr>
+    </table>
+  </div>
+</div>

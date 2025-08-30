@@ -1,0 +1,84 @@
+2022-06-02 18:34:50.752 +07:00 [INF] User profile is available. Using 'C:\Users\TRONGVD\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-06-02 18:34:51.244 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-02 18:34:51.246 +07:00 [INF] Hosting environment: Development
+2022-06-02 18:34:51.247 +07:00 [INF] Content root path: D:\TRONG\ERP2\API_APP_ERP_DEMO\SSE.ServerAPI
+2022-06-02 18:34:51.280 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2022-06-02 18:34:51.343 +07:00 [INF] Request finished in 64.997ms 200 text/html;charset=utf-8
+2022-06-02 18:34:51.509 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2022-06-02 18:34:51.669 +07:00 [INF] Request finished in 160.2408ms 200 application/json;charset=utf-8
+2022-06-02 18:35:14.271 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/discount/get-discount-when-update application/json 735
+2022-06-02 18:35:14.280 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/discount/get-discount-when-update 
+QueryString:  
+Request Body: {
+    "stt_rec": "A001310056HDB",
+    "ma_kh": 1238472,
+    "ma_kho": "TP0101",
+    "line_item": [
+        {
+            "code": 68906820,
+            "name": "OMO BG cf tdt nồng nàn 5.3kg/3 gói",
+            "name2": "",
+            "dvt": "gói",
+            "descript": "",
+            "price": 239399.6,
+            "discountPercent": 0.0,
+            "imageUrl": null,
+            "priceAfter": 239399.6,
+            "stockAmount": 2242.0,
+            "count": 15.0,
+            "ten_ns": null,
+            "gt_cl_product": null,
+            "gt_cl": null,
+            "loai_ct": null,
+            "ds_ck": [],
+            "ten_ns_product": null,
+            "loai_ct_product": null
+        }
+    ]
+} 
+
+2022-06-02 18:35:14.284 +07:00 [WRN] Failed to determine the https port for redirect.
+2022-06-02 18:35:14.492 +07:00 [INF] Successfully validated the token.
+2022-06-02 18:35:14.500 +07:00 [INF] Authorization was successful.
+2022-06-02 18:35:14.503 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.DiscountController.GetDisCountWhenUpdate (SSE.ServerAPI)'
+2022-06-02 18:35:14.536 +07:00 [INF] Route matched with {action = "GetDisCountWhenUpdate", controller = "Discount"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.DisCount.DisCountResponse] GetDisCountWhenUpdate(SSE.Common.Api.v1.Requests.DisCountRequest.DisCountWhenUpdateRequest) on controller SSE_Server.Api.v1.Controllers.DiscountController (SSE.ServerAPI).
+2022-06-02 18:35:15.206 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.DiscountController.GetDisCountWhenUpdate (SSE.ServerAPI) - Validation state: "Valid"
+2022-06-02 18:35:15.811 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.DiscountController.GetDisCountWhenUpdate (SSE.ServerAPI) in 1270.0754ms
+2022-06-02 18:35:15.814 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.DiscountController.GetDisCountWhenUpdate (SSE.ServerAPI)'
+2022-06-02 18:35:15.887 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'app_get_sale_info_when_update'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryMultipleAsync(IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1050
+   at SSE.Core.Services.Dapper.DapperService.QueryMultipleAsync(String sql, DynamicParameters parameters, CommandType commandType) in D:\TRONG\ERP2\API_APP_ERP_DEMO\SSE.Core\Services\Dapper\DapperService.cs:line 263
+   at SSE.DataAccess.Api.v1.Implements.DisCountDAL.GetDisCountWhenUpdate(DisCountWhenUpdateRequest req) in D:\TRONG\ERP2\API_APP_ERP_DEMO\SSE.DataAccess\Api\v1\Implements\DisCountDAL.cs:line 179
+   at SSE.Business.Api.v1.Implements.DisCountBLL.GetDisCountWhenUpdate(DisCountWhenUpdateRequest request) in D:\TRONG\ERP2\API_APP_ERP_DEMO\SSE.Business\Api\v1\Implements\DisCountBLL.cs:line 58
+   at SSE_Server.Api.v1.Controllers.DiscountController.GetDisCountWhenUpdate(DisCountWhenUpdateRequest request) in D:\TRONG\ERP2\API_APP_ERP_DEMO\SSE.ServerAPI\Api\v1\Controllers\DiscountController.cs:line 36
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at SSE.Common.Services.ApiLoggingMiddleware.InvokeAsync(HttpContext context) in D:\TRONG\ERP2\API_APP_ERP_DEMO\SSE.Core\Services\Middleware\ApiLoggingMiddleware.cs:line 58
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:27fe11e2-1bf6-45f1-aa03-4d83a23f819d
+Error Number:2812,State:62,Class:16
+2022-06-02 18:35:16.017 +07:00 [INF] Request finished in 1746.9049ms 500 text/plain

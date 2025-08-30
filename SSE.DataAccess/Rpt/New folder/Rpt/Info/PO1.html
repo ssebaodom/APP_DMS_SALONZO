@@ -1,0 +1,95 @@
+
+<div style="width: 800px;border: 1px solid black;padding: 1em;font-size: 14px;margin-bottom: 10px;" >
+    <div style="width: 800px;">
+        <div style="width: 800px;text-align: center;margin-bottom: 2em;">
+            <span style="font-weight:800 ;font-family: 'Times New Roman', Times, seri;font-size: 23px;">ĐƠN HÀNG SỐ {{master.so_ct}}</p>
+        </div>
+        <table style="width: 800px;">
+            <tr style="width: 800px;">
+                <th >
+                    <div style="text-align: left;">
+                        <div style="margin-bottom:0.5em"><span style="font-weight:400 ;">Ngày đơn hàng: {{master.ngay_ct}}</span></div>
+                            
+                        <div style="margin-bottom:0.5em"><span style="font-weight:400 ;">Ngày giao hàng:</span></div>
+                        <div style="margin-bottom:0.5em"><span style="font-weight:400 ;">Hạn thanh toán:</span></div>
+                    </div>       
+                </th>
+                <th style="padding-left: 2px;">
+                    <div style="text-align: left;">
+                        <div ></div>
+                        <div ><span style="font-weight:400 ;">Phương thức vận chuyển:</span></div>
+                        <div ><span style="font-weight:400 ;">Ngoại tệ: VND</span></div>
+                    </div>
+                </th>
+            </tr>
+        </table>
+        <table style="width: 800px;margin-bottom: 0.5em;">
+            <tr style="width: 800px;">
+                <th style="padding-right: 2px;text-align: left;">
+                    <div style="border: 1px solid black;padding: 0.25em;min-height: 150px;">
+                        <div style="font-weight:600 ;">Nhà cung cấp</div>
+                        <div style="margin-left: 2px;font-weight: normal;"><span style="font-weight:400 ;">{{master.ten_kh}}</span></div>
+                    </div>
+    
+                </th>
+                <th style="padding-left: 2px;text-align: left;">
+                    <div style="border: 1px solid black;padding: 0.25em;min-height: 150px;">
+                        <div style="font-weight:600 ;">Nơi nhận</div>
+                        <div style="margin-left: 7px;font-weight: normal;">
+                            <span style="font-weight:400 ;">CC4043 - Cty TNHH sản xuất Kinh Doanh Giấy Toàn Tiến</span>
+                        </div>
+                    </div>
+                </th>
+            </tr>
+        </table>
+    </div>
+    <table  style="width: 800px;text-align: center;border-collapse: collapse; border: 1px solid #101010;margin-bottom: 0px; ">
+        <tr >
+            <th colspan="3" style="background-color: #cad8fa;border: 1px solid #101010;min-height: 32px;"><span>Phiếu nhu cầu</span></th>
+            <th colspan="3" style="background-color: #cad8fa;border: 1px solid #101010;min-height: 32px;"><span>Mã vật tư</span></th>
+            <th colspan="12" style="background-color: #cad8fa;border: 1px solid #101010;min-height: 32px;"><span>Tên vật tư</span></th>
+            <th colspan="3" style="background-color: #cad8fa;border: 1px solid #101010;min-height: 32px;"><span>Đvt</span></th>
+            <th colspan="3" style="background-color: #cad8fa;border: 1px solid #101010;min-height: 32px;"><span>Số lượng</span></th>
+            <th colspan="3" style="background-color: #cad8fa;border: 1px solid #101010;min-height: 32px;"><span>Giá</span></th>
+            <th colspan="3" style="background-color: #cad8fa;border: 1px solid #101010;min-height: 32px;"><span>Chiết khấu</span></th>
+            <th colspan="5" style="background-color: #cad8fa;border: 1px solid #101010;min-height: 32px;width: 300px;"><span>Tiền</span></th>
+        </tr>
+        ---detailData---
+    </table>
+    <table style="width: 800px;text-align: center;border-collapse: collapse; border: 1px solid #101010;margin-bottom: 0px; ">
+        <tr style="width: 800px;">
+            <th style="border-left: 1px solid #101010;border-bottom: 1px dotted black;" rowspan="3" colspan="24" style="padding-right: 2px;text-align: left;">
+                
+            </th>
+            <th style="border-left: 1px solid #101010;border-bottom: 1px dotted black;" colspan="6" style="padding-left: 2px;text-align: left;"><span> Tiền hàng</span></th>
+            <th style="border-left: 1px solid #101010;border-bottom: 1px dotted black;text-align: right;" colspan="5" style="padding-left: 2px;text-align: left;"><span>{{master.t_tien}}</span></th>
+        </tr>
+        <tr style="width: 800px;">
+            <th style="border-left: 1px solid #101010;border-bottom: 1px dotted black;" colspan="6" style="padding-left: 2px;text-align: left;"><span> Thuế</span></th>
+            <th style="border-left: 1px solid #101010;border-bottom: 1px dotted black;text-align: right;" colspan="5" style="padding-left: 2px;text-align: left;"><span>{{master.t_thue}}</span></th>
+        </tr>
+        <tr style="width: 800px;">
+            <th style="border-left: 1px solid #101010;border-bottom: 1px dotted black;" colspan="6" style="padding-left: 2px;text-align: left;"><span> Tổng cộng</span></th>
+            <th style="border-left: 1px solid #101010;border-bottom: 1px dotted black; text-align: right;" colspan="5" style="padding-left: 2px;text-align: left;"><span>{{master.t_tt}}</span></th>
+        </tr>
+    </table>
+    <table style="width: 800px;margin-top: 0.5em;">
+        <tr style="width: 800px;">
+            <th style="padding-right: 2px;text-align: left;">
+                <div style="border: 1px solid black;padding: 0.25em;min-height: 150px;">
+                    <div style="font-weight:600 ;width: 100%;text-align: center;">NGƯỜI LẬP</div>
+                    <div style="margin-left: 2px;font-weight: normal;"><span style="font-weight:400 ;"></span></div>
+                </div>
+
+            </th>
+            <th style="padding-left: 2px;text-align: left;">
+                <div style="border: 1px solid black;padding: 0.25em;min-height: 150px;">
+                    <div style="font-weight:600 ;width: 100%;text-align: center;">NGƯỜI DUYỆT</div>
+                    <div style="margin-left: 7px;font-weight: normal;">
+                        <span style="font-weight:400 ;"></span>
+                    </div>
+                </div>
+            </th>
+        </tr>
+    </table>
+</div>

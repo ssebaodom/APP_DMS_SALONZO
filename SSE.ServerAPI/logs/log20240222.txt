@@ -1,0 +1,207 @@
+2024-02-22 09:18:40.415 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-22 09:18:41.206 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-22 09:18:41.209 +07:00 [INF] Hosting environment: Development
+2024-02-22 09:18:41.210 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.ServerAPI
+2024-02-22 09:18:41.248 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/users/signin application/json 161
+2024-02-22 09:18:41.248 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2024-02-22 09:18:41.302 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/signin 
+QueryString:  
+Request Body: {
+    "hostId": "https://salonzo-cloud.sse.net.vn",
+    "userName": "dat",
+    "password": "123abc",
+    "devideToken": "",
+    "language": "V"  
+}
+
+
+
+ 
+
+2024-02-22 09:18:41.308 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-02-22 09:18:41.593 +07:00 [INF] Request finished in 342.8031ms 200 text/html;charset=utf-8
+2024-02-22 09:18:41.616 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2024-02-22 09:18:41.627 +07:00 [INF] Request finished in 11.2364ms 200 application/javascript; charset=utf-8
+2024-02-22 09:18:41.650 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2024-02-22 09:18:41.731 +07:00 [INF] Request finished in 81.0483ms 200 text/javascript; charset=UTF-8
+2024-02-22 09:18:41.736 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI)'
+2024-02-22 09:18:41.776 +07:00 [INF] Route matched with {action = "Signin", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.SignInResponse] Signin(SSE.Common.Api.v1.Requests.User.SigninRequest) on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2024-02-22 09:18:41.810 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2024-02-22 09:18:42.284 +07:00 [INF] Request finished in 474.5919ms 200 application/json;charset=utf-8
+2024-02-22 09:18:42.854 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI) - Validation state: "Valid"
+2024-02-22 09:18:43.188 +07:00 [INF] Entity Framework Core 3.1.7 initialized 'GlobalDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=1000 
+2024-02-22 09:18:44.130 +07:00 [INF] Executed DbCommand (74ms) [Parameters=[@__hostId_0='?' (Size = -1) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [d].[HostId], [d].[UserName], [d].[ServerName], [d].[SqlPassLogin], [d].[SqlUserLogin], [d].[SysDbName]
+FROM [DbSysInfo] AS [d]
+WHERE [d].[HostId] = @__hostId_0
+2024-02-22 09:18:45.062 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2199.7549ms.
+2024-02-22 09:18:45.070 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.SignInResponse'.
+2024-02-22 09:18:45.089 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI) in 3307.649ms
+2024-02-22 09:18:45.091 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI)'
+2024-02-22 09:18:45.097 +07:00 [INF] Request finished in 3852.2472ms 200 application/json; charset=utf-8
+2024-02-22 09:18:48.393 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/users/companies  
+2024-02-22 09:18:48.398 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/companies 
+QueryString:  
+Request Body:  
+
+2024-02-22 09:18:48.453 +07:00 [INF] Successfully validated the token.
+2024-02-22 09:18:48.459 +07:00 [INF] Authorization was successful.
+2024-02-22 09:18:48.461 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI)'
+2024-02-22 09:18:48.466 +07:00 [INF] Route matched with {action = "GetCompanies", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.GetCompaniesResponse] GetCompanies() on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2024-02-22 09:18:48.654 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI) - Validation state: "Valid"
+2024-02-22 09:18:48.808 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 152.0101ms.
+2024-02-22 09:18:48.810 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.GetCompaniesResponse'.
+2024-02-22 09:18:48.820 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI) in 352.1011ms
+2024-02-22 09:18:48.822 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI)'
+2024-02-22 09:18:48.824 +07:00 [INF] Request finished in 430.4564ms 200 application/json; charset=utf-8
+2024-02-22 09:18:52.225 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/users/units  
+2024-02-22 09:18:52.228 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/units 
+QueryString:  
+Request Body:  
+
+2024-02-22 09:18:52.233 +07:00 [INF] Successfully validated the token.
+2024-02-22 09:18:52.238 +07:00 [INF] Authorization was successful.
+2024-02-22 09:18:52.240 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI)'
+2024-02-22 09:18:52.248 +07:00 [INF] Route matched with {action = "GetUnits", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.GetUnitsResponse] GetUnits() on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2024-02-22 09:18:52.377 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI) - Validation state: "Valid"
+2024-02-22 09:18:52.577 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 197.8362ms.
+2024-02-22 09:18:52.580 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.GetUnitsResponse'.
+2024-02-22 09:18:52.586 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI) in 334.7874ms
+2024-02-22 09:18:52.588 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI)'
+2024-02-22 09:18:52.589 +07:00 [INF] Request finished in 364.643ms 200 application/json; charset=utf-8
+2024-02-22 09:18:57.720 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/users/get-setting-options-v2  
+2024-02-22 09:18:57.723 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/get-setting-options-v2 
+QueryString:  
+Request Body:  
+
+2024-02-22 09:18:57.728 +07:00 [INF] Successfully validated the token.
+2024-02-22 09:18:57.732 +07:00 [INF] Authorization was successful.
+2024-02-22 09:18:57.734 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetSettingOptionsV2 (SSE.ServerAPI)'
+2024-02-22 09:18:57.741 +07:00 [INF] Route matched with {action = "GetSettingOptionsV2", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.GetSettingOptionsV2Response] GetSettingOptionsV2() on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2024-02-22 09:18:57.867 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.GetSettingOptionsV2 (SSE.ServerAPI) - Validation state: "Valid"
+2024-02-22 09:18:57.991 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.GetSettingOptionsV2 (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 122.3215ms.
+2024-02-22 09:18:57.993 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.GetSettingOptionsV2Response'.
+2024-02-22 09:18:58.018 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.GetSettingOptionsV2 (SSE.ServerAPI) in 274.7223ms
+2024-02-22 09:18:58.019 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetSettingOptionsV2 (SSE.ServerAPI)'
+2024-02-22 09:18:58.022 +07:00 [INF] Request finished in 302.6111ms 200 application/json; charset=utf-8
+2024-02-22 09:19:06.205 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/order/search-item-v2 application/json 166
+2024-02-22 09:19:06.208 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/order/search-item-v2 
+QueryString:  
+Request Body: {
+    "SearchValue": "ozin",
+    "PageIndex": 1,
+    "IdCustomer":"",
+    "Currency": "VND",
+    "ItemGroup": "",
+    "ItemGroup2": "",
+    "ItemGroup3": ""
+} 
+
+2024-02-22 09:19:06.210 +07:00 [INF] Successfully validated the token.
+2024-02-22 09:19:06.212 +07:00 [INF] Authorization was successful.
+2024-02-22 09:19:06.215 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.OrderController.SearchItemV2 (SSE.ServerAPI)'
+2024-02-22 09:19:06.220 +07:00 [INF] Route matched with {action = "SearchItemV2", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.Order.ListDetailApprovalResponse] SearchItemV2(SSE.Common.Api.v1.Requests.Order.OrderItemSearchV2Request) on controller SSE_Server.Api.v1.Controllers.OrderController (SSE.ServerAPI).
+2024-02-22 09:19:06.398 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.OrderController.SearchItemV2 (SSE.ServerAPI) - Validation state: "Valid"
+2024-02-22 09:19:06.644 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.OrderController.SearchItemV2 (SSE.ServerAPI) in 422.1672ms
+2024-02-22 09:19:06.646 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.OrderController.SearchItemV2 (SSE.ServerAPI)'
+2024-02-22 09:19:06.739 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Data.SqlClient.SqlException (0x80131904): An expression of non-boolean type specified in a context where a condition is expected, near 'or'.
+Invalid usage of the option NEXT in the FETCH statement.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryMultipleAsync(IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1050
+   at SSE.Core.Services.Dapper.DapperService.QueryMultipleAsync(String sql, DynamicParameters parameters, CommandType commandType) in F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.Core\Services\Dapper\DapperService.cs:line 270
+   at SSE.DataAccess.Api.v1.Implements.OrderDAL.SearchItemV2(OrderItemSearchV2Request orderItemSearch) in F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.DataAccess\Api\v1\Implements\OrderDAL.cs:line 62
+   at SSE.Business.Api.v1.Implements.OrderBLL.SearchItemV2(OrderItemSearchV2Request request) in F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.Business\Api\v1\Implements\OrderBLL.cs:line 68
+   at SSE_Server.Api.v1.Controllers.OrderController.SearchItemV2(OrderItemSearchV2Request request) in F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.ServerAPI\Api\v1\Controllers\OrderController.cs:line 39
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at SSE.Common.Services.ApiLoggingMiddleware.InvokeAsync(HttpContext context) in F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.Core\Services\Middleware\ApiLoggingMiddleware.cs:line 58
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:b4c9187a-7295-4970-a90f-78775b88f70d
+Error Number:4145,State:1,Class:15
+2024-02-22 09:19:06.836 +07:00 [INF] Request finished in 631.2393ms 500 text/plain
+2024-02-22 09:19:24.729 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/order/get-history-order application/json 259
+2024-02-22 09:19:24.732 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/order/get-history-order 
+QueryString:  
+Request Body: {
+    "UserCode" :"3777",
+    "LetterTypeId" :"ORDERLIST",
+    "PageIndex": 1,
+    "Status": "2",
+    "TimeFilter": "",
+    "DateFrom": "2023-06-22",
+    "DateTo": "2023-06-29",
+    "FirstElement": null,
+    "LastElement": null,
+    "TotalRec": 0
+} 
+
+2024-02-22 09:19:24.751 +07:00 [INF] Successfully validated the token.
+2024-02-22 09:19:24.754 +07:00 [INF] Authorization was successful.
+2024-02-22 09:19:24.756 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.OrderController.GetHistoryOrder (SSE.ServerAPI)'
+2024-02-22 09:19:24.762 +07:00 [INF] Route matched with {action = "GetHistoryOrder", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.Order.OrderListResponse] GetHistoryOrder(SSE.Common.Api.v1.Requests.Order.OrderListRequest) on controller SSE_Server.Api.v1.Controllers.OrderController (SSE.ServerAPI).
+2024-02-22 09:19:24.942 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.OrderController.GetHistoryOrder (SSE.ServerAPI) - Validation state: "Valid"
+2024-02-22 09:19:32.377 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.OrderController.GetHistoryOrder (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 7432.8788ms.
+2024-02-22 09:19:32.380 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.Order.OrderListResponse'.
+2024-02-22 09:19:32.385 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.OrderController.GetHistoryOrder (SSE.ServerAPI) in 7620.3719ms
+2024-02-22 09:19:32.388 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.OrderController.GetHistoryOrder (SSE.ServerAPI)'
+2024-02-22 09:19:32.391 +07:00 [INF] Request finished in 7661.7435ms 200 application/json; charset=utf-8
+2024-02-22 09:19:49.966 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/customer/customer-list application/json 65
+2024-02-22 09:19:49.969 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/customer/customer-list 
+QueryString:  
+Request Body: {
+    "Type" : 1,
+    "PageIndex": 1,
+    "SearchValue": ""
+} 
+
+2024-02-22 09:19:49.972 +07:00 [INF] Successfully validated the token.
+2024-02-22 09:19:49.974 +07:00 [INF] Authorization was successful.
+2024-02-22 09:19:49.977 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.CustomerController.CustomerList (SSE.ServerAPI)'
+2024-02-22 09:19:49.982 +07:00 [INF] Route matched with {action = "CustomerList", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.Customer.CustomerListResponse] CustomerList(SSE.Common.Api.v1.Requests.Customer.CustomerListResquest) on controller SSE_Server.Api.v1.Controllers.CustomerController (SSE.ServerAPI).
+2024-02-22 09:19:50.140 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.CustomerController.CustomerList (SSE.ServerAPI) - Validation state: "Valid"
+2024-02-22 09:19:50.643 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.CustomerController.CustomerList (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 500.8531ms.
+2024-02-22 09:19:50.646 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.Customer.CustomerListResponse'.
+2024-02-22 09:19:50.733 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.CustomerController.CustomerList (SSE.ServerAPI) in 749.5766ms
+2024-02-22 09:19:50.735 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.CustomerController.CustomerList (SSE.ServerAPI)'
+2024-02-22 09:19:50.737 +07:00 [INF] Request finished in 771.4031ms 200 application/json; charset=utf-8

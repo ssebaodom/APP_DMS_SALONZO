@@ -1,0 +1,815 @@
+2023-12-19 14:40:19.155 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-19 14:40:20.155 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-19 14:40:20.157 +07:00 [INF] Hosting environment: Development
+2023-12-19 14:40:20.162 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI
+2023-12-19 14:40:20.203 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2023-12-19 14:40:20.427 +07:00 [INF] Request finished in 225.4684ms 200 text/html;charset=utf-8
+2023-12-19 14:40:20.436 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2023-12-19 14:40:20.457 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2023-12-19 14:40:20.465 +07:00 [INF] Request finished in 27.9344ms 200 application/javascript; charset=utf-8
+2023-12-19 14:40:20.552 +07:00 [INF] Request finished in 95.1578ms 200 text/javascript; charset=UTF-8
+2023-12-19 14:40:20.626 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2023-12-19 14:40:20.883 +07:00 [INF] Request finished in 256.3119ms 200 application/json;charset=utf-8
+2023-12-19 14:40:26.356 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/users/signin application/json 164
+2023-12-19 14:40:26.364 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/signin 
+QueryString:  
+Request Body: {
+    "hostId": "https://thienvuong-cloud.sse.net.vn",
+    "userName": "dat",
+    "password": "123abc",
+    "devideToken": "",
+    "language": "V"  
+}
+
+
+
+ 
+
+2023-12-19 14:40:26.369 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-19 14:40:26.555 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI)'
+2023-12-19 14:40:26.594 +07:00 [INF] Route matched with {action = "Signin", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.SignInResponse] Signin(SSE.Common.Api.v1.Requests.User.SigninRequest) on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-19 14:40:27.394 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-19 14:40:27.715 +07:00 [INF] Entity Framework Core 3.1.7 initialized 'GlobalDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=1000 
+2023-12-19 14:40:28.649 +07:00 [INF] Executed DbCommand (85ms) [Parameters=[@__hostId_0='?' (Size = -1) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [d].[HostId], [d].[UserName], [d].[ServerName], [d].[SqlPassLogin], [d].[SqlUserLogin], [d].[SysDbName]
+FROM [DbSysInfo] AS [d]
+WHERE [d].[HostId] = @__hostId_0
+2023-12-19 14:40:29.665 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2263.3112ms.
+2023-12-19 14:40:29.674 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.SignInResponse'.
+2023-12-19 14:40:29.692 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI) in 3092.7426ms
+2023-12-19 14:40:29.695 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI)'
+2023-12-19 14:40:29.699 +07:00 [INF] Request finished in 3344.0461ms 200 application/json; charset=utf-8
+2023-12-19 14:40:36.993 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/users/companies  
+2023-12-19 14:40:36.998 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/companies 
+QueryString:  
+Request Body:  
+
+2023-12-19 14:40:37.058 +07:00 [INF] Successfully validated the token.
+2023-12-19 14:40:37.065 +07:00 [INF] Authorization was successful.
+2023-12-19 14:40:37.067 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI)'
+2023-12-19 14:40:37.071 +07:00 [INF] Route matched with {action = "GetCompanies", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.GetCompaniesResponse] GetCompanies() on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-19 14:40:37.236 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-19 14:40:37.397 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 159.3777ms.
+2023-12-19 14:40:37.399 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.GetCompaniesResponse'.
+2023-12-19 14:40:37.411 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI) in 338.0641ms
+2023-12-19 14:40:37.415 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI)'
+2023-12-19 14:40:37.418 +07:00 [INF] Request finished in 425.0143ms 200 application/json; charset=utf-8
+2023-12-19 14:40:42.541 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/users/units  
+2023-12-19 14:40:42.543 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/units 
+QueryString:  
+Request Body:  
+
+2023-12-19 14:40:42.549 +07:00 [INF] Successfully validated the token.
+2023-12-19 14:40:42.552 +07:00 [INF] Authorization was successful.
+2023-12-19 14:40:42.554 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI)'
+2023-12-19 14:40:42.560 +07:00 [INF] Route matched with {action = "GetUnits", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.GetUnitsResponse] GetUnits() on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-19 14:40:42.697 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-19 14:40:43.177 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 477.8937ms.
+2023-12-19 14:40:43.179 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.GetUnitsResponse'.
+2023-12-19 14:40:43.189 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI) in 626.9483ms
+2023-12-19 14:40:43.191 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI)'
+2023-12-19 14:40:43.194 +07:00 [INF] Request finished in 653.1283ms 200 application/json; charset=utf-8
+2023-12-19 14:40:49.833 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/manufacturing/create-factory-transaction-voucher-modify application/json 1887
+2023-12-19 14:40:49.835 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/manufacturing/create-factory-transaction-voucher-modify 
+QueryString:  
+Request Body: {
+    "Data": {
+        "stt_rec": "",
+        "ma_dvcs": "cty",
+        "ma_gd": "02",
+        "ngay_ct": "2023-12-19 14:31:44.500934",
+        "ghi_chu": "",
+        "t_so_luong": 1,
+        "ma_nc": "MHAD",
+        "ma_px": "TMAD",
+        "ma_lsx": 40001,
+        "ma_cd": "CD1",
+        "ma_ca": "CH",
+        "sl_nc": 1,
+        "gio_bd": "14:22",
+        "gio_kt": "20:22",
+        "Detail": [
+            {
+                "ma_vt": "BOBLAN001",
+                "dvt": "kg        ",
+                "so_luong": 10.0,
+                "ma_nc": "MHAD",
+                "nh_nc": "",
+                " ghi_chu": "",
+                "ma_lo": ""
+            }
+        ],
+        "RawTable": [
+            {
+                "ma_vt": "HANG1",
+                "dvt": "Can       ",
+                "so_luong": 100.0,
+                "rework": 0,
+                "ma_lo": "",
+                "sl_tn": 50.0,
+                "sl_cl": 20.0,
+                "sl_sd": 30.0
+            },
+            {
+                "ma_vt": "HANG2",
+                "dvt": "Can      ",
+                "so_luong": 10.0,
+                "rework": 0,
+                "ma_lo": "",
+                "sl_tn": 100.0,
+                "sl_cl": 90.0,
+                "sl_sd": 10.0
+            }
+        ],
+        " WasteTable": [
+            {
+                "ma_vt": "ABC",
+                "dvt": "Cái       ",
+                "so_luong": 50.0
+            },
+            {
+                "ma_vt": "BOBLAN001",
+                "dvt": "kg        ",
+                "so_luong": 30.0
+            }
+        ],
+        "MachineTable": [
+            {
+                "ma_may": "MAY1",
+                "gio_bd": " 02:31",
+                "gio_kt": "10:31",
+                "so_gio": "5.0",
+                " ghi_chu": ""
+            }
+        ]
+    }
+} 
+
+2023-12-19 14:40:49.839 +07:00 [INF] Successfully validated the token.
+2023-12-19 14:40:49.842 +07:00 [INF] Authorization was successful.
+2023-12-19 14:40:49.844 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.CreateFactoryTransactionVoucherModify (SSE.ServerAPI)'
+2023-12-19 14:40:49.849 +07:00 [INF] Route matched with {action = "CreateFactoryTransactionVoucherModify", controller = "Manufacturing"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.Order.CommonsResponse] CreateFactoryTransactionVoucherModify(SSE.Common.Api.v1.Requests.Manufacturing.ManufacturingRequest) on controller SSE_Server.Api.v1.Controllers.ManufacturingController (SSE.ServerAPI).
+2023-12-19 14:40:50.040 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.ManufacturingController.CreateFactoryTransactionVoucherModify (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-19 14:43:48.566 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-19 14:43:49.008 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-19 14:43:49.010 +07:00 [INF] Hosting environment: Development
+2023-12-19 14:43:49.011 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI
+2023-12-19 14:43:49.040 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2023-12-19 14:43:49.179 +07:00 [INF] Request finished in 141.0648ms 200 text/html;charset=utf-8
+2023-12-19 14:43:49.181 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2023-12-19 14:43:49.197 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2023-12-19 14:43:49.201 +07:00 [INF] Request finished in 19.5402ms 200 application/javascript; charset=utf-8
+2023-12-19 14:43:49.229 +07:00 [INF] Request finished in 32.0581ms 200 text/javascript; charset=UTF-8
+2023-12-19 14:43:49.296 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2023-12-19 14:43:49.551 +07:00 [INF] Request finished in 255.4386ms 200 application/json;charset=utf-8
+2023-12-19 14:44:00.756 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/manufacturing/create-factory-transaction-voucher-modify application/json 1886
+2023-12-19 14:44:00.768 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/manufacturing/create-factory-transaction-voucher-modify 
+QueryString:  
+Request Body: {
+    "Data": {
+        "stt_rec": "",
+        "ma_dvcs": "cty",
+        "ma_gd": "02",
+        "ngay_ct": "2023-12-19 14:31:44.500934",
+        "ghi_chu": "",
+        "t_so_luong": 1,
+        "ma_nc": "MHAD",
+        "ma_px": "TMAD",
+        "ma_lsx": 40001,
+        "ma_cd": "CD1",
+        "ma_ca": "CH",
+        "sl_nc": 1,
+        "gio_bd": "14:22",
+        "gio_kt": "20:22",
+        "Detail": [
+            {
+                "ma_vt": "BOBLAN001",
+                "dvt": "kg        ",
+                "so_luong": 10.0,
+                "ma_nc": "MHAD",
+                "nh_nc": "",
+                " ghi_chu": "",
+                "ma_lo": ""
+            }
+        ],
+        "RawTable": [
+            {
+                "ma_vt": "HANG1",
+                "dvt": "Can       ",
+                "so_luong": 100.0,
+                "rework": 0,
+                "ma_lo": "",
+                "sl_tn": 50.0,
+                "sl_cl": 20.0,
+                "sl_sd": 30.0
+            },
+            {
+                "ma_vt": "HANG2",
+                "dvt": "Can      ",
+                "so_luong": 10.0,
+                "rework": 0,
+                "ma_lo": "",
+                "sl_tn": 100.0,
+                "sl_cl": 90.0,
+                "sl_sd": 10.0
+            }
+        ],
+        "WasteTable": [
+            {
+                "ma_vt": "ABC",
+                "dvt": "Cái       ",
+                "so_luong": 50.0
+            },
+            {
+                "ma_vt": "BOBLAN001",
+                "dvt": "kg        ",
+                "so_luong": 30.0
+            }
+        ],
+        "MachineTable": [
+            {
+                "ma_may": "MAY1",
+                "gio_bd": " 02:31",
+                "gio_kt": "10:31",
+                "so_gio": "5.0",
+                " ghi_chu": ""
+            }
+        ]
+    }
+} 
+
+2023-12-19 14:44:00.773 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-19 14:44:00.986 +07:00 [INF] Successfully validated the token.
+2023-12-19 14:44:00.993 +07:00 [INF] Authorization was successful.
+2023-12-19 14:44:00.995 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.CreateFactoryTransactionVoucherModify (SSE.ServerAPI)'
+2023-12-19 14:44:01.036 +07:00 [INF] Route matched with {action = "CreateFactoryTransactionVoucherModify", controller = "Manufacturing"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.Order.CommonsResponse] CreateFactoryTransactionVoucherModify(SSE.Common.Api.v1.Requests.Manufacturing.ManufacturingRequest) on controller SSE_Server.Api.v1.Controllers.ManufacturingController (SSE.ServerAPI).
+2023-12-19 14:44:01.756 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.ManufacturingController.CreateFactoryTransactionVoucherModify (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-19 14:44:03.674 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.ManufacturingController.CreateFactoryTransactionVoucherModify (SSE.ServerAPI) in 2633.5436ms
+2023-12-19 14:44:03.677 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.CreateFactoryTransactionVoucherModify (SSE.ServerAPI)'
+2023-12-19 14:44:03.782 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReader(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.ExecuteScalarImplAsync[T](IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1247
+   at SSE.Core.Services.Dapper.DapperService.ExecuteScalarAsync[T](String sql, Object parameters, CommandType commandType) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Core\Services\Dapper\DapperService.cs:line 170
+   at SSE.DataAccess.Api.v1.Implements.ManufacturingDAL.CreateFactoryTransactionVoucherModify(ManufacturingRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.DataAccess\Api\v1\Implements\ManufacturingDAL.cs:line 147
+   at SSE.Business.Api.v1.Implements.ManufacturingBLL.CreateFactoryTransactionVoucherModify(ManufacturingRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Business\Api\v1\Implements\ManufacturingBLL.cs:line 154
+   at SSE_Server.Api.v1.Controllers.ManufacturingController.CreateFactoryTransactionVoucherModify(ManufacturingRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI\Api\v1\Controllers\ManufacturingController.cs:line 54
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at SSE.Common.Services.ApiLoggingMiddleware.InvokeAsync(HttpContext context) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Core\Services\Middleware\ApiLoggingMiddleware.cs:line 58
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:4c826398-cb57-455c-9fd2-e03467c2b42c
+Error Number:8152,State:30,Class:16
+2023-12-19 14:44:03.897 +07:00 [INF] Request finished in 3141.5384ms 500 text/plain
+2023-12-19 14:44:24.013 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/manufacturing/create-factory-transaction-voucher-modify application/json 1886
+2023-12-19 14:44:24.016 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/manufacturing/create-factory-transaction-voucher-modify 
+QueryString:  
+Request Body: {
+    "Data": {
+        "stt_rec": "",
+        "ma_dvcs": "cty",
+        "ma_gd": "02",
+        "ngay_ct": "2023-12-19 14:31:44.500934",
+        "ghi_chu": "",
+        "t_so_luong": 1,
+        "ma_nc": "MHAD",
+        "ma_px": "TMAD",
+        "ma_lsx": 40001,
+        "ma_cd": "CD1",
+        "ma_ca": "CH",
+        "sl_nc": 1,
+        "gio_bd": "14:22",
+        "gio_kt": "20:22",
+        "Detail": [
+            {
+                "ma_vt": "BOBLAN001",
+                "dvt": "kg        ",
+                "so_luong": 10.0,
+                "ma_nc": "MHAD",
+                "nh_nc": "",
+                " ghi_chu": "",
+                "ma_lo": ""
+            }
+        ],
+        "RawTable": [
+            {
+                "ma_vt": "HANG1",
+                "dvt": "Can       ",
+                "so_luong": 100.0,
+                "rework": 0,
+                "ma_lo": "",
+                "sl_tn": 50.0,
+                "sl_cl": 20.0,
+                "sl_sd": 30.0
+            },
+            {
+                "ma_vt": "HANG2",
+                "dvt": "Can      ",
+                "so_luong": 10.0,
+                "rework": 0,
+                "ma_lo": "",
+                "sl_tn": 100.0,
+                "sl_cl": 90.0,
+                "sl_sd": 10.0
+            }
+        ],
+        "WasteTable": [
+            {
+                "ma_vt": "ABC",
+                "dvt": "Cái       ",
+                "so_luong": 50.0
+            },
+            {
+                "ma_vt": "BOBLAN001",
+                "dvt": "kg        ",
+                "so_luong": 30.0
+            }
+        ],
+        "MachineTable": [
+            {
+                "ma_may": "MAY1",
+                "gio_bd": " 02:31",
+                "gio_kt": "10:31",
+                "so_gio": "5.0",
+                " ghi_chu": ""
+            }
+        ]
+    }
+} 
+
+2023-12-19 14:44:24.025 +07:00 [INF] Successfully validated the token.
+2023-12-19 14:44:24.027 +07:00 [INF] Authorization was successful.
+2023-12-19 14:44:24.029 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.CreateFactoryTransactionVoucherModify (SSE.ServerAPI)'
+2023-12-19 14:44:24.030 +07:00 [INF] Route matched with {action = "CreateFactoryTransactionVoucherModify", controller = "Manufacturing"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.Order.CommonsResponse] CreateFactoryTransactionVoucherModify(SSE.Common.Api.v1.Requests.Manufacturing.ManufacturingRequest) on controller SSE_Server.Api.v1.Controllers.ManufacturingController (SSE.ServerAPI).
+2023-12-19 14:44:24.231 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.ManufacturingController.CreateFactoryTransactionVoucherModify (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-19 14:44:24.989 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.ManufacturingController.CreateFactoryTransactionVoucherModify (SSE.ServerAPI) in 956.946ms
+2023-12-19 14:44:24.991 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.CreateFactoryTransactionVoucherModify (SSE.ServerAPI)'
+2023-12-19 14:44:25.072 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReader(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.ExecuteScalarImplAsync[T](IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1247
+   at SSE.Core.Services.Dapper.DapperService.ExecuteScalarAsync[T](String sql, Object parameters, CommandType commandType) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Core\Services\Dapper\DapperService.cs:line 170
+   at SSE.DataAccess.Api.v1.Implements.ManufacturingDAL.CreateFactoryTransactionVoucherModify(ManufacturingRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.DataAccess\Api\v1\Implements\ManufacturingDAL.cs:line 147
+   at SSE.Business.Api.v1.Implements.ManufacturingBLL.CreateFactoryTransactionVoucherModify(ManufacturingRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Business\Api\v1\Implements\ManufacturingBLL.cs:line 154
+   at SSE_Server.Api.v1.Controllers.ManufacturingController.CreateFactoryTransactionVoucherModify(ManufacturingRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI\Api\v1\Controllers\ManufacturingController.cs:line 54
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at SSE.Common.Services.ApiLoggingMiddleware.InvokeAsync(HttpContext context) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Core\Services\Middleware\ApiLoggingMiddleware.cs:line 58
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:4c826398-cb57-455c-9fd2-e03467c2b42c
+Error Number:8152,State:30,Class:16
+2023-12-19 14:44:25.084 +07:00 [INF] Request finished in 1071.0691ms 500 text/plain
+2023-12-19 14:44:48.682 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/manufacturing/create-factory-transaction-voucher-modify application/json 1885
+2023-12-19 14:44:48.685 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/manufacturing/create-factory-transaction-voucher-modify 
+QueryString:  
+Request Body: {
+    "Data": {
+        "stt_rec": "",
+        "ma_dvcs": "cty",
+        "ma_gd": "02",
+        "ngay_ct": "2023-12-19 14:31:44.500934",
+        "ghi_chu": "",
+        "t_so_luong": 1,
+        "ma_nc": "MHAD",
+        "ma_px": "TMAD",
+        "ma_lsx": 40001,
+        "ma_cd": "CD1",
+        "ma_ca": "CH",
+        "sl_nc": 1,
+        "gio_bd": "14:22",
+        "gio_kt": "20:22",
+        "Detail": [
+            {
+                "ma_vt": "BOBLAN001",
+                "dvt": "kg        ",
+                "so_luong": 10.0,
+                "ma_nc": "MHAD",
+                "nh_nc": "",
+                " ghi_chu": "",
+                "ma_lo": ""
+            }
+        ],
+        "RawTable": [
+            {
+                "ma_vt": "HANG1",
+                "dvt": "Can       ",
+                "so_luong": 100.0,
+                "rework": 0,
+                "ma_lo": "",
+                "sl_tn": 50.0,
+                "sl_cl": 20.0,
+                "sl_sd": 30.0
+            },
+            {
+                "ma_vt": "HANG2",
+                "dvt": "Can      ",
+                "so_luong": 10.0,
+                "rework": 0,
+                "ma_lo": "",
+                "sl_tn": 100.0,
+                "sl_cl": 90.0,
+                "sl_sd": 10.0
+            }
+        ],
+        "WasteTable": [
+            {
+                "ma_vt": "ABC",
+                "dvt": "Cái       ",
+                "so_luong": 50.0
+            },
+            {
+                "ma_vt": "BOBLAN001",
+                "dvt": "kg        ",
+                "so_luong": 30.0
+            }
+        ],
+        "MachineTable": [
+            {
+                "ma_may": "MAY1",
+                "gio_bd": " 02:31",
+                "gio_kt": "10:31",
+                "so_gio": "5.0",
+                "ghi_chu": ""
+            }
+        ]
+    }
+} 
+
+2023-12-19 14:44:48.691 +07:00 [INF] Successfully validated the token.
+2023-12-19 14:44:48.694 +07:00 [INF] Authorization was successful.
+2023-12-19 14:44:48.698 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.CreateFactoryTransactionVoucherModify (SSE.ServerAPI)'
+2023-12-19 14:44:48.701 +07:00 [INF] Route matched with {action = "CreateFactoryTransactionVoucherModify", controller = "Manufacturing"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.Order.CommonsResponse] CreateFactoryTransactionVoucherModify(SSE.Common.Api.v1.Requests.Manufacturing.ManufacturingRequest) on controller SSE_Server.Api.v1.Controllers.ManufacturingController (SSE.ServerAPI).
+2023-12-19 14:44:48.997 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.ManufacturingController.CreateFactoryTransactionVoucherModify (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-19 14:44:49.732 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.ManufacturingController.CreateFactoryTransactionVoucherModify (SSE.ServerAPI) in 1028.9751ms
+2023-12-19 14:44:49.744 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.CreateFactoryTransactionVoucherModify (SSE.ServerAPI)'
+2023-12-19 14:44:49.825 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReader(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.ExecuteScalarImplAsync[T](IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1247
+   at SSE.Core.Services.Dapper.DapperService.ExecuteScalarAsync[T](String sql, Object parameters, CommandType commandType) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Core\Services\Dapper\DapperService.cs:line 170
+   at SSE.DataAccess.Api.v1.Implements.ManufacturingDAL.CreateFactoryTransactionVoucherModify(ManufacturingRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.DataAccess\Api\v1\Implements\ManufacturingDAL.cs:line 147
+   at SSE.Business.Api.v1.Implements.ManufacturingBLL.CreateFactoryTransactionVoucherModify(ManufacturingRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Business\Api\v1\Implements\ManufacturingBLL.cs:line 154
+   at SSE_Server.Api.v1.Controllers.ManufacturingController.CreateFactoryTransactionVoucherModify(ManufacturingRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI\Api\v1\Controllers\ManufacturingController.cs:line 54
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at SSE.Common.Services.ApiLoggingMiddleware.InvokeAsync(HttpContext context) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Core\Services\Middleware\ApiLoggingMiddleware.cs:line 58
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:4c826398-cb57-455c-9fd2-e03467c2b42c
+Error Number:8152,State:30,Class:16
+2023-12-19 14:44:49.837 +07:00 [INF] Request finished in 1154.6687ms 500 text/plain
+2023-12-19 14:46:16.732 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/manufacturing/create-factory-transaction-voucher-modify application/json 1884
+2023-12-19 14:46:16.738 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/manufacturing/create-factory-transaction-voucher-modify 
+QueryString:  
+Request Body: {
+    "Data": {
+        "stt_rec": "",
+        "ma_dvcs": "cty",
+        "ma_gd": "02",
+        "ngay_ct": "2023-12-19 14:31:44.500934",
+        "ghi_chu": "",
+        "t_so_luong": 1,
+        "ma_nc": "MHAD",
+        "ma_px": "TMAD",
+        "ma_lsx": 40001,
+        "ma_cd": "CD1",
+        "ma_ca": "CH",
+        "sl_nc": 1,
+        "gio_bd": "14:22",
+        "gio_kt": "20:22",
+        "Detail": [
+            {
+                "ma_vt": "BOBLAN001",
+                "dvt": "kg        ",
+                "so_luong": 10.0,
+                "ma_nc": "MHAD",
+                "nh_nc": "",
+                " ghi_chu": "",
+                "ma_lo": ""
+            }
+        ],
+        "RawTable": [
+            {
+                "ma_vt": "HANG1",
+                "dvt": "Can       ",
+                "so_luong": 100.0,
+                "rework": 0,
+                "ma_lo": "",
+                "sl_tn": 50.0,
+                "sl_cl": 20.0,
+                "sl_sd": 30.0
+            },
+            {
+                "ma_vt": "HANG2",
+                "dvt": "Can      ",
+                "so_luong": 10.0,
+                "rework": 0,
+                "ma_lo": "",
+                "sl_tn": 100.0,
+                "sl_cl": 90.0,
+                "sl_sd": 10.0
+            }
+        ],
+        "WasteTable": [
+            {
+                "ma_vt": "ABC",
+                "dvt": "Cái       ",
+                "so_luong": 50.0
+            },
+            {
+                "ma_vt": "BOBLAN001",
+                "dvt": "kg        ",
+                "so_luong": 30.0
+            }
+        ],
+        "MachineTable": [
+            {
+                "ma_may": "MAY1",
+                "gio_bd": "02:31",
+                "gio_kt": "10:31",
+                "so_gio": "5.0",
+                "ghi_chu": ""
+            }
+        ]
+    }
+} 
+
+2023-12-19 14:46:16.742 +07:00 [INF] Successfully validated the token.
+2023-12-19 14:46:16.745 +07:00 [INF] Authorization was successful.
+2023-12-19 14:46:16.747 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.CreateFactoryTransactionVoucherModify (SSE.ServerAPI)'
+2023-12-19 14:46:16.750 +07:00 [INF] Route matched with {action = "CreateFactoryTransactionVoucherModify", controller = "Manufacturing"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.Order.CommonsResponse] CreateFactoryTransactionVoucherModify(SSE.Common.Api.v1.Requests.Manufacturing.ManufacturingRequest) on controller SSE_Server.Api.v1.Controllers.ManufacturingController (SSE.ServerAPI).
+2023-12-19 14:46:17.043 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.ManufacturingController.CreateFactoryTransactionVoucherModify (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-19 14:46:17.943 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.ManufacturingController.CreateFactoryTransactionVoucherModify (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 894.9494ms.
+2023-12-19 14:46:17.949 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.Order.CommonsResponse'.
+2023-12-19 14:46:17.980 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.ManufacturingController.CreateFactoryTransactionVoucherModify (SSE.ServerAPI) in 1224.1529ms
+2023-12-19 14:46:17.983 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.CreateFactoryTransactionVoucherModify (SSE.ServerAPI)'
+2023-12-19 14:46:17.986 +07:00 [INF] Request finished in 1254.1204ms 200 application/json; charset=utf-8
+2023-12-19 15:44:17.162 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-19 15:44:17.612 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-19 15:44:17.613 +07:00 [INF] Hosting environment: Development
+2023-12-19 15:44:17.615 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI
+2023-12-19 15:44:17.642 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2023-12-19 15:44:17.806 +07:00 [INF] Request finished in 164.8196ms 200 text/html;charset=utf-8
+2023-12-19 15:44:17.813 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2023-12-19 15:44:17.819 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2023-12-19 15:44:17.837 +07:00 [INF] Request finished in 23.869ms 200 application/javascript; charset=utf-8
+2023-12-19 15:44:17.883 +07:00 [INF] Request finished in 64.66ms 200 text/javascript; charset=UTF-8
+2023-12-19 15:44:17.958 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2023-12-19 15:44:18.216 +07:00 [INF] Request finished in 258.1763ms 200 application/json;charset=utf-8
+2023-12-19 15:44:24.167 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/home/get-slider-images  
+2023-12-19 15:44:24.175 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/home/get-slider-images 
+QueryString:  
+Request Body:  
+
+2023-12-19 15:44:24.181 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-19 15:44:24.400 +07:00 [INF] Successfully validated the token.
+2023-12-19 15:44:24.409 +07:00 [INF] Authorization was successful.
+2023-12-19 15:44:24.412 +07:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2023-12-19 15:44:24.415 +07:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2023-12-19 15:44:24.419 +07:00 [INF] Request finished in 252.6021ms 405 
+2023-12-19 15:44:46.569 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-19 15:44:46.942 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-19 15:44:46.943 +07:00 [INF] Hosting environment: Development
+2023-12-19 15:44:46.945 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI
+2023-12-19 15:44:46.971 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2023-12-19 15:44:47.100 +07:00 [INF] Request finished in 129.9794ms 200 text/html;charset=utf-8
+2023-12-19 15:44:47.106 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2023-12-19 15:44:47.113 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2023-12-19 15:44:47.146 +07:00 [INF] Request finished in 39.2007ms 200 application/javascript; charset=utf-8
+2023-12-19 15:44:47.162 +07:00 [INF] Request finished in 51.2924ms 200 text/javascript; charset=UTF-8
+2023-12-19 15:44:47.226 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2023-12-19 15:44:47.456 +07:00 [INF] Request finished in 229.872ms 200 application/json;charset=utf-8
+2023-12-19 15:45:06.918 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/home/get-slider-images  
+2023-12-19 15:45:06.923 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/home/get-slider-images 
+QueryString:  
+Request Body:  
+
+2023-12-19 15:45:06.929 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-19 15:45:07.109 +07:00 [INF] Successfully validated the token.
+2023-12-19 15:45:07.118 +07:00 [INF] Authorization was successful.
+2023-12-19 15:45:07.121 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.HomeController.GetSliderImages (SSE.ServerAPI)'
+2023-12-19 15:45:07.147 +07:00 [INF] Route matched with {action = "GetSliderImages", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Common.DynamicResponse] GetSliderImages() on controller SSE_Server.Api.v1.Controllers.HomeController (SSE.ServerAPI).
+2023-12-19 15:45:07.667 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.HomeController.GetSliderImages (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-19 15:45:08.319 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.HomeController.GetSliderImages (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 644.5272ms.
+2023-12-19 15:45:08.328 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Common.DynamicResponse'.
+2023-12-19 15:45:08.377 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.HomeController.GetSliderImages (SSE.ServerAPI) in 1223.4373ms
+2023-12-19 15:45:08.380 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.HomeController.GetSliderImages (SSE.ServerAPI)'
+2023-12-19 15:45:08.383 +07:00 [INF] Request finished in 1465.1193ms 200 application/json; charset=utf-8
+2023-12-19 16:44:46.785 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-19 16:44:47.286 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-19 16:44:47.287 +07:00 [INF] Hosting environment: Development
+2023-12-19 16:44:47.289 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI
+2023-12-19 16:44:47.323 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2023-12-19 16:44:47.476 +07:00 [INF] Request finished in 154.9738ms 200 text/html;charset=utf-8
+2023-12-19 16:44:47.492 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2023-12-19 16:44:47.511 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2023-12-19 16:44:47.515 +07:00 [INF] Request finished in 22.4819ms 200 application/javascript; charset=utf-8
+2023-12-19 16:44:47.543 +07:00 [INF] Request finished in 35.7517ms 200 text/javascript; charset=UTF-8
+2023-12-19 16:44:47.611 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2023-12-19 16:44:47.843 +07:00 [INF] Request finished in 231.2565ms 200 application/json;charset=utf-8
+2023-12-19 16:48:44.092 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-19 16:48:44.539 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-19 16:48:44.541 +07:00 [INF] Hosting environment: Development
+2023-12-19 16:48:44.543 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI
+2023-12-19 16:48:44.575 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2023-12-19 16:48:44.732 +07:00 [INF] Request finished in 158.2506ms 200 text/html;charset=utf-8
+2023-12-19 16:48:44.748 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2023-12-19 16:48:44.764 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2023-12-19 16:48:44.770 +07:00 [INF] Request finished in 21.0539ms 200 application/javascript; charset=utf-8
+2023-12-19 16:48:44.806 +07:00 [INF] Request finished in 42.1689ms 200 text/javascript; charset=UTF-8
+2023-12-19 16:48:44.884 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2023-12-19 16:48:45.139 +07:00 [INF] Request finished in 255.4392ms 200 application/json;charset=utf-8
+2023-12-19 16:57:28.885 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/users/signin application/json 159
+2023-12-19 16:57:28.900 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/signin 
+QueryString:  
+Request Body: {
+    "hostId": "https://vtm-cloud.sse.net.vn",
+    "userName": "haanh",
+    "password": "123abc",
+    "devideToken": "",
+    "language": "V"  
+}
+
+
+
+ 
+
+2023-12-19 16:57:28.905 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-19 16:57:29.029 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI)'
+2023-12-19 16:57:29.065 +07:00 [INF] Route matched with {action = "Signin", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.SignInResponse] Signin(SSE.Common.Api.v1.Requests.User.SigninRequest) on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-19 16:57:29.534 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-19 16:57:29.819 +07:00 [INF] Entity Framework Core 3.1.7 initialized 'GlobalDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=1000 
+2023-12-19 16:57:30.426 +07:00 [INF] Executed DbCommand (67ms) [Parameters=[@__hostId_0='?' (Size = -1) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [d].[HostId], [d].[UserName], [d].[ServerName], [d].[SqlPassLogin], [d].[SqlUserLogin], [d].[SysDbName]
+FROM [DbSysInfo] AS [d]
+WHERE [d].[HostId] = @__hostId_0
+2023-12-19 16:57:31.619 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2078.4901ms.
+2023-12-19 16:57:31.627 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.SignInResponse'.
+2023-12-19 16:57:31.663 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI) in 2591.259ms
+2023-12-19 16:57:31.666 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI)'
+2023-12-19 16:57:31.671 +07:00 [INF] Request finished in 2787.8701ms 200 application/json; charset=utf-8
+2023-12-19 17:03:50.428 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/users/signin application/json 159
+2023-12-19 17:03:50.431 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/signin 
+QueryString:  
+Request Body: {
+    "hostId": "https://vtm-cloud.sse.net.vn",
+    "userName": "ADMIN",
+    "password": "123abc",
+    "devideToken": "",
+    "language": "V"  
+}
+
+
+
+ 
+
+2023-12-19 17:03:50.442 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI)'
+2023-12-19 17:03:50.444 +07:00 [INF] Route matched with {action = "Signin", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.SignInResponse] Signin(SSE.Common.Api.v1.Requests.User.SigninRequest) on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-19 17:03:50.564 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-19 17:03:50.590 +07:00 [INF] Entity Framework Core 3.1.7 initialized 'GlobalDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=1000 
+2023-12-19 17:03:50.725 +07:00 [INF] Executed DbCommand (24ms) [Parameters=[@__hostId_0='?' (Size = -1) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [d].[HostId], [d].[UserName], [d].[ServerName], [d].[SqlPassLogin], [d].[SqlUserLogin], [d].[SysDbName]
+FROM [DbSysInfo] AS [d]
+WHERE [d].[HostId] = @__hostId_0
+2023-12-19 17:03:51.617 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1051.6682ms.
+2023-12-19 17:03:51.619 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.SignInResponse'.
+2023-12-19 17:03:51.624 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI) in 1178.5385ms
+2023-12-19 17:03:51.626 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI)'
+2023-12-19 17:03:51.629 +07:00 [INF] Request finished in 1201.3613ms 200 application/json; charset=utf-8
+2023-12-19 17:31:57.243 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-19 17:31:57.661 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-19 17:31:57.663 +07:00 [INF] Hosting environment: Development
+2023-12-19 17:31:57.664 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI
+2023-12-19 17:31:57.692 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2023-12-19 17:31:57.833 +07:00 [INF] Request finished in 141.2154ms 200 text/html;charset=utf-8
+2023-12-19 17:31:57.837 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2023-12-19 17:31:57.855 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2023-12-19 17:31:57.861 +07:00 [INF] Request finished in 23.808ms 200 application/javascript; charset=utf-8
+2023-12-19 17:31:57.902 +07:00 [INF] Request finished in 46.8487ms 200 text/javascript; charset=UTF-8
+2023-12-19 17:31:57.966 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2023-12-19 17:31:58.249 +07:00 [INF] Request finished in 282.9961ms 200 application/json;charset=utf-8
+2023-12-19 17:33:32.233 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-19 17:33:32.672 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-19 17:33:32.675 +07:00 [INF] Hosting environment: Development
+2023-12-19 17:33:32.676 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI
+2023-12-19 17:33:32.704 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2023-12-19 17:33:32.847 +07:00 [INF] Request finished in 144.9672ms 200 text/html;charset=utf-8
+2023-12-19 17:33:32.875 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2023-12-19 17:33:32.881 +07:00 [INF] Request finished in 5.4299ms 200 application/javascript; charset=utf-8
+2023-12-19 17:33:32.883 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2023-12-19 17:33:32.900 +07:00 [INF] Request finished in 17.5945ms 200 text/javascript; charset=UTF-8
+2023-12-19 17:33:32.976 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2023-12-19 17:33:33.237 +07:00 [INF] Request finished in 261.9182ms 200 application/json;charset=utf-8

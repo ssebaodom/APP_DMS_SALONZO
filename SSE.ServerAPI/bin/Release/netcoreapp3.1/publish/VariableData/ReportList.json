@@ -1,0 +1,284 @@
+﻿[
+  {
+    "ReportId": "001001",
+    "ReportName": "Bảng kê bán hàng",
+    "SQLStoreName": "[app_rs_rptSalesInvoiceList]"
+  },
+  {
+    "ReportId": "001003",
+    "ReportName": "Báo cáo bán hàng 2 chỉ tiêu",
+    "SQLStoreName": "[app_rs_rptSalesSummaryByTwoCriteria]"
+  },
+  {
+    "ReportId": "001004",
+    "ReportName": "Báo cáo kế hoạch giao hàng",
+    "SQLStoreName": "[app_kehoachgiaohang]"
+  },
+  {
+    "ReportId": "001005",
+    "ReportName": "Báo cáo thống kê công đoạn",
+    "SQLStoreName": "[app_rpt_thongkecongdoan]"
+  },
+  {
+    "ReportId": "001006",
+    "ReportName": "Báo cáo số lượng hàng bán và dự trù",
+    "SQLStoreName": "[app_rs_rptTTandDT]"
+  },
+  {
+    "ReportId": "001007",
+    "ReportName": "Báo cáo bán hàng chi tiết theo mặt hàng",
+    "SQLStoreName": "[app_rs_rptSalesReportDetailedByItem]"
+  },
+  {
+    "ReportId": "001008",
+    "ReportName": "Báo cáo doanh số bán hàng",
+    "SQLStoreName": "[app_rptSalesdsList]"
+  },
+  {
+    "ReportId": "001009",
+    "ReportName": "Báo cáo xuất hàng sale out",
+    "SQLStoreName": "[App_rs_rptSaleout]"
+  },
+  {
+    "ReportId": "001010",
+    "ReportName": "Báo cáo doanh số/KPI",
+    "SQLStoreName": "[App_zcrs_rptSalesReportByObjects]"
+  },
+  {
+    "ReportId": "001011",
+    "ReportName": "Bảng kê bán hàng theo nhân viên",
+    "SQLStoreName": "[app_rs_rptSalesInvoiceList_bynvbh]"
+  },
+  {
+    "ReportId": "001012",
+    "ReportName": "Bảng kê công nợ phải thu theo hóa đơn",
+    "SQLStoreName": "[App_rs_rptReceivableReportByInvoice]"
+  },
+  {
+    "ReportId": "001013",
+    "ReportName": "Top mặt hàng bán chạy",
+    "SQLStoreName": "[app_rpt_topMaubannhieunhat]"
+  },
+  {
+    "ReportId": "001014",
+    "ReportName": "Top khách hàng mua nhiều nhất",
+    "SQLStoreName": "[app_rpt_topMaubannhieunhat2]"
+  },
+  {
+    "ReportId": "001015",
+    "ReportName": "Bảng kê chi tiết thu tiền theo các hóa đơn",
+    "SQLStoreName": "[App_rs_rptReceiptTransactionListByInvoice]"
+  },
+  {
+    "ReportId": "001016",
+    "ReportName": "Bảng kê công nợ theo hạn thanh toán",
+    "SQLStoreName": "[App_rs_rptReceivableAgingReportByInvoice]"
+  },
+  {
+    "ReportId": "001017",
+    "ReportName": "Tổng hợp doanh số qua kênh phân phối",
+    "SQLStoreName": "[app_rpt_ds_kenhphanphoi]"
+  },
+  {
+    "ReportId": "001018",
+    "ReportName": " Tổng hợp doanh số theo vùng , nhân viên , nhóm",
+    "SQLStoreName": "[app_rpt_ds_vung_nv_nh]"
+  },
+  {
+    "ReportId": "001019",
+    "ReportName": "Báo cáo sản lượng mặt hàng",
+    "SQLStoreName": "[app_rs_rptMonthSalesAnalysis_2]"
+  },
+  {
+    "ReportId": "001020",
+    "ReportName": " Tổng hợp doanh số theo tháng",
+    "SQLStoreName": "[app_rs_rptMonthSales_2]"
+  },
+  {
+    "ReportId": "001021",
+    "ReportName": "Tổng sản lượng theo từng mặt hàng",
+    "SQLStoreName": "[app_rs_Aggregate_output_by_item]"
+  },
+  {
+    "ReportId": "001022",
+    "ReportName": "Theo dõi thực hiện doanh số,doanh thu TDV",
+    "SQLStoreName": "[app_rs_rptSummarizeSales_of_PharmacistsbyMQYEAR]"
+  },
+  {
+    "ReportId": "001023",
+    "ReportName": "Báo cáo độ phủ",
+    "SQLStoreName": "[app_rs_rptRapport_de_Couverture]"
+  },
+  {
+    "ReportId": "001024",
+    "ReportName": "Chương trình trả thưởng theo hợp đồng",
+    "SQLStoreName": "[app_zcrs_rptMultiPeriodSalesAnalysis]"
+  },
+  {
+    "ReportId": "001025",
+    "ReportName": "Báo cáo doanh số theo khách hàng , theo vùng",
+    "SQLStoreName": "[app_rpdoanhsoCustomer_tv]"
+  },
+  {
+    "ReportId": "001026",
+    "ReportName": "Tổng hợp doanh số theo vùng , nhân viên",
+    "SQLStoreName": "[app_rpt_Salesbyregion]"
+  },
+  {
+    "ReportId": "001027",
+    "ReportName": "Báo cáo doanh số theo vụ việc",
+    "SQLStoreName": "[app_rs_rptSalesSummaryByThreeCriteriavv]"
+  },
+  {
+    "ReportId": "001028",
+    "ReportName": "Báo cáo khách hàng lâu không lấy hàng",
+    "SQLStoreName": "[app_rs_rptCustomerLongTimeNoPurchase]"
+  },
+  {
+    "ReportId": "001029",
+    "ReportName": "Danh sách khách hàng sinh nhật",
+    "SQLStoreName": "[app_rs_rptSinhNhatKhach]"
+  },
+  {
+    "ReportId": "001030",
+    "ReportName": "Sổ tổng hợp công nợ phải thu 131 của khách hàng (HP)",
+    "SQLStoreName": "[app_zc_socn]"
+  },
+  {
+    "ReportId": "002001",
+    "ReportName": "Báo cáo tồn kho",
+    "SQLStoreName": "[app_rs_rptStockReport]"
+  },
+  {
+    "ReportId": "002002",
+    "ReportName": "Báo cáo tồn theo kho",
+    "SQLStoreName": "[app_rs_rptStockBySite]"
+  },
+  {
+    "ReportId": "002003",
+    "ReportName": "Tổng hợp NXT",
+    "SQLStoreName": "[app_rs_rptStockSummary]"
+  },
+  {
+    "ReportId": "002004",
+    "ReportName": "Báo cáo tồn kho đại lý",
+    "SQLStoreName": "[App_rs_rptdealerStockReport]"
+  },
+  {
+    "ReportId": "002005",
+    "ReportName": "Báo cáo tồn khả dụng",
+    "SQLStoreName": "[App_rs_rptStockUnabledReport]"
+  },
+  {
+    "ReportId": "002006",
+    "ReportName": "Tổng hợp nhập xuất tồn theo lô",
+    "SQLStoreName": "[app_rs_rptStockSummaryByLot]"
+  },
+  {
+    "ReportId": "003001",
+    "ReportName": "Bảng cân đối phát sinh các tài khoản",
+    "SQLStoreName": "[app_rs_rptTrialBalance]"
+  },
+  {
+    "ReportId": "003002",
+    "ReportName": "Bảng cân đối kế toán",
+    "SQLStoreName": "[app_rs_rptBalanceSheet]"
+  },
+  {
+    "ReportId": "003003",
+    "ReportName": "Báo cáo kết quả SXKD",
+    "SQLStoreName": "[app_rs_rptIncomeStatement]"
+  },
+  {
+    "ReportId": "004001",
+    "ReportName": "Sổ quỹ",
+    "SQLStoreName": "[app_rs_rptCashBook]"
+  },
+  //NAFACO
+  {
+    "ReportId": "004002",
+    "ReportName": "Báo cáo tiền hàng ngày",
+    "SQLStoreName": "[app_rs_rptCongNoTheoKH]"
+  },
+  {
+    "ReportId": "004003",
+    "ReportName": " Công nợ theo nhân viên",
+    "SQLStoreName": "[App_rs_rptSalesEmployeesBalance]"
+  },
+  {
+    "ReportId": "004004",
+    "ReportName": "Sổ nhật ký chi tiền",
+    "SQLStoreName": "[app_rs_rptCashDisbursementJournal]"
+  },
+  {
+    "ReportId": "004005",
+    "ReportName": "Sổ nhật ký thu tiền",
+    "SQLStoreName": "[App_rs_rptCashReceiptJournal]"
+  },
+
+  ///Báo cáo Khách Hàng
+  {
+    "ReportId": "005001",
+    "ReportName": "Danh sách khách hàng nhân viên quản lý",
+    "SQLStoreName": "[App_rs_rptCustomerManagedBySaleEmployee]"
+  },
+  {
+    "ReportId": "005002",
+    "ReportName": "Báo cáo công việc chưa hoàn thành",
+    "SQLStoreName": "[App_rs_rptCustomerNotCheckin]"
+  },
+  {
+    "ReportId": "005003",
+    "ReportName": "Báo cáo tình trạng khách hàng",
+    "SQLStoreName": "[App_rs_rptSTATUSCUSTOMERREPORTS]"
+  },
+
+  {
+    "ReportId": "005004",
+    "ReportName": "Báo cáo khách hàng chưa viếng thăm",
+    "SQLStoreName": "[App_rs_rptCustomerNotCheckinByCustomer]"
+  },
+  ///Báo cáo NV
+
+  {
+    "ReportId": "006001",
+    "ReportName": "Báo cáo công nhân viên",
+    "SQLStoreName": "[App_rpt_timekeeping_by_customer]"
+  },
+  {
+    "ReportId": "006002",
+    "ReportName": "Báo cáo tổng hợp tháng",
+    "SQLStoreName": "[app_rpt_ReportForMonthByEmployee]"
+  },
+  {
+    "ReportId": "006003",
+    "ReportName": "Báo cáo bán hàng theo mặt hàng",
+    "SQLStoreName": "[app_rs_rptsalesbyitem]"
+  },
+  {
+    "ReportId": "006004",
+    "ReportName": "Báo cáo bán hàng theo khách hàng",
+    "SQLStoreName": "[App_rs_rptSalesByCustomer]"
+  },
+  {
+    "ReportId": "006005",
+    "ReportName": "Báo cáo bán hàng theo nhân viên",
+    "SQLStoreName": "[App_rs_rptSalesByStaff]"
+  },
+  {
+    "ReportId": "006006",
+    "ReportName": "Báo cáo KPI",
+    "SQLStoreName": "[App_rpt_KPI]"
+  }
+  ,
+  {
+    "ReportId": "006007",
+    "ReportName": "Báo cáo tình trạng bán hàng",
+    "SQLStoreName": "[app_sp_statussale]"
+  },
+  {
+    "ReportId": "006008",
+    "ReportName": "Báo cáo viếng thăm",
+    "SQLStoreName": "[App_rs_rpt_vieng_tham]"
+  }
+]

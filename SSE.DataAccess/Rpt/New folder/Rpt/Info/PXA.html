@@ -1,0 +1,52 @@
+
+<div style="width: 800px;border: 1px solid black;padding: 1em;font-size: 14px;margin-bottom: 3px;" >
+    <div style="width: 800px;">
+        <div style="width: 800px;text-align: center;margin-bottom: 2em;">
+            <span style="font-weight:800 ;font-family: 'Times New Roman', Times, seri;font-size: 23px;">PHIẾU NHẬP KHO </p>
+        </div>
+        <table style="width: 800px;">
+            <tr style="width: 800px;">
+                <th >
+                    <div style="text-align: left;">
+                        <div style="margin-bottom:0.5em"><span style="font-weight:400 ;">Số: {{master.ngay_ct}}</span></div>
+                            
+                        <div style="margin-bottom:0.5em"><span style="font-weight:400 ;">Mã khách: {{master.so_ct}} </span></div>
+						<div style="margin-bottom:0.5em"><span style="font-weight:400 ;">Tổ: {{master.fcode1}} </span></div>
+						<div style="margin-bottom:0.5em"><span style="font-weight:400 ;">Diễn giải: {{master.dien_giai}} </span></div>
+                    </div>       
+                </th>
+            </tr>
+        </table>
+    </div>
+    <table  style="width: 800px;text-align: center;border-collapse: collapse; border: 1px solid #101010;margin-bottom: 0px; ">
+        <tr >
+            <th colspan="2" rowspan="2" style="background-color: #cad8fa;border: 1px solid #101010;min-height: 32px;"><span>Mã vật tư</span></th>
+            <th colspan="9" rowspan="2" style="background-color: #cad8fa;border: 1px solid #101010;min-height: 32px;"><span>Tên vật tư</span></th>
+            <th colspan="1" rowspan="2" style="background-color: #cad8fa;border: 1px solid #101010;min-height: 32px;"><span>Đvt </span></th>
+            <th colspan="2" style="background-color: #cad8fa;border: 1px solid #101010;min-height: 32px;"><span>Số lượng theo </span></th>
+            <th colspan="1" rowspan="2" style="background-color: #cad8fa;border: 1px solid #101010;min-height: 32px;"><span>Giá </span></th>
+            <th colspan="1" rowspan="2" style="background-color: #cad8fa;border: 1px solid #101010;min-height: 32px;"><span>Tiền</span></th>
+        </tr>
+		<tr >
+            <th colspan="1" style="background-color: #cad8fa;border: 1px solid #101010;min-height: 32px;"><span>Chứng từ </span></th>
+            <th colspan="1" style="background-color: #cad8fa;border: 1px solid #101010;min-height: 32px;"><span>Thực nhập</span></th>
+        </tr>
+        ---detailData---
+    </table>
+    
+    <table style="width: 800px;text-align: center;border-collapse: collapse; border: 1px solid #101010;margin-bottom: 0.5em; ">
+        <tr style="width: 800px;">
+            <th style="border-left: 1px solid #101010;border-bottom: 1px dotted black;" colspan="20" style="padding-left: 2px;text-align: right;"><span> Tổng cộng</span></th>
+            <th style="border-left: 1px solid #101010;border-bottom: 1px dotted black;text-align: right;" colspan="4" style="padding-left: 2px;text-align: right;"><span>{{master.t_so_luong}}</span></th>
+        </tr>
+		<tr style="width: 800px;">
+            <th style="border-left: 1px solid #101010;border-bottom: 1px dotted black;" colspan="20" style="padding-left: 2px;text-align: right;"><span> Thành tiền</span></th>
+            <th style="border-left: 1px solid #101010;border-bottom: 1px dotted black;text-align: right;" colspan="4" style="padding-left: 2px;text-align: right;"><span>{{master.t_tien_nt}}</span></th>
+        </tr>
+        
+    </table>
+    <div>
+        <div style="margin-bottom:1em; margin-top:1em;"><span style="font-weight:400 ;">Trạng thái: {{master.u_status_name}}</span></div>
+        <div style="margin-bottom:1em"><span style="font-weight:400 ;">Lý do duyệt: {{master.ghi_chu}}</span></div>
+    </div>
+</div>

@@ -1,0 +1,21 @@
+{
+  "vc": "64", /// Kim nguu => 69 - c�c b�n kh�c l� 64
+  "code": "DXA", /// Kim nguu => DMS - c�c b�n kh�c l� DXA
+  "t_ck_nt": "t_ck_nt",
+  "t_ck": "t_ck",
+  "tl_ck": "tl_ck",
+  "ma_ck_i": "ma_ck",
+  "km_yn": "km_yn",
+  "table_sale_out": "66" /// Kim nguu => 103 - c�c b�n kh�c l� 66
+}
+
+/// - Minh Khai
+
+//{
+//  "vc": "815",
+//  "code": "HDB",
+//  "t_ck": "t_ck_tt_nt",
+//  "tl_ck": "tl_ck",
+//  "ma_ck_i": "ma_ck_i",
+//  "km_yn": "km_yn"
+//}

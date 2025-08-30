@@ -1,0 +1,24 @@
+2024-01-26 16:39:09.626 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-26 16:39:10.526 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-26 16:39:10.528 +07:00 [INF] Hosting environment: Development
+2024-01-26 16:39:10.532 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.ServerAPI
+2024-01-26 16:39:10.564 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2024-01-26 16:39:10.871 +07:00 [INF] Request finished in 307.9823ms 200 text/html;charset=utf-8
+2024-01-26 16:39:10.920 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2024-01-26 16:39:10.920 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2024-01-26 16:39:10.951 +07:00 [INF] Request finished in 30.2619ms 200 application/javascript; charset=utf-8
+2024-01-26 16:39:11.034 +07:00 [INF] Request finished in 113.2785ms 200 text/javascript; charset=UTF-8
+2024-01-26 16:39:11.104 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2024-01-26 16:39:11.407 +07:00 [INF] Request finished in 302.5613ms 200 application/json;charset=utf-8
+2024-01-26 18:00:02.704 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-26 18:00:03.175 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-26 18:00:03.177 +07:00 [INF] Hosting environment: Development
+2024-01-26 18:00:03.178 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.ServerAPI
+2024-01-26 18:00:03.209 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2024-01-26 18:00:03.363 +07:00 [INF] Request finished in 152.6281ms 200 text/html;charset=utf-8
+2024-01-26 18:00:03.368 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2024-01-26 18:00:03.383 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2024-01-26 18:00:03.390 +07:00 [INF] Request finished in 22.5453ms 200 application/javascript; charset=utf-8
+2024-01-26 18:00:03.426 +07:00 [INF] Request finished in 42.6116ms 200 text/javascript; charset=UTF-8
+2024-01-26 18:00:03.491 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2024-01-26 18:00:03.724 +07:00 [INF] Request finished in 232.3715ms 200 application/json;charset=utf-8

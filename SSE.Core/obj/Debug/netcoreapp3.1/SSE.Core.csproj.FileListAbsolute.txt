@@ -1,0 +1,104 @@
+E:\Version 1.0.0\Version 1.0.0\SSE.Core\bin\Debug\netcoreapp3.1\SSE.Core.deps.json
+E:\Version 1.0.0\Version 1.0.0\SSE.Core\bin\Debug\netcoreapp3.1\SSE.Core.runtimeconfig.json
+E:\Version 1.0.0\Version 1.0.0\SSE.Core\bin\Debug\netcoreapp3.1\SSE.Core.runtimeconfig.dev.json
+E:\Version 1.0.0\Version 1.0.0\SSE.Core\bin\Debug\netcoreapp3.1\SSE.Core.dll
+E:\Version 1.0.0\Version 1.0.0\SSE.Core\bin\Debug\netcoreapp3.1\SSE.Core.pdb
+E:\Version 1.0.0\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.csproj.AssemblyReference.cache
+E:\Version 1.0.0\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Version 1.0.0\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.AssemblyInfoInputs.cache
+E:\Version 1.0.0\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.AssemblyInfo.cs
+E:\Version 1.0.0\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.csproj.CoreCompileInputs.cache
+E:\Version 1.0.0\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.dll
+E:\Version 1.0.0\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.pdb
+E:\Version 1.0.0\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.genruntimeconfig.cache
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.Core\bin\Debug\netcoreapp3.1\SSE.Core.deps.json
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.Core\bin\Debug\netcoreapp3.1\SSE.Core.runtimeconfig.json
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.Core\bin\Debug\netcoreapp3.1\SSE.Core.runtimeconfig.dev.json
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.Core\bin\Debug\netcoreapp3.1\SSE.Core.dll
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.Core\bin\Debug\netcoreapp3.1\SSE.Core.pdb
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.csproj.AssemblyReference.cache
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.AssemblyInfoInputs.cache
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.AssemblyInfo.cs
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.csproj.CoreCompileInputs.cache
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.dll
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.pdb
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.genruntimeconfig.cache
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.Core\bin\Debug\netcoreapp3.1\SSE.Core.deps.json
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.Core\bin\Debug\netcoreapp3.1\SSE.Core.runtimeconfig.json
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.Core\bin\Debug\netcoreapp3.1\SSE.Core.runtimeconfig.dev.json
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.Core\bin\Debug\netcoreapp3.1\SSE.Core.dll
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.Core\bin\Debug\netcoreapp3.1\SSE.Core.pdb
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.csproj.AssemblyReference.cache
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.AssemblyInfoInputs.cache
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.AssemblyInfo.cs
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.csproj.CoreCompileInputs.cache
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.dll
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.pdb
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.genruntimeconfig.cache
+F:\Project2023\API\DMS\Version 1.0.0\SSE.Core\bin\Debug\netcoreapp3.1\SSE.Core.deps.json
+F:\Project2023\API\DMS\Version 1.0.0\SSE.Core\bin\Debug\netcoreapp3.1\SSE.Core.runtimeconfig.json
+F:\Project2023\API\DMS\Version 1.0.0\SSE.Core\bin\Debug\netcoreapp3.1\SSE.Core.runtimeconfig.dev.json
+F:\Project2023\API\DMS\Version 1.0.0\SSE.Core\bin\Debug\netcoreapp3.1\SSE.Core.dll
+F:\Project2023\API\DMS\Version 1.0.0\SSE.Core\bin\Debug\netcoreapp3.1\SSE.Core.pdb
+F:\Project2023\API\DMS\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\Project2023\API\DMS\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.AssemblyInfoInputs.cache
+F:\Project2023\API\DMS\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.AssemblyInfo.cs
+F:\Project2023\API\DMS\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.csproj.CoreCompileInputs.cache
+F:\Project2023\API\DMS\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.dll
+F:\Project2023\API\DMS\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.pdb
+F:\Project2023\API\DMS\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.genruntimeconfig.cache
+F:\Project2023\API\DMS\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.csproj.AssemblyReference.cache
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.Core\bin\Debug\netcoreapp3.1\SSE.Core.deps.json
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.Core\bin\Debug\netcoreapp3.1\SSE.Core.runtimeconfig.json
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.Core\bin\Debug\netcoreapp3.1\SSE.Core.runtimeconfig.dev.json
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.Core\bin\Debug\netcoreapp3.1\SSE.Core.dll
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.Core\bin\Debug\netcoreapp3.1\SSE.Core.pdb
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.csproj.AssemblyReference.cache
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.AssemblyInfoInputs.cache
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.AssemblyInfo.cs
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.csproj.CoreCompileInputs.cache
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.dll
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.pdb
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.genruntimeconfig.cache
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.Core\bin\Debug\netcoreapp3.1\SSE.Core.deps.json
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.Core\bin\Debug\netcoreapp3.1\SSE.Core.runtimeconfig.json
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.Core\bin\Debug\netcoreapp3.1\SSE.Core.runtimeconfig.dev.json
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.Core\bin\Debug\netcoreapp3.1\SSE.Core.dll
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.Core\bin\Debug\netcoreapp3.1\SSE.Core.pdb
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.csproj.AssemblyReference.cache
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.AssemblyInfoInputs.cache
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.AssemblyInfo.cs
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.csproj.CoreCompileInputs.cache
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.dll
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.pdb
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.genruntimeconfig.cache
+F:\Project2023\API\DMS\Salonzo - Copy\Salonzo - Copy\Version 1.0.0\SSE.Core\bin\Debug\netcoreapp3.1\SSE.Core.deps.json
+F:\Project2023\API\DMS\Salonzo - Copy\Salonzo - Copy\Version 1.0.0\SSE.Core\bin\Debug\netcoreapp3.1\SSE.Core.runtimeconfig.json
+F:\Project2023\API\DMS\Salonzo - Copy\Salonzo - Copy\Version 1.0.0\SSE.Core\bin\Debug\netcoreapp3.1\SSE.Core.runtimeconfig.dev.json
+F:\Project2023\API\DMS\Salonzo - Copy\Salonzo - Copy\Version 1.0.0\SSE.Core\bin\Debug\netcoreapp3.1\SSE.Core.dll
+F:\Project2023\API\DMS\Salonzo - Copy\Salonzo - Copy\Version 1.0.0\SSE.Core\bin\Debug\netcoreapp3.1\SSE.Core.pdb
+F:\Project2023\API\DMS\Salonzo - Copy\Salonzo - Copy\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.csproj.AssemblyReference.cache
+F:\Project2023\API\DMS\Salonzo - Copy\Salonzo - Copy\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\Project2023\API\DMS\Salonzo - Copy\Salonzo - Copy\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.AssemblyInfoInputs.cache
+F:\Project2023\API\DMS\Salonzo - Copy\Salonzo - Copy\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.AssemblyInfo.cs
+F:\Project2023\API\DMS\Salonzo - Copy\Salonzo - Copy\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.csproj.CoreCompileInputs.cache
+F:\Project2023\API\DMS\Salonzo - Copy\Salonzo - Copy\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.dll
+F:\Project2023\API\DMS\Salonzo - Copy\Salonzo - Copy\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.pdb
+F:\Project2023\API\DMS\Salonzo - Copy\Salonzo - Copy\Version 1.0.0\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.genruntimeconfig.cache
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.Core\bin\Debug\netcoreapp3.1\SSE.Core.deps.json
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.Core\bin\Debug\netcoreapp3.1\SSE.Core.runtimeconfig.json
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.Core\bin\Debug\netcoreapp3.1\SSE.Core.runtimeconfig.dev.json
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.Core\bin\Debug\netcoreapp3.1\SSE.Core.dll
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.Core\bin\Debug\netcoreapp3.1\SSE.Core.pdb
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.csproj.AssemblyReference.cache
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.AssemblyInfoInputs.cache
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.AssemblyInfo.cs
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.csproj.CoreCompileInputs.cache
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.dll
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.pdb
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.Core\obj\Debug\netcoreapp3.1\SSE.Core.genruntimeconfig.cache

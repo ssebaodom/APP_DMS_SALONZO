@@ -1,0 +1,136 @@
+E:\Version 1.0.0\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\VariableData\ReportList.json
+E:\Version 1.0.0\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Common.deps.json
+E:\Version 1.0.0\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Common.runtimeconfig.json
+E:\Version 1.0.0\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Common.runtimeconfig.dev.json
+E:\Version 1.0.0\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Common.dll
+E:\Version 1.0.0\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Common.pdb
+E:\Version 1.0.0\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Core.dll
+E:\Version 1.0.0\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Core.pdb
+E:\Version 1.0.0\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.csproj.AssemblyReference.cache
+E:\Version 1.0.0\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\Version 1.0.0\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.AssemblyInfoInputs.cache
+E:\Version 1.0.0\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.AssemblyInfo.cs
+E:\Version 1.0.0\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.csproj.CoreCompileInputs.cache
+E:\Version 1.0.0\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.csproj.CopyComplete
+E:\Version 1.0.0\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.dll
+E:\Version 1.0.0\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.pdb
+E:\Version 1.0.0\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.genruntimeconfig.cache
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\VariableData\ReportList.json
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Common.deps.json
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Common.runtimeconfig.json
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Common.runtimeconfig.dev.json
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Common.dll
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Common.pdb
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Core.dll
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Core.pdb
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.csproj.AssemblyReference.cache
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.GeneratedMSBuildEditorConfig.editorconfig
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.AssemblyInfoInputs.cache
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.AssemblyInfo.cs
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.csproj.CoreCompileInputs.cache
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.csproj.CopyComplete
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.dll
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.pdb
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.genruntimeconfig.cache
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\VariableData\ReportList.json
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Common.deps.json
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Common.runtimeconfig.json
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Common.runtimeconfig.dev.json
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Common.dll
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Common.pdb
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Core.dll
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Core.pdb
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.csproj.AssemblyReference.cache
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.GeneratedMSBuildEditorConfig.editorconfig
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.AssemblyInfoInputs.cache
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.AssemblyInfo.cs
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.csproj.CoreCompileInputs.cache
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.csproj.CopyComplete
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.dll
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.pdb
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.genruntimeconfig.cache
+F:\Project2023\API\DMS\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\VariableData\ReportList.json
+F:\Project2023\API\DMS\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Common.deps.json
+F:\Project2023\API\DMS\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Common.runtimeconfig.json
+F:\Project2023\API\DMS\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Common.runtimeconfig.dev.json
+F:\Project2023\API\DMS\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Common.dll
+F:\Project2023\API\DMS\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Common.pdb
+F:\Project2023\API\DMS\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Core.dll
+F:\Project2023\API\DMS\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Core.pdb
+F:\Project2023\API\DMS\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.csproj.AssemblyReference.cache
+F:\Project2023\API\DMS\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.GeneratedMSBuildEditorConfig.editorconfig
+F:\Project2023\API\DMS\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.AssemblyInfoInputs.cache
+F:\Project2023\API\DMS\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.AssemblyInfo.cs
+F:\Project2023\API\DMS\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.csproj.CoreCompileInputs.cache
+F:\Project2023\API\DMS\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.csproj.CopyComplete
+F:\Project2023\API\DMS\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.dll
+F:\Project2023\API\DMS\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.pdb
+F:\Project2023\API\DMS\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.genruntimeconfig.cache
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\VariableData\ReportList.json
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Common.deps.json
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Common.runtimeconfig.json
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Common.runtimeconfig.dev.json
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Common.dll
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Common.pdb
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Core.dll
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Core.pdb
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.csproj.AssemblyReference.cache
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.GeneratedMSBuildEditorConfig.editorconfig
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.AssemblyInfoInputs.cache
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.AssemblyInfo.cs
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.csproj.CoreCompileInputs.cache
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.csproj.CopyComplete
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.dll
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.pdb
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.genruntimeconfig.cache
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\VariableData\ReportList.json
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Common.deps.json
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Common.runtimeconfig.json
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Common.runtimeconfig.dev.json
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Common.dll
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Common.pdb
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Core.dll
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Core.pdb
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.csproj.AssemblyReference.cache
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.GeneratedMSBuildEditorConfig.editorconfig
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.AssemblyInfoInputs.cache
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.AssemblyInfo.cs
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.csproj.CoreCompileInputs.cache
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.csproj.CopyComplete
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.dll
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.pdb
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.genruntimeconfig.cache
+F:\Project2023\API\DMS\Salonzo - Copy\Salonzo - Copy\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\VariableData\ReportList.json
+F:\Project2023\API\DMS\Salonzo - Copy\Salonzo - Copy\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Common.deps.json
+F:\Project2023\API\DMS\Salonzo - Copy\Salonzo - Copy\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Common.runtimeconfig.json
+F:\Project2023\API\DMS\Salonzo - Copy\Salonzo - Copy\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Common.runtimeconfig.dev.json
+F:\Project2023\API\DMS\Salonzo - Copy\Salonzo - Copy\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Common.dll
+F:\Project2023\API\DMS\Salonzo - Copy\Salonzo - Copy\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Common.pdb
+F:\Project2023\API\DMS\Salonzo - Copy\Salonzo - Copy\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Core.dll
+F:\Project2023\API\DMS\Salonzo - Copy\Salonzo - Copy\Version 1.0.0\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Core.pdb
+F:\Project2023\API\DMS\Salonzo - Copy\Salonzo - Copy\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.csproj.AssemblyReference.cache
+F:\Project2023\API\DMS\Salonzo - Copy\Salonzo - Copy\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.GeneratedMSBuildEditorConfig.editorconfig
+F:\Project2023\API\DMS\Salonzo - Copy\Salonzo - Copy\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.AssemblyInfoInputs.cache
+F:\Project2023\API\DMS\Salonzo - Copy\Salonzo - Copy\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.AssemblyInfo.cs
+F:\Project2023\API\DMS\Salonzo - Copy\Salonzo - Copy\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.csproj.CoreCompileInputs.cache
+F:\Project2023\API\DMS\Salonzo - Copy\Salonzo - Copy\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.csproj.CopyComplete
+F:\Project2023\API\DMS\Salonzo - Copy\Salonzo - Copy\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.dll
+F:\Project2023\API\DMS\Salonzo - Copy\Salonzo - Copy\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.pdb
+F:\Project2023\API\DMS\Salonzo - Copy\Salonzo - Copy\Version 1.0.0\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.genruntimeconfig.cache
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.Common\bin\Debug\netcoreapp3.1\VariableData\ReportList.json
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Common.deps.json
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Common.runtimeconfig.json
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Common.runtimeconfig.dev.json
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Common.dll
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Common.pdb
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Core.dll
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.Common\bin\Debug\netcoreapp3.1\SSE.Core.pdb
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.csproj.AssemblyReference.cache
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.GeneratedMSBuildEditorConfig.editorconfig
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.AssemblyInfoInputs.cache
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.AssemblyInfo.cs
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.csproj.CoreCompileInputs.cache
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.csproj.CopyComplete
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.dll
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.pdb
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.Common\obj\Debug\netcoreapp3.1\SSE.Common.genruntimeconfig.cache

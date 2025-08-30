@@ -1,0 +1,80 @@
+<html>
+<head>
+    <style>
+        .reporttitle{
+            width: 100%;
+            text-align: center;
+            font-size: 17px;
+            font-weight: 700;
+            font-family: system-ui;
+            margin-bottom: 3em;
+        }
+        .master{
+            width: 100%;
+        }
+        .field{
+            width: 100%;
+            margin-bottom: 0.75em;
+            display: flex;
+        }
+        .title{
+            width: 30%;
+            padding-right: 1em; 
+        }
+        .value{
+            width: 70%;
+            padding-left: 1em;
+        }
+        .detail{
+            width: 100%;
+            text-align: center;
+        }
+        .root{
+            width: 700px;
+            border: 1px solid black;
+            padding: 1em;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="root" >
+        <div class="reporttitle" >
+            <span>Đơn hàng bán chờ duyệt</span>
+        </div>
+        <div class="master">
+            <div class="field">
+                <div class="title"><span>Số đơn hàng</span></div>
+                <div class="value"><span>MPS.SO056</span></div>
+            </div>
+            <div class="field">
+                <div class="title"><span>Ngày</span></div>
+                <div class="value"><span>01/01/2020</span></div>
+            </div>
+            <div class="field">
+                <div class="title"><span>Khách hàng</span></div>
+                <div class="value"><span>Công ty TNHH Aeon</span></div>
+            </div>
+            <div class="field">
+                <div class="title"><span>diễn giải</span></div>
+                <div class="value"><span>Công ty TNHH Aeon</span></div>
+            </div>
+        </div>
+        <table class="detail">
+            <tr class="header-row">
+                <th class="column"><span>Đvt</span></th>
+                <th class="column"><span>Số lượng</span></th>
+                <th class="column"><span>Đơn giá</span></th>
+                <th class="column"><span>thành tiền</span></th>
+            </tr>
+            <tr class="row">
+                <td class="column"><span>pcs</span></td>
+                <td class="column"><span>1.00</span></td>
+                <td class="column"><span>2000 000</span></td>
+                <td class="column"><span>2000 000</span></td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>

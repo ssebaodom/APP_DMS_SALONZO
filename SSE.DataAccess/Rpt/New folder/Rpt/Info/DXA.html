@@ -1,0 +1,95 @@
+
+<div style="width: 800px;border: 1px solid black;padding: 1em;font-size: 14px;margin-bottom: 10px;" >
+    <div style="width: 800px;">
+        <div style="width: 800px;text-align: center;margin-bottom: 2em;">
+            <span style="font-weight:800 ;font-family: 'Times New Roman', Times, seri;font-size: 23px;">ĐƠN HÀNG </p>
+        </div>
+        <table style="width: 800px;">
+            <tr style="width: 800px;">
+                <th >
+                    <div style="text-align: left;">
+                        
+                    </div>       
+                </th>
+                <th style="padding-left: 2px;">
+                    <div style="text-align: right;">
+                        <div style="margin-bottom:0.5em"><span style="font-weight:400 ;">Ngày đơn hàng: {{master.ngay_ct}}</span></div>
+                            
+                        <div style="margin-bottom:0.5em"><span style="font-weight:400 ;">Số đơn hàng: {{master.so_ct}} </span></div>
+                    </div>
+                </th>
+            </tr>
+        </table>
+        <table style="width: 800px;margin-bottom: 0.5em;">
+            <tr style="width: 800px;">
+                <th style="padding-right: 2px;text-align: left;">
+                    <div style="border: 1px solid black;padding: 0.25em;min-height: 150px;">
+                        <div style="font-weight:600 ;">Nhà cung cấp</div>
+                        <div style="margin-left: 2px;font-weight: normal;"><span style="font-weight:400 ;">{{master.ten_kh}}</span></div>
+                    </div>
+    
+                </th>
+                <th style="padding-left: 2px;text-align: left;">
+                    <div style="border: 1px solid black;padding: 0.25em;min-height: 150px;">
+                        <div style="font-weight:600 ;">Nơi nhận</div>
+                        <div style="margin-left: 7px;font-weight: normal;">
+                            <span style="font-weight:400 ;">&nbsp;</span>
+                        </div>
+                    </div>
+                </th>
+            </tr>
+        </table>
+		<table  style="width: 800px;text-align: center;border-collapse: collapse; border: 1px solid #101010;margin-bottom: 0.5em; ">
+			<tr>
+				<th colspan="3" style="background-color: #cad8fa;border: 1px solid #101010;min-height: 32px;"><span>Nhân viên bán hàng </span></th>
+				<th colspan="4" style="background-color: #cad8fa;border: 1px solid #101010;min-height: 32px;"><span>Phương thức vận chuyển</span></th>
+				<th colspan="1" style="background-color: #cad8fa;border: 1px solid #101010;min-height: 32px;"><span>Ngày giao </span></th>
+				<th colspan="3" style="background-color: #cad8fa;border: 1px solid #101010;min-height: 32px;"><span>Hạn thanh toán </span></th>
+				<th colspan="1" style="background-color: #cad8fa;border: 1px solid #101010;min-height: 32px;"><span>Ngày</span></th>
+			</tr>
+			<tr>
+				<td colspan="3" style="border: 1px solid #101010;min-height: 32px;"><span>{{master.ten_nvbh}}</span></td>
+				<td colspan="4" style="border: 1px solid #101010;min-height: 32px;"><span>&nbsp;</span></td>
+				<td colspan="1" style="border: 1px solid #101010;min-height: 32px;"><span>&nbsp;</span></td>
+				<td colspan="3" style="border: 1px solid #101010;min-height: 32px;"><span>{{master.ten_tt}}&nbsp;</span></td>
+				<td colspan="1" style="border: 1px solid #101010;min-height: 32px;"><span>&nbsp;</span></td>
+			</tr>
+		</table>
+    </div>
+    <table  style="width: 800px;text-align: center;border-collapse: collapse; border: 1px solid #101010;margin-bottom: 0px; ">
+        <tr >
+            <th colspan="3" style="background-color: #cad8fa;border: 1px solid #101010;min-height: 32px;"><span>Mã hàng</span></th>
+            <th colspan="9" style="background-color: #cad8fa;border: 1px solid #101010;min-height: 32px;"><span>Tên mặt hàng</span></th>
+            <th colspan="2" style="background-color: #cad8fa;border: 1px solid #101010;min-height: 32px;"><span>Đvt</span></th>
+            <th colspan="3" style="background-color: #cad8fa;border: 1px solid #101010;min-height: 32px;"><span>Số lượng </span></th>
+            <th colspan="3" style="background-color: #cad8fa;border: 1px solid #101010;min-height: 32px;"><span>Giá </span></th>
+            <th colspan="4" style="background-color: #cad8fa;border: 1px solid #101010;min-height: 32px;"><span>Chiết khấu</span></th>
+            <th colspan="4" style="background-color: #cad8fa;border: 1px solid #101010;min-height: 32px;"><span>Tiền</span></th>
+        </tr>
+        ---detailData---
+    </table>
+  
+    <table style="width: 800px;text-align: center;border-collapse: collapse; border: 1px solid #101010;margin-bottom: 0.5em; ">
+        <tr style="width: 800px;">
+            <th style="border-left: 1px solid #101010;border-bottom: 1px dotted black;" colspan="20" style="padding-left: 2px;text-align: right;"><span> Tổng chiết khấu</span></th>
+            <th style="border-left: 1px solid #101010;border-bottom: 1px dotted black;text-align: right;" colspan="4" style="padding-left: 2px;text-align: right;"><span>{{master.t_ck_nt}}</span></th>
+			<th style="border-left: 1px solid #101010;border-bottom: 1px dotted black;text-align: right;" colspan="4" style="padding-left: 2px;text-align: right;"><span>&nbsp;</span></th>
+        </tr>
+        <tr style="width: 800px;">
+            <th style="border-left: 1px solid #101010;border-bottom: 1px dotted black;" colspan="24" style="padding-left: 2px;text-align: right;"><span> Tổng cộng trước thuế</span></th>
+            <th style="border-left: 1px solid #101010;border-bottom: 1px dotted black;text-align: right;" colspan="4" style="padding-left: 2px;text-align: right;"><span>{{master.t_tien_nt}}</span></th>
+        </tr>
+		 <tr style="width: 800px;">
+            <th style="border-left: 1px solid #101010;border-bottom: 1px dotted black;" colspan="24" style="padding-left: 2px;text-align: right;"><span> Thuế GTGT</span></th>
+            <th style="border-left: 1px solid #101010;border-bottom: 1px dotted black;text-align: right;" colspan="4" style="padding-left: 2px;text-align: right;"><span>{{master.t_thue_nt}}</span></th>
+        </tr>
+		<tr style="width: 800px;">
+            <th style="border-left: 1px solid #101010;border-bottom: 1px dotted black;" colspan="24" style="padding-left: 2px;text-align: right;"><span> Tổng cộng tiền hàng</span></th>
+            <th style="border-left: 1px solid #101010;border-bottom: 1px dotted black;text-align: right;" colspan="4" style="padding-left: 2px;text-align: right;"><span>{{master.t_tt_nt}}</span></th>
+        </tr>
+    </table>
+    <div>
+        <div style="margin-bottom:1em; margin-top:1em;"><span style="font-weight:400 ;">Trạng thái: {{master.u_status_name}}</span></div>
+        <div style="margin-bottom:1em"><span style="font-weight:400 ;">Lý do duyệt: {{master.ghi_chu}}</span></div>
+    </div>
+</div>

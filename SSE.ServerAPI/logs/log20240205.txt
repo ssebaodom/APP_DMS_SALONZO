@@ -1,0 +1,12 @@
+2024-02-05 17:11:37.783 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-05 17:11:38.692 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-05 17:11:38.694 +07:00 [INF] Hosting environment: Development
+2024-02-05 17:11:38.696 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.ServerAPI
+2024-02-05 17:11:38.728 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2024-02-05 17:11:38.935 +07:00 [INF] Request finished in 209.3715ms 200 text/html;charset=utf-8
+2024-02-05 17:11:38.956 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2024-02-05 17:11:38.978 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2024-02-05 17:11:38.982 +07:00 [INF] Request finished in 25.3141ms 200 application/javascript; charset=utf-8
+2024-02-05 17:11:39.208 +07:00 [INF] Request finished in 230.0881ms 200 text/javascript; charset=UTF-8
+2024-02-05 17:11:39.295 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2024-02-05 17:11:39.566 +07:00 [INF] Request finished in 271.3977ms 200 application/json;charset=utf-8

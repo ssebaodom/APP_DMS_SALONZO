@@ -1,0 +1,1384 @@
+2023-12-20 13:31:15.369 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-20 13:31:16.253 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-20 13:31:16.256 +07:00 [INF] Hosting environment: Development
+2023-12-20 13:31:16.258 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI
+2023-12-20 13:31:16.293 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2023-12-20 13:31:16.477 +07:00 [INF] Request finished in 185.4635ms 200 text/html;charset=utf-8
+2023-12-20 13:31:16.498 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2023-12-20 13:31:16.511 +07:00 [INF] Request finished in 13.1587ms 200 application/javascript; charset=utf-8
+2023-12-20 13:31:16.518 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2023-12-20 13:31:16.579 +07:00 [INF] Request finished in 61.1206ms 200 text/javascript; charset=UTF-8
+2023-12-20 13:31:16.648 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2023-12-20 13:31:16.896 +07:00 [INF] Request finished in 247.2869ms 200 application/json;charset=utf-8
+2023-12-20 13:35:13.952 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-20 13:35:14.393 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-20 13:35:14.394 +07:00 [INF] Hosting environment: Development
+2023-12-20 13:35:14.396 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI
+2023-12-20 13:35:14.425 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2023-12-20 13:35:14.588 +07:00 [INF] Request finished in 164.3344ms 200 text/html;charset=utf-8
+2023-12-20 13:35:14.618 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2023-12-20 13:35:14.620 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2023-12-20 13:35:14.627 +07:00 [INF] Request finished in 19.1693ms 200 application/javascript; charset=utf-8
+2023-12-20 13:35:14.663 +07:00 [INF] Request finished in 44.3656ms 200 text/javascript; charset=UTF-8
+2023-12-20 13:35:14.814 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2023-12-20 13:35:15.146 +07:00 [INF] Request finished in 331.4331ms 200 application/json;charset=utf-8
+2023-12-20 13:36:00.979 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/users/signin application/json 164
+2023-12-20 13:36:00.989 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/signin 
+QueryString:  
+Request Body: {
+    "hostId": "https://thienvuong-cloud.sse.net.vn",
+    "userName": "dat",
+    "password": "123abc",
+    "devideToken": "",
+    "language": "V"  
+}
+
+
+
+ 
+
+2023-12-20 13:36:00.993 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-20 13:36:01.218 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI)'
+2023-12-20 13:36:01.252 +07:00 [INF] Route matched with {action = "Signin", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.SignInResponse] Signin(SSE.Common.Api.v1.Requests.User.SigninRequest) on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-20 13:36:02.081 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-20 13:36:03.204 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1103.4169ms.
+2023-12-20 13:36:03.215 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.SignInResponse'.
+2023-12-20 13:36:03.234 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI) in 1976.9311ms
+2023-12-20 13:36:03.237 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI)'
+2023-12-20 13:36:03.240 +07:00 [INF] Request finished in 2261.4209ms 200 application/json; charset=utf-8
+2023-12-20 13:36:06.436 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/users/companies  
+2023-12-20 13:36:06.440 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/companies 
+QueryString:  
+Request Body:  
+
+2023-12-20 13:36:06.497 +07:00 [INF] Successfully validated the token.
+2023-12-20 13:36:06.502 +07:00 [INF] Authorization was successful.
+2023-12-20 13:36:06.504 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI)'
+2023-12-20 13:36:06.510 +07:00 [INF] Route matched with {action = "GetCompanies", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.GetCompaniesResponse] GetCompanies() on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-20 13:36:06.691 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-20 13:36:06.806 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 113.418ms.
+2023-12-20 13:36:06.809 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.GetCompaniesResponse'.
+2023-12-20 13:36:06.817 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI) in 306.3897ms
+2023-12-20 13:36:06.819 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI)'
+2023-12-20 13:36:06.822 +07:00 [INF] Request finished in 386.7443ms 200 application/json; charset=utf-8
+2023-12-20 13:36:09.918 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/users/signin application/json 164
+2023-12-20 13:36:09.921 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/signin 
+QueryString:  
+Request Body: {
+    "hostId": "https://thienvuong-cloud.sse.net.vn",
+    "userName": "dat",
+    "password": "123abc",
+    "devideToken": "",
+    "language": "V"  
+}
+
+
+
+ 
+
+2023-12-20 13:36:09.925 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI)'
+2023-12-20 13:36:09.928 +07:00 [INF] Route matched with {action = "Signin", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.SignInResponse] Signin(SSE.Common.Api.v1.Requests.User.SigninRequest) on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-20 13:36:10.041 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-20 13:36:10.403 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 360.3655ms.
+2023-12-20 13:36:10.405 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.SignInResponse'.
+2023-12-20 13:36:10.409 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI) in 478.5935ms
+2023-12-20 13:36:10.411 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI)'
+2023-12-20 13:36:10.413 +07:00 [INF] Request finished in 495.4681ms 200 application/json; charset=utf-8
+2023-12-20 13:36:11.932 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/users/companies  
+2023-12-20 13:36:11.935 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/companies 
+QueryString:  
+Request Body:  
+
+2023-12-20 13:36:11.938 +07:00 [INF] Successfully validated the token.
+2023-12-20 13:36:11.941 +07:00 [INF] Authorization was successful.
+2023-12-20 13:36:11.943 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI)'
+2023-12-20 13:36:11.945 +07:00 [INF] Route matched with {action = "GetCompanies", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.GetCompaniesResponse] GetCompanies() on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-20 13:36:12.081 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-20 13:36:12.170 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 86.4901ms.
+2023-12-20 13:36:12.173 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.GetCompaniesResponse'.
+2023-12-20 13:36:12.176 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI) in 228.6614ms
+2023-12-20 13:36:12.178 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI)'
+2023-12-20 13:36:12.179 +07:00 [INF] Request finished in 247.8718ms 200 application/json; charset=utf-8
+2023-12-20 13:36:15.110 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/users/companies  
+2023-12-20 13:36:15.114 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/companies 
+QueryString:  
+Request Body:  
+
+2023-12-20 13:36:15.117 +07:00 [INF] Successfully validated the token.
+2023-12-20 13:36:15.119 +07:00 [INF] Authorization was successful.
+2023-12-20 13:36:15.120 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI)'
+2023-12-20 13:36:15.122 +07:00 [INF] Route matched with {action = "GetCompanies", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.GetCompaniesResponse] GetCompanies() on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-20 13:36:15.270 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-20 13:36:15.355 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 82.6932ms.
+2023-12-20 13:36:15.358 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.GetCompaniesResponse'.
+2023-12-20 13:36:15.360 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI) in 236.9014ms
+2023-12-20 13:36:15.363 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI)'
+2023-12-20 13:36:15.365 +07:00 [INF] Request finished in 255.007ms 200 application/json; charset=utf-8
+2023-12-20 13:36:20.082 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/users/signin application/json 164
+2023-12-20 13:36:20.085 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/signin 
+QueryString:  
+Request Body: {
+    "hostId": "https://thienvuong-cloud.sse.net.vn",
+    "userName": "dat",
+    "password": "123abc",
+    "devideToken": "",
+    "language": "V"  
+}
+
+
+
+ 
+
+2023-12-20 13:36:20.088 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI)'
+2023-12-20 13:36:20.089 +07:00 [INF] Route matched with {action = "Signin", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.SignInResponse] Signin(SSE.Common.Api.v1.Requests.User.SigninRequest) on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-20 13:36:20.200 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-20 13:36:20.513 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 309.511ms.
+2023-12-20 13:36:20.515 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.SignInResponse'.
+2023-12-20 13:36:20.518 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI) in 427.2474ms
+2023-12-20 13:36:20.520 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI)'
+2023-12-20 13:36:20.522 +07:00 [INF] Request finished in 439.7467ms 200 application/json; charset=utf-8
+2023-12-20 13:36:24.201 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/users/companies  
+2023-12-20 13:36:24.204 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/companies 
+QueryString:  
+Request Body:  
+
+2023-12-20 13:36:24.208 +07:00 [INF] Successfully validated the token.
+2023-12-20 13:36:24.210 +07:00 [INF] Authorization was successful.
+2023-12-20 13:36:24.212 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI)'
+2023-12-20 13:36:24.214 +07:00 [INF] Route matched with {action = "GetCompanies", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.GetCompaniesResponse] GetCompanies() on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-20 13:36:24.344 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-20 13:36:24.428 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 80.8742ms.
+2023-12-20 13:36:24.431 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.GetCompaniesResponse'.
+2023-12-20 13:36:24.433 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI) in 217.9073ms
+2023-12-20 13:36:24.435 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI)'
+2023-12-20 13:36:24.436 +07:00 [INF] Request finished in 235.1438ms 200 application/json; charset=utf-8
+2023-12-20 13:36:27.722 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/users/units  
+2023-12-20 13:36:27.724 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/units 
+QueryString:  
+Request Body:  
+
+2023-12-20 13:36:27.728 +07:00 [INF] Successfully validated the token.
+2023-12-20 13:36:27.730 +07:00 [INF] Authorization was successful.
+2023-12-20 13:36:27.732 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI)'
+2023-12-20 13:36:27.741 +07:00 [INF] Route matched with {action = "GetUnits", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.GetUnitsResponse] GetUnits() on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-20 13:36:27.884 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-20 13:36:28.152 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI) in 408.0891ms
+2023-12-20 13:36:28.155 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI)'
+2023-12-20 13:36:28.240 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'app_get_units'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 419
+   at SSE.Core.Services.Dapper.DapperService.QueryAsync[T](String sql, DynamicParameters parameters, CommandType commandType) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Core\Services\Dapper\DapperService.cs:line 206
+   at SSE.DataAccess.Api.v1.Implements.UserDAL.GetUnits(Int64 userId, Int32 role, String lang) in F:\Project2023\API\DMS\Version 1.0.0\SSE.DataAccess\Api\v1\Implements\UserDAL.cs:line 134
+   at SSE.Business.Api.v1.Implements.UserBLL.GetUnits() in F:\Project2023\API\DMS\Version 1.0.0\SSE.Business\Api\v1\Implements\UserBLL.cs:line 337
+   at SSE_Server.Api.v1.Controllers.UserController.GetUnits() in F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI\Api\v1\Controllers\UserController.cs:line 66
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at SSE.Common.Services.ApiLoggingMiddleware.InvokeAsync(HttpContext context) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Core\Services\Middleware\ApiLoggingMiddleware.cs:line 58
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:c7608f2f-b081-44bb-8b68-6869da98a362
+Error Number:2812,State:62,Class:16
+2023-12-20 13:36:28.341 +07:00 [INF] Request finished in 619.0464ms 500 text/plain
+2023-12-20 13:36:47.137 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/users/signin application/json 164
+2023-12-20 13:36:47.139 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/signin 
+QueryString:  
+Request Body: {
+    "hostId": "https://thienvuong-cloud.sse.net.vn",
+    "userName": "dat",
+    "password": "123abc",
+    "devideToken": "",
+    "language": "V"  
+}
+
+
+
+ 
+
+2023-12-20 13:36:47.142 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI)'
+2023-12-20 13:36:47.144 +07:00 [INF] Route matched with {action = "Signin", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.SignInResponse] Signin(SSE.Common.Api.v1.Requests.User.SigninRequest) on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-20 13:36:47.253 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-20 13:36:47.573 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 317.5856ms.
+2023-12-20 13:36:47.575 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.SignInResponse'.
+2023-12-20 13:36:47.579 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI) in 432.4093ms
+2023-12-20 13:36:47.582 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI)'
+2023-12-20 13:36:47.585 +07:00 [INF] Request finished in 447.9179ms 200 application/json; charset=utf-8
+2023-12-20 13:36:50.343 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/users/companies  
+2023-12-20 13:36:50.345 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/companies 
+QueryString:  
+Request Body:  
+
+2023-12-20 13:36:50.349 +07:00 [INF] Successfully validated the token.
+2023-12-20 13:36:50.351 +07:00 [INF] Authorization was successful.
+2023-12-20 13:36:50.352 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI)'
+2023-12-20 13:36:50.355 +07:00 [INF] Route matched with {action = "GetCompanies", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.GetCompaniesResponse] GetCompanies() on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-20 13:36:50.485 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-20 13:36:50.569 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 82.3786ms.
+2023-12-20 13:36:50.572 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.GetCompaniesResponse'.
+2023-12-20 13:36:50.574 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI) in 217.6294ms
+2023-12-20 13:36:50.576 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI)'
+2023-12-20 13:36:50.578 +07:00 [INF] Request finished in 234.987ms 200 application/json; charset=utf-8
+2023-12-20 13:36:52.067 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/users/companies  
+2023-12-20 13:36:52.070 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/companies 
+QueryString:  
+Request Body:  
+
+2023-12-20 13:36:52.072 +07:00 [INF] Successfully validated the token.
+2023-12-20 13:36:52.075 +07:00 [INF] Authorization was successful.
+2023-12-20 13:36:52.076 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI)'
+2023-12-20 13:36:52.078 +07:00 [INF] Route matched with {action = "GetCompanies", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.GetCompaniesResponse] GetCompanies() on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-20 13:36:52.208 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-20 13:36:52.290 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 80.2739ms.
+2023-12-20 13:36:52.293 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.GetCompaniesResponse'.
+2023-12-20 13:36:52.295 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI) in 214.8844ms
+2023-12-20 13:36:52.301 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI)'
+2023-12-20 13:36:52.304 +07:00 [INF] Request finished in 236.7519ms 200 application/json; charset=utf-8
+2023-12-20 13:39:05.169 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-20 13:39:05.544 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-20 13:39:05.546 +07:00 [INF] Hosting environment: Development
+2023-12-20 13:39:05.553 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI
+2023-12-20 13:39:05.575 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2023-12-20 13:39:05.698 +07:00 [INF] Request finished in 124.5494ms 200 text/html;charset=utf-8
+2023-12-20 13:39:05.713 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2023-12-20 13:39:05.727 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2023-12-20 13:39:05.731 +07:00 [INF] Request finished in 17.5233ms 200 application/javascript; charset=utf-8
+2023-12-20 13:39:05.749 +07:00 [INF] Request finished in 21.8419ms 200 text/javascript; charset=UTF-8
+2023-12-20 13:39:05.811 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2023-12-20 13:39:06.025 +07:00 [INF] Request finished in 213.9596ms 200 application/json;charset=utf-8
+2023-12-20 13:39:37.512 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/users/signin application/json 161
+2023-12-20 13:39:37.520 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/signin 
+QueryString:  
+Request Body: {
+    "hostId": "https://salonzo-cloud.sse.net.vn",
+    "userName": "dat",
+    "password": "123abc",
+    "devideToken": "",
+    "language": "V"  
+}
+
+
+
+ 
+
+2023-12-20 13:39:37.526 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-20 13:39:37.609 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI)'
+2023-12-20 13:39:37.638 +07:00 [INF] Route matched with {action = "Signin", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.SignInResponse] Signin(SSE.Common.Api.v1.Requests.User.SigninRequest) on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-20 13:39:38.056 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-20 13:39:38.932 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 867.6637ms.
+2023-12-20 13:39:38.944 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.SignInResponse'.
+2023-12-20 13:39:38.964 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI) in 1320.532ms
+2023-12-20 13:39:38.969 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI)'
+2023-12-20 13:39:38.975 +07:00 [INF] Request finished in 1463.1211ms 200 application/json; charset=utf-8
+2023-12-20 13:39:43.651 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/users/signin application/json 164
+2023-12-20 13:39:43.655 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/signin 
+QueryString:  
+Request Body: {
+    "hostId": "https://thienvuong-cloud.sse.net.vn",
+    "userName": "dat",
+    "password": "123abc",
+    "devideToken": "",
+    "language": "V"  
+}
+
+
+
+ 
+
+2023-12-20 13:39:43.664 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI)'
+2023-12-20 13:39:43.666 +07:00 [INF] Route matched with {action = "Signin", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.SignInResponse] Signin(SSE.Common.Api.v1.Requests.User.SigninRequest) on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-20 13:39:43.773 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-20 13:39:44.203 +07:00 [INF] Entity Framework Core 3.1.7 initialized 'GlobalDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=1000 
+2023-12-20 13:39:45.131 +07:00 [INF] Executed DbCommand (100ms) [Parameters=[@__hostId_0='?' (Size = -1) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [d].[HostId], [d].[UserName], [d].[ServerName], [d].[SqlPassLogin], [d].[SqlUserLogin], [d].[SysDbName]
+FROM [DbSysInfo] AS [d]
+WHERE [d].[HostId] = @__hostId_0
+2023-12-20 13:39:45.355 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1579.9181ms.
+2023-12-20 13:39:45.359 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.SignInResponse'.
+2023-12-20 13:39:45.361 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI) in 1693.2695ms
+2023-12-20 13:39:45.363 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI)'
+2023-12-20 13:39:45.369 +07:00 [INF] Request finished in 1718.2114ms 200 application/json; charset=utf-8
+2023-12-20 13:39:47.837 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/users/companies  
+2023-12-20 13:39:47.841 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/companies 
+QueryString:  
+Request Body:  
+
+2023-12-20 13:39:47.895 +07:00 [INF] Successfully validated the token.
+2023-12-20 13:39:47.901 +07:00 [INF] Authorization was successful.
+2023-12-20 13:39:47.903 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI)'
+2023-12-20 13:39:47.908 +07:00 [INF] Route matched with {action = "GetCompanies", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.GetCompaniesResponse] GetCompanies() on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-20 13:39:48.065 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-20 13:39:48.252 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 185.4095ms.
+2023-12-20 13:39:48.254 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.GetCompaniesResponse'.
+2023-12-20 13:39:48.265 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI) in 353.8666ms
+2023-12-20 13:39:48.267 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI)'
+2023-12-20 13:39:48.269 +07:00 [INF] Request finished in 431.6949ms 200 application/json; charset=utf-8
+2023-12-20 13:39:54.860 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/users/units  
+2023-12-20 13:39:54.863 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/units 
+QueryString:  
+Request Body:  
+
+2023-12-20 13:39:54.868 +07:00 [INF] Successfully validated the token.
+2023-12-20 13:39:54.871 +07:00 [INF] Authorization was successful.
+2023-12-20 13:39:54.874 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI)'
+2023-12-20 13:39:54.882 +07:00 [INF] Route matched with {action = "GetUnits", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.GetUnitsResponse] GetUnits() on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-20 13:39:55.022 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-20 13:39:55.474 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 449.3759ms.
+2023-12-20 13:39:55.477 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.GetUnitsResponse'.
+2023-12-20 13:39:55.483 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI) in 596.3346ms
+2023-12-20 13:39:55.485 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI)'
+2023-12-20 13:39:55.488 +07:00 [INF] Request finished in 627.9101ms 200 application/json; charset=utf-8
+2023-12-20 13:40:02.427 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/order/update-order-v2 application/json 1390
+2023-12-20 13:40:02.430 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/order/update-order-v2 
+QueryString:  
+Request Body: {
+    "Data":
+    {
+        "stt_rec":"B000001488DXA",
+        "CustomerCode": "TEST",
+        "SaleCode": "3696",
+        "OrderDate": "2023-03-14T16:09:17.34",
+        "Currency": "VND",
+        "StockCode": "VC.KDT02",
+        "Descript": "aaaaaaaa",
+        "PhoneCustomer": "0963004959",
+        "AddressCustomer": "tieesn tesstttt sse",
+        "Detail":
+        [
+            {
+                "code":  "DC.70200572140",
+                "Count": 3,
+                "Price":149.0000,
+                "DiscountPercent": 0.0,
+                "Dvt":"Hộp",
+                "ck":47.000,
+                "cknt":47.000,
+                 "ds_ck": [] 
+            },
+            {
+                "code":  " HI96831",
+                "Count": 30,
+                "Price":0,
+                "DiscountPercent": 0.0,
+                "Dvt":"Hộp",
+                "ck": 0,
+                "cknt": 0,
+                 "ds_ck": [
+                     "CKHANG1"
+                 ] 
+            }
+
+        ],
+        "ds_ck": [
+            {
+                "ma_ck":"A000000004",
+                "t_ck_tt": 5662000.0,
+                "kieu_ck": 3
+            }
+        ],
+        "Total":
+        {
+            "PreAmount":0,
+            "Discount": 0,
+            "Tax": 0,
+            "Fee": 0,
+            "Amount": 0
+        }
+    }
+    
+} 
+
+2023-12-20 13:40:02.435 +07:00 [INF] Successfully validated the token.
+2023-12-20 13:40:02.437 +07:00 [INF] Authorization was successful.
+2023-12-20 13:40:02.440 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate (SSE.ServerAPI)'
+2023-12-20 13:40:02.448 +07:00 [INF] Route matched with {action = "CreateUpdate", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.Order.OrderUpdateResponse] CreateUpdate(SSE.Common.Api.v1.Requests.Order.OrderUpdateRequest) on controller SSE_Server.Api.v1.Controllers.OrderController (SSE.ServerAPI).
+2023-12-20 13:40:02.656 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-20 13:40:02.913 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate (SSE.ServerAPI) in 460.8603ms
+2023-12-20 13:40:02.915 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate (SSE.ServerAPI)'
+2023-12-20 13:40:03.000 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'ma_kh2'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReader(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.ExecuteScalarImplAsync[T](IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1247
+   at SSE.Core.Services.Dapper.DapperService.ExecuteScalarAsync[T](String sql, Object parameters, CommandType commandType) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Core\Services\Dapper\DapperService.cs:line 170
+   at SSE.DataAccess.Api.v1.Implements.OrderDAL.OrderUpdate(OrderUpdateRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.DataAccess\Api\v1\Implements\OrderDAL.cs:line 538
+   at SSE.Business.Api.v1.Implements.OrderBLL.CreateUpdate(OrderUpdateRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Business\Api\v1\Implements\OrderBLL.cs:line 359
+   at SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate(OrderUpdateRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI\Api\v1\Controllers\OrderController.cs:line 133
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at SSE.Common.Services.ApiLoggingMiddleware.InvokeAsync(HttpContext context) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Core\Services\Middleware\ApiLoggingMiddleware.cs:line 58
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:e81002a1-36b8-4fbc-b465-403682090c1c
+Error Number:207,State:1,Class:16
+2023-12-20 13:40:03.052 +07:00 [INF] Request finished in 625.4827ms 500 text/plain
+2023-12-20 13:44:22.230 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-20 13:44:22.625 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-20 13:44:22.627 +07:00 [INF] Hosting environment: Development
+2023-12-20 13:44:22.634 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI
+2023-12-20 13:44:22.657 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2023-12-20 13:44:22.789 +07:00 [INF] Request finished in 133.7686ms 200 text/html;charset=utf-8
+2023-12-20 13:44:22.806 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2023-12-20 13:44:22.806 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2023-12-20 13:44:22.826 +07:00 [INF] Request finished in 19.9937ms 200 application/javascript; charset=utf-8
+2023-12-20 13:44:22.842 +07:00 [INF] Request finished in 35.2623ms 200 text/javascript; charset=UTF-8
+2023-12-20 13:44:22.912 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2023-12-20 13:44:23.164 +07:00 [INF] Request finished in 252.6904ms 200 application/json;charset=utf-8
+2023-12-20 13:44:54.578 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/order/update-order-v2 application/json 1390
+2023-12-20 13:44:54.590 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/order/update-order-v2 
+QueryString:  
+Request Body: {
+    "Data":
+    {
+        "stt_rec":"B000001488DXA",
+        "CustomerCode": "TEST",
+        "SaleCode": "3696",
+        "OrderDate": "2023-03-14T16:09:17.34",
+        "Currency": "VND",
+        "StockCode": "VC.KDT02",
+        "Descript": "aaaaaaaa",
+        "PhoneCustomer": "0963004959",
+        "AddressCustomer": "tieesn tesstttt sse",
+        "Detail":
+        [
+            {
+                "code":  "DC.70200572140",
+                "Count": 3,
+                "Price":149.0000,
+                "DiscountPercent": 0.0,
+                "Dvt":"Hộp",
+                "ck":47.000,
+                "cknt":47.000,
+                 "ds_ck": [] 
+            },
+            {
+                "code":  " HI96831",
+                "Count": 30,
+                "Price":0,
+                "DiscountPercent": 0.0,
+                "Dvt":"Hộp",
+                "ck": 0,
+                "cknt": 0,
+                 "ds_ck": [
+                     "CKHANG1"
+                 ] 
+            }
+
+        ],
+        "ds_ck": [
+            {
+                "ma_ck":"A000000004",
+                "t_ck_tt": 5662000.0,
+                "kieu_ck": 3
+            }
+        ],
+        "Total":
+        {
+            "PreAmount":0,
+            "Discount": 0,
+            "Tax": 0,
+            "Fee": 0,
+            "Amount": 0
+        }
+    }
+    
+} 
+
+2023-12-20 13:44:54.594 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-20 13:44:54.822 +07:00 [INF] Successfully validated the token.
+2023-12-20 13:44:54.839 +07:00 [INF] Authorization was successful.
+2023-12-20 13:44:54.841 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate (SSE.ServerAPI)'
+2023-12-20 13:44:54.893 +07:00 [INF] Route matched with {action = "CreateUpdate", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.Order.OrderUpdateResponse] CreateUpdate(SSE.Common.Api.v1.Requests.Order.OrderUpdateRequest) on controller SSE_Server.Api.v1.Controllers.OrderController (SSE.ServerAPI).
+2023-12-20 13:44:55.487 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-20 13:44:55.632 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate (SSE.ServerAPI) in 733.9138ms
+2023-12-20 13:44:55.636 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate (SSE.ServerAPI)'
+2023-12-20 13:44:55.661 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.DateTime.Parse(String s)
+   at SSE.DataAccess.Support.Functs.OrderCreateHelp.OrderUpdateV3_GetQuery(OrderUpdateRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.DataAccess\Support\Functs\OrderCreateHelp.cs:line 255
+   at SSE.DataAccess.Api.v1.Implements.OrderDAL.OrderUpdate(OrderUpdateRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.DataAccess\Api\v1\Implements\OrderDAL.cs:line 536
+   at SSE.Business.Api.v1.Implements.OrderBLL.CreateUpdate(OrderUpdateRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Business\Api\v1\Implements\OrderBLL.cs:line 359
+   at SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate(OrderUpdateRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI\Api\v1\Controllers\OrderController.cs:line 133
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at SSE.Common.Services.ApiLoggingMiddleware.InvokeAsync(HttpContext context) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Core\Services\Middleware\ApiLoggingMiddleware.cs:line 58
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-20 13:44:55.758 +07:00 [INF] Request finished in 1181.0773ms 500 text/plain
+2023-12-20 13:45:30.821 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/order/update-order-v2 application/json 1390
+2023-12-20 13:45:30.825 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/order/update-order-v2 
+QueryString:  
+Request Body: {
+    "Data":
+    {
+        "stt_rec":"B000001488DXA",
+        "CustomerCode": "TEST",
+        "SaleCode": "3696",
+        "OrderDate": "2023-03-14T16:09:17.34",
+        "Currency": "VND",
+        "StockCode": "VC.KDT02",
+        "Descript": "aaaaaaaa",
+        "PhoneCustomer": "0963004959",
+        "AddressCustomer": "tieesn tesstttt sse",
+        "Detail":
+        [
+            {
+                "code":  "DC.70200572140",
+                "Count": 3,
+                "Price":149.0000,
+                "DiscountPercent": 0.0,
+                "Dvt":"Hộp",
+                "ck":47.000,
+                "cknt":47.000,
+                 "ds_ck": [] 
+            },
+            {
+                "code":  " HI96831",
+                "Count": 30,
+                "Price":0,
+                "DiscountPercent": 0.0,
+                "Dvt":"Hộp",
+                "ck": 0,
+                "cknt": 0,
+                 "ds_ck": [
+                     "CKHANG1"
+                 ] 
+            }
+
+        ],
+        "ds_ck": [
+            {
+                "ma_ck":"A000000004",
+                "t_ck_tt": 5662000.0,
+                "kieu_ck": 3
+            }
+        ],
+        "Total":
+        {
+            "PreAmount":0,
+            "Discount": 0,
+            "Tax": 0,
+            "Fee": 0,
+            "Amount": 0
+        }
+    }
+    
+} 
+
+2023-12-20 13:45:30.840 +07:00 [INF] Successfully validated the token.
+2023-12-20 13:45:30.843 +07:00 [INF] Authorization was successful.
+2023-12-20 13:45:30.844 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate (SSE.ServerAPI)'
+2023-12-20 13:45:30.846 +07:00 [INF] Route matched with {action = "CreateUpdate", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.Order.OrderUpdateResponse] CreateUpdate(SSE.Common.Api.v1.Requests.Order.OrderUpdateRequest) on controller SSE_Server.Api.v1.Controllers.OrderController (SSE.ServerAPI).
+2023-12-20 13:45:31.029 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-20 13:45:31.147 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate (SSE.ServerAPI) in 298.9859ms
+2023-12-20 13:45:31.149 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate (SSE.ServerAPI)'
+2023-12-20 13:45:31.173 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.DateTime.Parse(String s)
+   at SSE.DataAccess.Support.Functs.OrderCreateHelp.OrderUpdateV3_GetQuery(OrderUpdateRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.DataAccess\Support\Functs\OrderCreateHelp.cs:line 255
+   at SSE.DataAccess.Api.v1.Implements.OrderDAL.OrderUpdate(OrderUpdateRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.DataAccess\Api\v1\Implements\OrderDAL.cs:line 536
+   at SSE.Business.Api.v1.Implements.OrderBLL.CreateUpdate(OrderUpdateRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Business\Api\v1\Implements\OrderBLL.cs:line 359
+   at SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate(OrderUpdateRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI\Api\v1\Controllers\OrderController.cs:line 133
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at SSE.Common.Services.ApiLoggingMiddleware.InvokeAsync(HttpContext context) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Core\Services\Middleware\ApiLoggingMiddleware.cs:line 58
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-20 13:45:31.178 +07:00 [INF] Request finished in 357.5ms 500 text/plain
+2023-12-20 13:46:23.144 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/order/update-order-v2 application/json 1390
+2023-12-20 13:46:23.147 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/order/update-order-v2 
+QueryString:  
+Request Body: {
+    "Data":
+    {
+        "stt_rec":"B000001488DXA",
+        "CustomerCode": "TEST",
+        "SaleCode": "3696",
+        "OrderDate": "2023-03-14T16:09:17.34",
+        "Currency": "VND",
+        "StockCode": "VC.KDT02",
+        "Descript": "aaaaaaaa",
+        "PhoneCustomer": "0963004959",
+        "AddressCustomer": "tieesn tesstttt sse",
+        "Detail":
+        [
+            {
+                "code":  "DC.70200572140",
+                "Count": 3,
+                "Price":149.0000,
+                "DiscountPercent": 0.0,
+                "Dvt":"Hộp",
+                "ck":47.000,
+                "cknt":47.000,
+                 "ds_ck": [] 
+            },
+            {
+                "code":  " HI96831",
+                "Count": 30,
+                "Price":0,
+                "DiscountPercent": 0.0,
+                "Dvt":"Hộp",
+                "ck": 0,
+                "cknt": 0,
+                 "ds_ck": [
+                     "CKHANG1"
+                 ] 
+            }
+
+        ],
+        "ds_ck": [
+            {
+                "ma_ck":"A000000004",
+                "t_ck_tt": 5662000.0,
+                "kieu_ck": 3
+            }
+        ],
+        "Total":
+        {
+            "PreAmount":0,
+            "Discount": 0,
+            "Tax": 0,
+            "Fee": 0,
+            "Amount": 0
+        }
+    }
+    
+} 
+
+2023-12-20 13:46:23.151 +07:00 [INF] Successfully validated the token.
+2023-12-20 13:46:23.157 +07:00 [INF] Authorization was successful.
+2023-12-20 13:46:23.160 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate (SSE.ServerAPI)'
+2023-12-20 13:46:23.162 +07:00 [INF] Route matched with {action = "CreateUpdate", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.Order.OrderUpdateResponse] CreateUpdate(SSE.Common.Api.v1.Requests.Order.OrderUpdateRequest) on controller SSE_Server.Api.v1.Controllers.OrderController (SSE.ServerAPI).
+2023-12-20 13:46:23.372 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-20 13:46:31.477 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate (SSE.ServerAPI) in 8313.0153ms
+2023-12-20 13:46:31.483 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate (SSE.ServerAPI)'
+2023-12-20 13:46:31.537 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.DateTime.Parse(String s)
+   at SSE.DataAccess.Support.Functs.OrderCreateHelp.OrderUpdateV3_GetQuery(OrderUpdateRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.DataAccess\Support\Functs\OrderCreateHelp.cs:line 255
+   at SSE.DataAccess.Api.v1.Implements.OrderDAL.OrderUpdate(OrderUpdateRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.DataAccess\Api\v1\Implements\OrderDAL.cs:line 536
+   at SSE.Business.Api.v1.Implements.OrderBLL.CreateUpdate(OrderUpdateRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Business\Api\v1\Implements\OrderBLL.cs:line 359
+   at SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate(OrderUpdateRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI\Api\v1\Controllers\OrderController.cs:line 133
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at SSE.Common.Services.ApiLoggingMiddleware.InvokeAsync(HttpContext context) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Core\Services\Middleware\ApiLoggingMiddleware.cs:line 58
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-20 13:46:34.004 +07:00 [INF] Request finished in 10859.9235ms 500 text/plain
+2023-12-20 13:46:36.888 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/order/update-order-v2 application/json 1390
+2023-12-20 13:46:36.890 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/order/update-order-v2 
+QueryString:  
+Request Body: {
+    "Data":
+    {
+        "stt_rec":"B000001488DXA",
+        "CustomerCode": "TEST",
+        "SaleCode": "3696",
+        "OrderDate": "2023-03-14T16:09:17.34",
+        "Currency": "VND",
+        "StockCode": "VC.KDT02",
+        "Descript": "aaaaaaaa",
+        "PhoneCustomer": "0963004959",
+        "AddressCustomer": "tieesn tesstttt sse",
+        "Detail":
+        [
+            {
+                "code":  "DC.70200572140",
+                "Count": 3,
+                "Price":149.0000,
+                "DiscountPercent": 0.0,
+                "Dvt":"Hộp",
+                "ck":47.000,
+                "cknt":47.000,
+                 "ds_ck": [] 
+            },
+            {
+                "code":  " HI96831",
+                "Count": 30,
+                "Price":0,
+                "DiscountPercent": 0.0,
+                "Dvt":"Hộp",
+                "ck": 0,
+                "cknt": 0,
+                 "ds_ck": [
+                     "CKHANG1"
+                 ] 
+            }
+
+        ],
+        "ds_ck": [
+            {
+                "ma_ck":"A000000004",
+                "t_ck_tt": 5662000.0,
+                "kieu_ck": 3
+            }
+        ],
+        "Total":
+        {
+            "PreAmount":0,
+            "Discount": 0,
+            "Tax": 0,
+            "Fee": 0,
+            "Amount": 0
+        }
+    }
+    
+} 
+
+2023-12-20 13:46:36.894 +07:00 [INF] Successfully validated the token.
+2023-12-20 13:46:36.897 +07:00 [INF] Authorization was successful.
+2023-12-20 13:46:36.900 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate (SSE.ServerAPI)'
+2023-12-20 13:46:36.904 +07:00 [INF] Route matched with {action = "CreateUpdate", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.Order.OrderUpdateResponse] CreateUpdate(SSE.Common.Api.v1.Requests.Order.OrderUpdateRequest) on controller SSE_Server.Api.v1.Controllers.OrderController (SSE.ServerAPI).
+2023-12-20 13:46:37.210 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-20 13:48:10.855 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate (SSE.ServerAPI) in 93948.4209ms
+2023-12-20 13:48:10.856 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate (SSE.ServerAPI)'
+2023-12-20 13:48:10.887 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.DateTime.Parse(String s)
+   at SSE.DataAccess.Support.Functs.OrderCreateHelp.OrderUpdateV3_GetQuery(OrderUpdateRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.DataAccess\Support\Functs\OrderCreateHelp.cs:line 255
+   at SSE.DataAccess.Api.v1.Implements.OrderDAL.OrderUpdate(OrderUpdateRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.DataAccess\Api\v1\Implements\OrderDAL.cs:line 536
+   at SSE.Business.Api.v1.Implements.OrderBLL.CreateUpdate(OrderUpdateRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Business\Api\v1\Implements\OrderBLL.cs:line 359
+   at SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate(OrderUpdateRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI\Api\v1\Controllers\OrderController.cs:line 133
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at SSE.Common.Services.ApiLoggingMiddleware.InvokeAsync(HttpContext context) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Core\Services\Middleware\ApiLoggingMiddleware.cs:line 58
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-20 13:48:10.894 +07:00 [INF] Request finished in 94006.3716ms 500 text/plain
+2023-12-20 13:48:48.097 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-20 13:48:48.596 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-20 13:48:48.598 +07:00 [INF] Hosting environment: Development
+2023-12-20 13:48:48.600 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI
+2023-12-20 13:48:48.636 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2023-12-20 13:48:48.788 +07:00 [INF] Request finished in 153.9763ms 200 text/html;charset=utf-8
+2023-12-20 13:48:48.804 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2023-12-20 13:48:48.813 +07:00 [INF] Request finished in 7.7722ms 200 application/javascript; charset=utf-8
+2023-12-20 13:48:48.822 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2023-12-20 13:48:48.859 +07:00 [INF] Request finished in 37.2012ms 200 text/javascript; charset=UTF-8
+2023-12-20 13:48:48.922 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2023-12-20 13:48:49.170 +07:00 [INF] Request finished in 247.4059ms 200 application/json;charset=utf-8
+2023-12-20 13:49:02.768 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/order/update-order-v2 application/json 1390
+2023-12-20 13:49:02.776 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/order/update-order-v2 
+QueryString:  
+Request Body: {
+    "Data":
+    {
+        "stt_rec":"B000001488DXA",
+        "CustomerCode": "TEST",
+        "SaleCode": "3696",
+        "OrderDate": "2023-03-14T16:09:17.34",
+        "Currency": "VND",
+        "StockCode": "VC.KDT02",
+        "Descript": "aaaaaaaa",
+        "PhoneCustomer": "0963004959",
+        "AddressCustomer": "tieesn tesstttt sse",
+        "Detail":
+        [
+            {
+                "code":  "DC.70200572140",
+                "Count": 3,
+                "Price":149.0000,
+                "DiscountPercent": 0.0,
+                "Dvt":"Hộp",
+                "ck":47.000,
+                "cknt":47.000,
+                 "ds_ck": [] 
+            },
+            {
+                "code":  " HI96831",
+                "Count": 30,
+                "Price":0,
+                "DiscountPercent": 0.0,
+                "Dvt":"Hộp",
+                "ck": 0,
+                "cknt": 0,
+                 "ds_ck": [
+                     "CKHANG1"
+                 ] 
+            }
+
+        ],
+        "ds_ck": [
+            {
+                "ma_ck":"A000000004",
+                "t_ck_tt": 5662000.0,
+                "kieu_ck": 3
+            }
+        ],
+        "Total":
+        {
+            "PreAmount":0,
+            "Discount": 0,
+            "Tax": 0,
+            "Fee": 0,
+            "Amount": 0
+        }
+    }
+    
+} 
+
+2023-12-20 13:49:02.784 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-20 13:49:02.994 +07:00 [INF] Successfully validated the token.
+2023-12-20 13:49:03.004 +07:00 [INF] Authorization was successful.
+2023-12-20 13:49:03.006 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate (SSE.ServerAPI)'
+2023-12-20 13:49:03.034 +07:00 [INF] Route matched with {action = "CreateUpdate", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.Order.OrderUpdateResponse] CreateUpdate(SSE.Common.Api.v1.Requests.Order.OrderUpdateRequest) on controller SSE_Server.Api.v1.Controllers.OrderController (SSE.ServerAPI).
+2023-12-20 13:49:03.662 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-20 13:49:03.809 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate (SSE.ServerAPI) in 769.7263ms
+2023-12-20 13:49:03.813 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate (SSE.ServerAPI)'
+2023-12-20 13:49:03.841 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.DateTime.Parse(String s)
+   at SSE.DataAccess.Support.Functs.OrderCreateHelp.OrderUpdateV3_GetQuery(OrderUpdateRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.DataAccess\Support\Functs\OrderCreateHelp.cs:line 255
+   at SSE.DataAccess.Api.v1.Implements.OrderDAL.OrderUpdate(OrderUpdateRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.DataAccess\Api\v1\Implements\OrderDAL.cs:line 536
+   at SSE.Business.Api.v1.Implements.OrderBLL.CreateUpdate(OrderUpdateRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Business\Api\v1\Implements\OrderBLL.cs:line 359
+   at SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate(OrderUpdateRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI\Api\v1\Controllers\OrderController.cs:line 133
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at SSE.Common.Services.ApiLoggingMiddleware.InvokeAsync(HttpContext context) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Core\Services\Middleware\ApiLoggingMiddleware.cs:line 58
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-20 13:49:03.919 +07:00 [INF] Request finished in 1151.838ms 500 text/plain
+2023-12-20 13:49:47.440 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-20 13:49:47.838 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-20 13:49:47.840 +07:00 [INF] Hosting environment: Development
+2023-12-20 13:49:47.848 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI
+2023-12-20 13:49:47.871 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2023-12-20 13:49:48.012 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2023-12-20 13:49:48.017 +07:00 [INF] Request finished in 143.5156ms 200 text/html;charset=utf-8
+2023-12-20 13:49:48.023 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2023-12-20 13:49:48.037 +07:00 [INF] Request finished in 21.7091ms 200 application/javascript; charset=utf-8
+2023-12-20 13:49:48.072 +07:00 [INF] Request finished in 48.9219ms 200 text/javascript; charset=UTF-8
+2023-12-20 13:49:48.137 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2023-12-20 13:49:48.393 +07:00 [INF] Request finished in 255.9177ms 200 application/json;charset=utf-8
+2023-12-20 13:49:50.613 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/order/update-order-v2 application/json 1390
+2023-12-20 13:49:50.620 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/order/update-order-v2 
+QueryString:  
+Request Body: {
+    "Data":
+    {
+        "stt_rec":"B000001488DXA",
+        "CustomerCode": "TEST",
+        "SaleCode": "3696",
+        "OrderDate": "2023-03-14T16:09:17.34",
+        "Currency": "VND",
+        "StockCode": "VC.KDT02",
+        "Descript": "aaaaaaaa",
+        "PhoneCustomer": "0963004959",
+        "AddressCustomer": "tieesn tesstttt sse",
+        "Detail":
+        [
+            {
+                "code":  "DC.70200572140",
+                "Count": 3,
+                "Price":149.0000,
+                "DiscountPercent": 0.0,
+                "Dvt":"Hộp",
+                "ck":47.000,
+                "cknt":47.000,
+                 "ds_ck": [] 
+            },
+            {
+                "code":  " HI96831",
+                "Count": 30,
+                "Price":0,
+                "DiscountPercent": 0.0,
+                "Dvt":"Hộp",
+                "ck": 0,
+                "cknt": 0,
+                 "ds_ck": [
+                     "CKHANG1"
+                 ] 
+            }
+
+        ],
+        "ds_ck": [
+            {
+                "ma_ck":"A000000004",
+                "t_ck_tt": 5662000.0,
+                "kieu_ck": 3
+            }
+        ],
+        "Total":
+        {
+            "PreAmount":0,
+            "Discount": 0,
+            "Tax": 0,
+            "Fee": 0,
+            "Amount": 0
+        }
+    }
+    
+} 
+
+2023-12-20 13:49:50.625 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-20 13:49:50.801 +07:00 [INF] Successfully validated the token.
+2023-12-20 13:49:50.807 +07:00 [INF] Authorization was successful.
+2023-12-20 13:49:50.809 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate (SSE.ServerAPI)'
+2023-12-20 13:49:50.836 +07:00 [INF] Route matched with {action = "CreateUpdate", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.Order.OrderUpdateResponse] CreateUpdate(SSE.Common.Api.v1.Requests.Order.OrderUpdateRequest) on controller SSE_Server.Api.v1.Controllers.OrderController (SSE.ServerAPI).
+2023-12-20 13:49:51.332 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-20 13:49:55.323 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate (SSE.ServerAPI) in 4482.3198ms
+2023-12-20 13:49:55.327 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate (SSE.ServerAPI)'
+2023-12-20 13:49:55.421 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'app_order_update_v2' expects parameter '@stt_rec', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReader(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.ExecuteScalarImplAsync[T](IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1247
+   at SSE.Core.Services.Dapper.DapperService.ExecuteScalarAsync[T](String sql, Object parameters, CommandType commandType) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Core\Services\Dapper\DapperService.cs:line 170
+   at SSE.DataAccess.Api.v1.Implements.OrderDAL.OrderUpdate(OrderUpdateRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.DataAccess\Api\v1\Implements\OrderDAL.cs:line 538
+   at SSE.Business.Api.v1.Implements.OrderBLL.CreateUpdate(OrderUpdateRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Business\Api\v1\Implements\OrderBLL.cs:line 359
+   at SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate(OrderUpdateRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI\Api\v1\Controllers\OrderController.cs:line 133
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at SSE.Common.Services.ApiLoggingMiddleware.InvokeAsync(HttpContext context) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Core\Services\Middleware\ApiLoggingMiddleware.cs:line 58
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:1ce3c6a5-1236-4e9e-8a2a-7b3b305f78b8
+Error Number:201,State:4,Class:16
+2023-12-20 13:49:55.496 +07:00 [INF] Request finished in 4883.4683ms 500 text/plain
+2023-12-20 13:50:50.702 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-20 13:50:51.178 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-20 13:50:51.180 +07:00 [INF] Hosting environment: Development
+2023-12-20 13:50:51.187 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI
+2023-12-20 13:50:51.215 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2023-12-20 13:50:51.377 +07:00 [INF] Request finished in 162.4606ms 200 text/html;charset=utf-8
+2023-12-20 13:50:51.394 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2023-12-20 13:50:51.398 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2023-12-20 13:50:51.416 +07:00 [INF] Request finished in 22.1793ms 200 application/javascript; charset=utf-8
+2023-12-20 13:50:51.432 +07:00 [INF] Request finished in 33.935ms 200 text/javascript; charset=UTF-8
+2023-12-20 13:50:51.534 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2023-12-20 13:50:51.830 +07:00 [INF] Request finished in 296.2911ms 200 application/json;charset=utf-8
+2023-12-20 13:50:56.302 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/order/update-order-v2 application/json 1390
+2023-12-20 13:50:56.310 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/order/update-order-v2 
+QueryString:  
+Request Body: {
+    "Data":
+    {
+        "stt_rec":"B000001488DXA",
+        "CustomerCode": "TEST",
+        "SaleCode": "3696",
+        "OrderDate": "2023-03-14T16:09:17.34",
+        "Currency": "VND",
+        "StockCode": "VC.KDT02",
+        "Descript": "aaaaaaaa",
+        "PhoneCustomer": "0963004959",
+        "AddressCustomer": "tieesn tesstttt sse",
+        "Detail":
+        [
+            {
+                "code":  "DC.70200572140",
+                "Count": 3,
+                "Price":149.0000,
+                "DiscountPercent": 0.0,
+                "Dvt":"Hộp",
+                "ck":47.000,
+                "cknt":47.000,
+                 "ds_ck": [] 
+            },
+            {
+                "code":  " HI96831",
+                "Count": 30,
+                "Price":0,
+                "DiscountPercent": 0.0,
+                "Dvt":"Hộp",
+                "ck": 0,
+                "cknt": 0,
+                 "ds_ck": [
+                     "CKHANG1"
+                 ] 
+            }
+
+        ],
+        "ds_ck": [
+            {
+                "ma_ck":"A000000004",
+                "t_ck_tt": 5662000.0,
+                "kieu_ck": 3
+            }
+        ],
+        "Total":
+        {
+            "PreAmount":0,
+            "Discount": 0,
+            "Tax": 0,
+            "Fee": 0,
+            "Amount": 0
+        }
+    }
+    
+} 
+
+2023-12-20 13:50:56.316 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-20 13:50:56.504 +07:00 [INF] Successfully validated the token.
+2023-12-20 13:50:56.512 +07:00 [INF] Authorization was successful.
+2023-12-20 13:50:56.514 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate (SSE.ServerAPI)'
+2023-12-20 13:50:56.547 +07:00 [INF] Route matched with {action = "CreateUpdate", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.Order.OrderUpdateResponse] CreateUpdate(SSE.Common.Api.v1.Requests.Order.OrderUpdateRequest) on controller SSE_Server.Api.v1.Controllers.OrderController (SSE.ServerAPI).
+2023-12-20 13:50:57.741 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-20 13:50:59.098 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate (SSE.ServerAPI) in 2545.3336ms
+2023-12-20 13:50:59.102 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate (SSE.ServerAPI)'
+2023-12-20 13:50:59.193 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'ton14', table 'THIENVUONG_APP.dbo.cdvt14'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'so_ct', table 'tempdb.dbo.#detail_____________________________________________________________________________________________________________000000017AB9'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+Warning: Null value is eliminated by an aggregate or other SET operation.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReader(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.ExecuteScalarImplAsync[T](IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1247
+   at SSE.Core.Services.Dapper.DapperService.ExecuteScalarAsync[T](String sql, Object parameters, CommandType commandType) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Core\Services\Dapper\DapperService.cs:line 170
+   at SSE.DataAccess.Api.v1.Implements.OrderDAL.OrderUpdate(OrderUpdateRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.DataAccess\Api\v1\Implements\OrderDAL.cs:line 538
+   at SSE.Business.Api.v1.Implements.OrderBLL.CreateUpdate(OrderUpdateRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Business\Api\v1\Implements\OrderBLL.cs:line 359
+   at SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate(OrderUpdateRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI\Api\v1\Controllers\OrderController.cs:line 133
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at SSE.Common.Services.ApiLoggingMiddleware.InvokeAsync(HttpContext context) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Core\Services\Middleware\ApiLoggingMiddleware.cs:line 58
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:12d6bc2d-55a5-4298-bbc4-205b794f2cc2
+Error Number:515,State:2,Class:16
+2023-12-20 13:50:59.282 +07:00 [INF] Request finished in 2980.2262ms 500 text/plain
+2023-12-20 13:54:55.798 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-20 13:54:56.268 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-20 13:54:56.270 +07:00 [INF] Hosting environment: Development
+2023-12-20 13:54:56.271 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI
+2023-12-20 13:54:56.309 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2023-12-20 13:54:56.459 +07:00 [INF] Request finished in 151.2474ms 200 text/html;charset=utf-8
+2023-12-20 13:54:56.464 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2023-12-20 13:54:56.485 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2023-12-20 13:54:56.491 +07:00 [INF] Request finished in 26.0422ms 200 application/javascript; charset=utf-8
+2023-12-20 13:54:56.536 +07:00 [INF] Request finished in 50.8688ms 200 text/javascript; charset=UTF-8
+2023-12-20 13:54:56.603 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2023-12-20 13:54:56.865 +07:00 [INF] Request finished in 262.0788ms 200 application/json;charset=utf-8
+2023-12-20 13:54:58.945 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/order/update-order-v2 application/json 1390
+2023-12-20 13:54:58.956 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/order/update-order-v2 
+QueryString:  
+Request Body: {
+    "Data":
+    {
+        "stt_rec":"B000001488DXA",
+        "CustomerCode": "TEST",
+        "SaleCode": "3696",
+        "OrderDate": "2023-03-14T16:09:17.34",
+        "Currency": "VND",
+        "StockCode": "VC.KDT02",
+        "Descript": "aaaaaaaa",
+        "PhoneCustomer": "0963004959",
+        "AddressCustomer": "tieesn tesstttt sse",
+        "Detail":
+        [
+            {
+                "code":  "DC.70200572140",
+                "Count": 3,
+                "Price":149.0000,
+                "DiscountPercent": 0.0,
+                "Dvt":"Hộp",
+                "ck":47.000,
+                "cknt":47.000,
+                 "ds_ck": [] 
+            },
+            {
+                "code":  " HI96831",
+                "Count": 30,
+                "Price":0,
+                "DiscountPercent": 0.0,
+                "Dvt":"Hộp",
+                "ck": 0,
+                "cknt": 0,
+                 "ds_ck": [
+                     "CKHANG1"
+                 ] 
+            }
+
+        ],
+        "ds_ck": [
+            {
+                "ma_ck":"A000000004",
+                "t_ck_tt": 5662000.0,
+                "kieu_ck": 3
+            }
+        ],
+        "Total":
+        {
+            "PreAmount":0,
+            "Discount": 0,
+            "Tax": 0,
+            "Fee": 0,
+            "Amount": 0
+        }
+    }
+    
+} 
+
+2023-12-20 13:54:58.961 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-20 13:54:59.158 +07:00 [INF] Successfully validated the token.
+2023-12-20 13:54:59.166 +07:00 [INF] Authorization was successful.
+2023-12-20 13:54:59.169 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate (SSE.ServerAPI)'
+2023-12-20 13:54:59.199 +07:00 [INF] Route matched with {action = "CreateUpdate", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.Order.OrderUpdateResponse] CreateUpdate(SSE.Common.Api.v1.Requests.Order.OrderUpdateRequest) on controller SSE_Server.Api.v1.Controllers.OrderController (SSE.ServerAPI).
+2023-12-20 13:54:59.808 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-20 13:55:01.004 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate (SSE.ServerAPI) in 1797.5885ms
+2023-12-20 13:55:01.009 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate (SSE.ServerAPI)'
+2023-12-20 13:55:01.116 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'ton14', table 'THIENVUONG_APP.dbo.cdvt14'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'so_ct', table 'tempdb.dbo.#detail_____________________________________________________________________________________________________________000000017B74'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+Warning: Null value is eliminated by an aggregate or other SET operation.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReader(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.ExecuteScalarImplAsync[T](IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1247
+   at SSE.Core.Services.Dapper.DapperService.ExecuteScalarAsync[T](String sql, Object parameters, CommandType commandType) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Core\Services\Dapper\DapperService.cs:line 170
+   at SSE.DataAccess.Api.v1.Implements.OrderDAL.OrderUpdate(OrderUpdateRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.DataAccess\Api\v1\Implements\OrderDAL.cs:line 538
+   at SSE.Business.Api.v1.Implements.OrderBLL.CreateUpdate(OrderUpdateRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Business\Api\v1\Implements\OrderBLL.cs:line 359
+   at SSE_Server.Api.v1.Controllers.OrderController.CreateUpdate(OrderUpdateRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI\Api\v1\Controllers\OrderController.cs:line 133
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at SSE.Common.Services.ApiLoggingMiddleware.InvokeAsync(HttpContext context) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Core\Services\Middleware\ApiLoggingMiddleware.cs:line 58
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:18d47532-2898-4a1f-9ef0-745ed7017524
+Error Number:515,State:2,Class:16
+2023-12-20 13:55:01.202 +07:00 [INF] Request finished in 2257.1104ms 500 text/plain

@@ -1,0 +1,97 @@
+<div style="width: 800px;border: 1px solid black;padding: 1em;font-size: 14px;margin-bottom: 10px;">
+    <div style="width: 800px;">
+        <div style="width: 800px;margin-bottom: 2em;">
+                <div style="font-weight:800 ;font-family: 'Times New Roman', Times, seri;">TOÀN CẦU GROUP</div>
+                <div style="margin-bottom:0.5em"><span style="font-weight:400 ;">P101, Nhà A, Ngõ 1, Đỗ Nhuận, Phường Xuân Đình, Quận Bắc Từ Liêm, TP.Hà Nội</span></div>
+        </div>
+        <div style="width: 800px;text-align: center;">
+            <span style="font-weight:800 ;font-family: 'Times New Roman', Times, seri;font-size: 23px;">ĐƠN HÀNG</span>
+            <div style="margin-bottom:0.5em"><i style="font-weight:400 ;">Ngày {{master.ngay}} tháng {{master.thang}} năm {{master.nam}} </i></div>
+        </div>
+    
+        <table style="width: 800px;">
+            <tbody><tr style="width: 800px;">
+                <th>
+                    <div style="text-align: left;">
+                        <div style="margin-bottom:0.5em">
+                            <span style="font-weight:400 ;">Nơi nhận:{{master.ma_dc}} - {{master.ten_dc}} </span>
+                        </div>
+                        <div style="margin-bottom:0.5em"><span style="font-weight:400 ;">Nhà cung cấp:{{master.ma_kh}} - {{master.ten_kh}}</span></div>
+                    </div>       
+                </th>
+                <th style="padding-left: 2px;">
+                    <div style="text-align: left; padding-bottom: 1em;">
+                        <div style="margin-bottom:0.5em"><span style="font-weight:400;">Số phiếu:{{master.so_ct}}</span></div>
+                    </div>
+                </th>
+            </tr>
+        </tbody></table>
+        <!-- <table style="width: 800px;margin-bottom: 0.5em;">
+            <tr style="width: 800px;">
+                <th style="padding-right: 2px;text-align: left;">
+                    <div style="border: 1px solid black;padding: 0.25em;min-height: 150px;">
+                        <div style="font-weight:600 ;">Nhà cung cấp</div>
+                        <div style="margin-left: 2px;font-weight: normal;"><span style="font-weight:400 ;">{{master.ten_kh}}</span></div>
+                    </div>
+    
+                </th>
+                <th style="padding-left: 2px;text-align: left;">
+                    <div style="border: 1px solid black;padding: 0.25em;min-height: 150px;">
+                        <div style="font-weight:600 ;">Nơi nhận</div>
+                        <div style="margin-left: 7px;font-weight: normal;">
+                            <span style="font-weight:400 ;">CC4043 - Cty TNHH sản xuất Kinh Doanh Giấy Toàn Tiến</span>
+                        </div>
+                    </div>
+                </th>
+            </tr>
+        </table> -->
+    </div>
+
+    <table  style="width: 800px;text-align: center;border-collapse: collapse; border: 1px solid #101010;margin-bottom: 0px; ">
+        <tr >
+            <th colspan="3" style="background-color: #cad8fa;border: 1px solid #101010;min-height: 32px;"><span>STT</span></th>
+            <th colspan="3" style="background-color: #cad8fa;border: 1px solid #101010;min-height: 32px;"><span>Mã vật tư</span></th>
+            <th colspan="12" style="background-color: #cad8fa;border: 1px solid #101010;min-height: 32px;"><span>Tên vật tư</span></th>
+            <th colspan="3" style="background-color: #cad8fa;border: 1px solid #101010;min-height: 32px;"><span>Đvt</span></th>
+            <th colspan="3" style="background-color: #cad8fa;border: 1px solid #101010;min-height: 32px;"><span>Số lượng</span></th>
+            <th colspan="3" style="background-color: #cad8fa;border: 1px solid #101010;min-height: 32px;"><span>Giá</span></th>
+            <th colspan="5" style="background-color: #cad8fa;border: 1px solid #101010;min-height: 32px;width: 300px;"><span>Tiền</span></th>
+        </tr>
+        ---detailData---
+    </table>
+
+   
+
+    <!-- <table style="width: 800px;text-align: center;border-collapse: collapse; border: 1px solid #101010;margin-bottom: 0px; ">
+        <tr style="width: 800px;">
+            <th style="border-left: 1px solid #101010;border-bottom: 1px dotted black;" rowspan="3" colspan="24" style="padding-right: 2px;text-align: left;">
+                <span>
+                    Bằng chữ: Một trăm mười chín triệu, ba trăm năm mươi nghìn đồng chẵn
+                </span>
+            </th>
+            <th style="border-left: 1px solid #101010;border-bottom: 1px dotted black;" colspan="6" style="padding-left: 2px;text-align: left;"><span> Tiền </span></th>
+            <th style="border-left: 1px solid #101010;border-bottom: 1px dotted black;text-align: right;" colspan="5" style="padding-left: 2px;text-align: left;"><span>100 000</span></th>
+        </tr>
+        <tr style="width: 800px;">
+            <th style="border-left: 1px solid #101010;border-bottom: 1px dotted black;" colspan="6" style="padding-left: 2px;text-align: left;"><span> Thuế</span></th>
+            <th style="border-left: 1px solid #101010;border-bottom: 1px dotted black;text-align: right;" colspan="5" style="padding-left: 2px;text-align: left;"><span>0</span></th>
+        </tr>
+        <tr style="width: 800px;">
+            <th style="border-left: 1px solid #101010;border-bottom: 1px dotted black;" colspan="6" style="padding-left: 2px;text-align: left;"><span> Tổng cộng</span></th>
+            <th style="border-left: 1px solid #101010;border-bottom: 1px dotted black; text-align: right;" colspan="5" style="padding-left: 2px;text-align: left;"><span>119.350.000</span></th>
+        </tr>
+    </table>  -->
+
+    <div style="text-align: right; margin-right: 1em;"><i style="font-weight:400 ;">Ngày ..... tháng ..... năm ..... </i></div>
+    <table style="width: 800px; margin-top: 0.5em;">
+        <tbody><tr style="width: 800px;">
+            <th style="padding-right: 2px;text-align: right;">
+                <div style="padding: 0.25em;min-height: 150px;margin-right: 5em;">
+                    <div style="font-weight:600 ;width: 100%;text-align: right; ">Phụ trách</div>
+                    <div style="margin-left: 2px;font-weight: normal;"><span style="font-weight:400 ;"></span></div>
+                </div>
+            </th>   
+            
+        </tr>
+    </tbody></table>
+</div>

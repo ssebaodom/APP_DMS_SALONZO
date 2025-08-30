@@ -1,0 +1,112 @@
+E:\Version 1.0.0\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\VariableData\ReportList.json
+E:\Version 1.0.0\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.DataAccess.deps.json
+E:\Version 1.0.0\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.DataAccess.dll
+E:\Version 1.0.0\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.DataAccess.pdb
+E:\Version 1.0.0\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.Common.dll
+E:\Version 1.0.0\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.Core.dll
+E:\Version 1.0.0\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.Common.pdb
+E:\Version 1.0.0\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.Core.pdb
+E:\Version 1.0.0\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.csproj.AssemblyReference.cache
+E:\Version 1.0.0\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+E:\Version 1.0.0\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.AssemblyInfoInputs.cache
+E:\Version 1.0.0\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.AssemblyInfo.cs
+E:\Version 1.0.0\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.csproj.CoreCompileInputs.cache
+E:\Version 1.0.0\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.csproj.CopyComplete
+E:\Version 1.0.0\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.dll
+E:\Version 1.0.0\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.pdb
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\VariableData\ReportList.json
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.DataAccess.deps.json
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.DataAccess.dll
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.DataAccess.pdb
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.Common.dll
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.Core.dll
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.Common.pdb
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.Core.pdb
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.csproj.AssemblyReference.cache
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.AssemblyInfoInputs.cache
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.AssemblyInfo.cs
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.csproj.CoreCompileInputs.cache
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.csproj.CopyComplete
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.dll
+F:\Project 2023\API\API-SSE\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.pdb
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\VariableData\ReportList.json
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.DataAccess.deps.json
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.DataAccess.dll
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.DataAccess.pdb
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.Common.dll
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.Core.dll
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.Common.pdb
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.Core.pdb
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.csproj.AssemblyReference.cache
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.AssemblyInfoInputs.cache
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.AssemblyInfo.cs
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.csproj.CoreCompileInputs.cache
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.csproj.CopyComplete
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.dll
+F:\Project2023\API\API-SSE\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.pdb
+F:\Project2023\API\DMS\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\VariableData\ReportList.json
+F:\Project2023\API\DMS\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.DataAccess.deps.json
+F:\Project2023\API\DMS\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.DataAccess.dll
+F:\Project2023\API\DMS\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.DataAccess.pdb
+F:\Project2023\API\DMS\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.Common.dll
+F:\Project2023\API\DMS\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.Core.dll
+F:\Project2023\API\DMS\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.Common.pdb
+F:\Project2023\API\DMS\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.Core.pdb
+F:\Project2023\API\DMS\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.csproj.AssemblyReference.cache
+F:\Project2023\API\DMS\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+F:\Project2023\API\DMS\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.AssemblyInfoInputs.cache
+F:\Project2023\API\DMS\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.AssemblyInfo.cs
+F:\Project2023\API\DMS\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.csproj.CoreCompileInputs.cache
+F:\Project2023\API\DMS\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.csproj.CopyComplete
+F:\Project2023\API\DMS\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.dll
+F:\Project2023\API\DMS\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.pdb
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\VariableData\ReportList.json
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.DataAccess.deps.json
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.DataAccess.dll
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.DataAccess.pdb
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.Common.dll
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.Core.dll
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.Common.pdb
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.Core.pdb
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.csproj.AssemblyReference.cache
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.AssemblyInfoInputs.cache
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.AssemblyInfo.cs
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.csproj.CoreCompileInputs.cache
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.csproj.CopyComplete
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.dll
+F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.pdb
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\VariableData\ReportList.json
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.DataAccess.deps.json
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.DataAccess.dll
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.DataAccess.pdb
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.Common.dll
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.Core.dll
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.Common.pdb
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.Core.pdb
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.csproj.AssemblyReference.cache
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.AssemblyInfoInputs.cache
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.AssemblyInfo.cs
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.csproj.CoreCompileInputs.cache
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.csproj.CopyComplete
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.dll
+F:\Project2023\API\DMS\Salonzo - Copy\Version 1.0.0\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.pdb
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.DataAccess\bin\Release\netcoreapp3.1\VariableData\ReportList.json
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.DataAccess.deps.json
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.DataAccess.dll
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.DataAccess.pdb
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.Common.dll
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.Core.dll
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.Common.pdb
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.DataAccess\bin\Release\netcoreapp3.1\SSE.Core.pdb
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.csproj.AssemblyReference.cache
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.AssemblyInfoInputs.cache
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.AssemblyInfo.cs
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.csproj.CoreCompileInputs.cache
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.csproj.CopyComplete
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.dll
+F:\Project2023\API\DMS\Salonzo\SalonzoUpdateRedis\SSE.DataAccess\obj\Release\netcoreapp3.1\SSE.DataAccess.pdb

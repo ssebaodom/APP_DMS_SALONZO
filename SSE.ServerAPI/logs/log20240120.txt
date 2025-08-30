@@ -1,0 +1,112 @@
+2024-01-20 11:06:14.368 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-20 11:06:14.555 +07:00 [INF] Creating key {521ddf69-3bcb-4084-a254-2bdc2f56fa91} with creation date 2024-01-20 04:06:14Z, activation date 2024-01-21 09:48:13Z, and expiration date 2024-04-19 04:06:14Z.
+2024-01-20 11:06:14.592 +07:00 [INF] Writing data to file 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys\key-521ddf69-3bcb-4084-a254-2bdc2f56fa91.xml'.
+2024-01-20 11:06:15.531 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-20 11:06:15.533 +07:00 [INF] Hosting environment: Development
+2024-01-20 11:06:15.535 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.ServerAPI
+2024-01-20 11:06:15.579 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2024-01-20 11:06:15.845 +07:00 [INF] Request finished in 271.7857ms 200 text/html;charset=utf-8
+2024-01-20 11:06:16.508 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2024-01-20 11:06:16.534 +07:00 [INF] Request finished in 26.7874ms 200 application/javascript; charset=utf-8
+2024-01-20 11:06:16.604 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2024-01-20 11:06:16.809 +07:00 [INF] Request finished in 205.7874ms 200 text/javascript; charset=UTF-8
+2024-01-20 11:06:18.088 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2024-01-20 11:06:18.492 +07:00 [INF] Request finished in 404.9027ms 200 application/json;charset=utf-8
+2024-01-20 11:08:16.976 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/users/signin application/json 164
+2024-01-20 11:08:16.987 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/signin 
+QueryString:  
+Request Body: {
+    "hostId": "https://thienvuong-cloud.sse.net.vn",
+    "userName": "dat",
+    "password": "123abc",
+    "devideToken": "",
+    "language": "V"  
+}
+
+
+
+ 
+
+2024-01-20 11:08:16.990 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-20 11:08:17.266 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI)'
+2024-01-20 11:08:17.298 +07:00 [INF] Route matched with {action = "Signin", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.SignInResponse] Signin(SSE.Common.Api.v1.Requests.User.SigninRequest) on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2024-01-20 11:08:18.095 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI) - Validation state: "Valid"
+2024-01-20 11:08:18.400 +07:00 [INF] Entity Framework Core 3.1.7 initialized 'GlobalDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=1000 
+2024-01-20 11:08:19.297 +07:00 [INF] Executed DbCommand (70ms) [Parameters=[@__hostId_0='?' (Size = -1) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [d].[HostId], [d].[UserName], [d].[ServerName], [d].[SqlPassLogin], [d].[SqlUserLogin], [d].[SysDbName]
+FROM [DbSysInfo] AS [d]
+WHERE [d].[HostId] = @__hostId_0
+2024-01-20 11:08:19.955 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1853.5251ms.
+2024-01-20 11:08:19.962 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.SignInResponse'.
+2024-01-20 11:08:19.980 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI) in 2676.5436ms
+2024-01-20 11:08:19.983 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI)'
+2024-01-20 11:08:19.989 +07:00 [INF] Request finished in 3012.5585ms 200 application/json; charset=utf-8
+2024-01-20 11:08:22.969 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/users/companies  
+2024-01-20 11:08:22.974 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/companies 
+QueryString:  
+Request Body:  
+
+2024-01-20 11:08:23.027 +07:00 [INF] Successfully validated the token.
+2024-01-20 11:08:23.032 +07:00 [INF] Authorization was successful.
+2024-01-20 11:08:23.034 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI)'
+2024-01-20 11:08:23.039 +07:00 [INF] Route matched with {action = "GetCompanies", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.GetCompaniesResponse] GetCompanies() on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2024-01-20 11:08:23.181 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI) - Validation state: "Valid"
+2024-01-20 11:08:23.330 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 148.2605ms.
+2024-01-20 11:08:23.332 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.GetCompaniesResponse'.
+2024-01-20 11:08:23.343 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI) in 301.1279ms
+2024-01-20 11:08:23.344 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI)'
+2024-01-20 11:08:23.346 +07:00 [INF] Request finished in 376.8907ms 200 application/json; charset=utf-8
+2024-01-20 11:08:26.410 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/users/units  
+2024-01-20 11:08:26.413 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/units 
+QueryString:  
+Request Body:  
+
+2024-01-20 11:08:26.417 +07:00 [INF] Successfully validated the token.
+2024-01-20 11:08:26.419 +07:00 [INF] Authorization was successful.
+2024-01-20 11:08:26.422 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI)'
+2024-01-20 11:08:26.429 +07:00 [INF] Route matched with {action = "GetUnits", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.GetUnitsResponse] GetUnits() on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2024-01-20 11:08:26.552 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI) - Validation state: "Valid"
+2024-01-20 11:08:26.742 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 188.6143ms.
+2024-01-20 11:08:26.744 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.GetUnitsResponse'.
+2024-01-20 11:08:26.750 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI) in 318.5896ms
+2024-01-20 11:08:26.752 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI)'
+2024-01-20 11:08:26.753 +07:00 [INF] Request finished in 343.4323ms 200 application/json; charset=utf-8
+2024-01-20 11:09:25.760 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/order/get-info-item-for-barcode?barcode=&palet=A00000002  
+2024-01-20 11:09:25.764 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/order/get-info-item-for-barcode 
+QueryString: ?barcode=&palet=A00000002 
+Request Body:  
+
+2024-01-20 11:09:25.770 +07:00 [INF] Successfully validated the token.
+2024-01-20 11:09:25.774 +07:00 [INF] Authorization was successful.
+2024-01-20 11:09:25.776 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.OrderController.GetInforItemForBarCode (SSE.ServerAPI)'
+2024-01-20 11:09:25.785 +07:00 [INF] Route matched with {action = "GetInforItemForBarCode", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.Order.ItemFromBarCodeResponse] GetInforItemForBarCode(System.String, System.String) on controller SSE_Server.Api.v1.Controllers.OrderController (SSE.ServerAPI).
+2024-01-20 11:09:25.945 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.OrderController.GetInforItemForBarCode (SSE.ServerAPI) - Validation state: "Valid"
+2024-01-20 11:09:26.046 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.OrderController.GetInforItemForBarCode (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 100.0457ms.
+2024-01-20 11:09:26.050 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.Order.ItemFromBarCodeResponse'.
+2024-01-20 11:09:26.059 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.OrderController.GetInforItemForBarCode (SSE.ServerAPI) in 271.2646ms
+2024-01-20 11:09:26.061 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.OrderController.GetInforItemForBarCode (SSE.ServerAPI)'
+2024-01-20 11:09:26.063 +07:00 [INF] Request finished in 303.1435ms 200 application/json; charset=utf-8
+2024-01-20 11:58:57.867 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-20 11:58:58.328 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-20 11:58:58.330 +07:00 [INF] Hosting environment: Development
+2024-01-20 11:58:58.332 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.ServerAPI
+2024-01-20 11:58:58.362 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2024-01-20 11:58:58.617 +07:00 [INF] Request finished in 256.1283ms 200 text/html;charset=utf-8
+2024-01-20 11:58:58.625 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2024-01-20 11:58:58.636 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2024-01-20 11:58:58.642 +07:00 [INF] Request finished in 17.7194ms 200 application/javascript; charset=utf-8
+2024-01-20 11:58:58.686 +07:00 [INF] Request finished in 49.6928ms 200 text/javascript; charset=UTF-8
+2024-01-20 11:58:58.752 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2024-01-20 11:58:58.983 +07:00 [INF] Request finished in 230.9037ms 200 application/json;charset=utf-8

@@ -1,0 +1,1018 @@
+2023-12-18 09:10:37.808 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-18 09:10:38.634 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-18 09:10:38.636 +07:00 [INF] Hosting environment: Development
+2023-12-18 09:10:38.639 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI
+2023-12-18 09:10:38.670 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2023-12-18 09:10:38.823 +07:00 [INF] Request finished in 155.0319ms 200 text/html;charset=utf-8
+2023-12-18 09:10:38.857 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2023-12-18 09:10:38.860 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2023-12-18 09:10:38.865 +07:00 [INF] Request finished in 7.9714ms 200 application/javascript; charset=utf-8
+2023-12-18 09:10:38.891 +07:00 [INF] Request finished in 31.9333ms 200 text/javascript; charset=UTF-8
+2023-12-18 09:10:38.964 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2023-12-18 09:10:39.215 +07:00 [INF] Request finished in 251.2628ms 200 application/json;charset=utf-8
+2023-12-18 09:11:13.703 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/users/signin application/json 164
+2023-12-18 09:11:13.714 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/signin 
+QueryString:  
+Request Body: {
+    "hostId": "https://thienvuong-cloud.sse.net.vn",
+    "userName": "dat",
+    "password": "123abc",
+    "devideToken": "",
+    "language": "V"  
+}
+
+
+
+ 
+
+2023-12-18 09:11:13.718 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-18 09:11:13.958 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI)'
+2023-12-18 09:11:14.010 +07:00 [INF] Route matched with {action = "Signin", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.SignInResponse] Signin(SSE.Common.Api.v1.Requests.User.SigninRequest) on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-18 09:11:14.848 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-18 09:11:15.153 +07:00 [INF] Entity Framework Core 3.1.7 initialized 'GlobalDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=1000 
+2023-12-18 09:11:16.082 +07:00 [INF] Executed DbCommand (77ms) [Parameters=[@__hostId_0='?' (Size = -1) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [d].[HostId], [d].[UserName], [d].[ServerName], [d].[SqlPassLogin], [d].[SqlUserLogin], [d].[SysDbName]
+FROM [DbSysInfo] AS [d]
+WHERE [d].[HostId] = @__hostId_0
+2023-12-18 09:11:17.048 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2192.9189ms.
+2023-12-18 09:11:17.055 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.SignInResponse'.
+2023-12-18 09:11:17.077 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI) in 3055.3723ms
+2023-12-18 09:11:17.080 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI)'
+2023-12-18 09:11:17.087 +07:00 [INF] Request finished in 3384.7858ms 200 application/json; charset=utf-8
+2023-12-18 09:11:18.990 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/users/companies  
+2023-12-18 09:11:18.994 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/companies 
+QueryString:  
+Request Body:  
+
+2023-12-18 09:11:19.054 +07:00 [INF] Successfully validated the token.
+2023-12-18 09:11:19.060 +07:00 [INF] Authorization was successful.
+2023-12-18 09:11:19.062 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI)'
+2023-12-18 09:11:19.068 +07:00 [INF] Route matched with {action = "GetCompanies", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.GetCompaniesResponse] GetCompanies() on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-18 09:11:19.225 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-18 09:11:19.431 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 202.8583ms.
+2023-12-18 09:11:19.433 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.GetCompaniesResponse'.
+2023-12-18 09:11:19.443 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI) in 373.0333ms
+2023-12-18 09:11:19.445 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI)'
+2023-12-18 09:11:19.449 +07:00 [INF] Request finished in 458.8772ms 200 application/json; charset=utf-8
+2023-12-18 09:11:21.910 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/users/units  
+2023-12-18 09:11:21.914 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/units 
+QueryString:  
+Request Body:  
+
+2023-12-18 09:11:21.920 +07:00 [INF] Successfully validated the token.
+2023-12-18 09:11:21.924 +07:00 [INF] Authorization was successful.
+2023-12-18 09:11:21.926 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI)'
+2023-12-18 09:11:21.933 +07:00 [INF] Route matched with {action = "GetUnits", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.GetUnitsResponse] GetUnits() on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-18 09:11:22.081 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-18 09:11:22.568 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 484.8903ms.
+2023-12-18 09:11:22.571 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.GetUnitsResponse'.
+2023-12-18 09:11:22.577 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI) in 642.1796ms
+2023-12-18 09:11:22.579 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI)'
+2023-12-18 09:11:22.582 +07:00 [INF] Request finished in 672.7637ms 200 application/json; charset=utf-8
+2023-12-18 09:11:30.018 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/manufacturing/create-factory-transaction-voucher-modify application/json 1420
+2023-12-18 09:11:30.022 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/manufacturing/create-factory-transaction-voucher-modify 
+QueryString:  
+Request Body: {
+    "Data": {
+        "stt_rec": null,
+        "ma_dvcs": "CTY",
+        "ma_gd": "02",
+        "ngay_ct": "2023-12-14 00: 00: 00.000",
+        "ghi_chu": "iii",
+        "t_so_luong": 1,
+        "ma_nc": "THAO",
+        "ma_px": "TMAD",
+        "ma_lsx": "45002",
+        "ma_cd": "CD1",
+        "ma_ca": "CH",
+        "sl_nc": "1",
+        "gio_bd": "10:00",
+        "gio_kt": "19:55",
+        "Detail": [
+            {
+                "ma_vt": "BOBLAN001",
+                "dvt": "Can",
+                "so_luong": 1.0,
+                "ma_nc": "THAO",
+                "nh_nc": "",
+                "ghi_chu": "Can",
+                "ma_lo": ""
+            }
+        ],
+        "RawTable": [
+            {
+                "ma_vt": "HH",
+                "dvt": "Can",
+                "so_luong": 10.0,
+                "rework": 0,
+                "ma_lo": "",
+                "sl_tn": 5,
+                "sl_cl": 3,
+                 "sl_sd": 2
+            }
+        ],
+        "WasteTable": [
+            {
+                "ma_vt": "HH",
+                "dvt": "Can",
+                "so_luong": 10.0
+            }
+        ],
+        "MachineTable": [
+            {
+                "ma_may": "MAY1",
+                "gio_bd": "10:00",
+                "gio_kt": "19:55",
+                "so_gio": 9.5,
+                "ghi_chu": ""
+            }
+        ]
+    }
+} 
+
+2023-12-18 09:11:30.027 +07:00 [INF] Successfully validated the token.
+2023-12-18 09:11:30.030 +07:00 [INF] Authorization was successful.
+2023-12-18 09:11:30.032 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.CreateFactoryTransactionVoucherModify (SSE.ServerAPI)'
+2023-12-18 09:11:30.043 +07:00 [INF] Route matched with {action = "CreateFactoryTransactionVoucherModify", controller = "Manufacturing"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.Order.CommonsResponse] CreateFactoryTransactionVoucherModify(SSE.Common.Api.v1.Requests.Manufacturing.ManufacturingRequest) on controller SSE_Server.Api.v1.Controllers.ManufacturingController (SSE.ServerAPI).
+2023-12-18 09:11:30.283 +07:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2023-12-18 09:11:30.306 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.ManufacturingController.CreateFactoryTransactionVoucherModify (SSE.ServerAPI) in 260.3052ms
+2023-12-18 09:11:30.308 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.CreateFactoryTransactionVoucherModify (SSE.ServerAPI)'
+2023-12-18 09:11:30.311 +07:00 [INF] Request finished in 293.1685ms 400 application/problem+json; charset=utf-8
+2023-12-18 09:11:57.492 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-18 09:11:57.952 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-18 09:11:57.953 +07:00 [INF] Hosting environment: Development
+2023-12-18 09:11:57.955 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI
+2023-12-18 09:11:57.985 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2023-12-18 09:11:58.127 +07:00 [INF] Request finished in 144.846ms 200 text/html;charset=utf-8
+2023-12-18 09:11:58.140 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2023-12-18 09:11:58.150 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2023-12-18 09:11:58.157 +07:00 [INF] Request finished in 18.1927ms 200 application/javascript; charset=utf-8
+2023-12-18 09:11:58.200 +07:00 [INF] Request finished in 50.1256ms 200 text/javascript; charset=UTF-8
+2023-12-18 09:11:58.283 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2023-12-18 09:11:58.525 +07:00 [INF] Request finished in 242.5731ms 200 application/json;charset=utf-8
+2023-12-18 09:12:00.831 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/manufacturing/create-factory-transaction-voucher-modify application/json 1420
+2023-12-18 09:12:00.842 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/manufacturing/create-factory-transaction-voucher-modify 
+QueryString:  
+Request Body: {
+    "Data": {
+        "stt_rec": null,
+        "ma_dvcs": "CTY",
+        "ma_gd": "02",
+        "ngay_ct": "2023-12-14 00: 00: 00.000",
+        "ghi_chu": "iii",
+        "t_so_luong": 1,
+        "ma_nc": "THAO",
+        "ma_px": "TMAD",
+        "ma_lsx": "45002",
+        "ma_cd": "CD1",
+        "ma_ca": "CH",
+        "sl_nc": "1",
+        "gio_bd": "10:00",
+        "gio_kt": "19:55",
+        "Detail": [
+            {
+                "ma_vt": "BOBLAN001",
+                "dvt": "Can",
+                "so_luong": 1.0,
+                "ma_nc": "THAO",
+                "nh_nc": "",
+                "ghi_chu": "Can",
+                "ma_lo": ""
+            }
+        ],
+        "RawTable": [
+            {
+                "ma_vt": "HH",
+                "dvt": "Can",
+                "so_luong": 10.0,
+                "rework": 0,
+                "ma_lo": "",
+                "sl_tn": 5,
+                "sl_cl": 3,
+                 "sl_sd": 2
+            }
+        ],
+        "WasteTable": [
+            {
+                "ma_vt": "HH",
+                "dvt": "Can",
+                "so_luong": 10.0
+            }
+        ],
+        "MachineTable": [
+            {
+                "ma_may": "MAY1",
+                "gio_bd": "10:00",
+                "gio_kt": "19:55",
+                "so_gio": 9.5,
+                "ghi_chu": ""
+            }
+        ]
+    }
+} 
+
+2023-12-18 09:12:00.846 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-18 09:12:01.057 +07:00 [INF] Successfully validated the token.
+2023-12-18 09:12:01.064 +07:00 [INF] Authorization was successful.
+2023-12-18 09:12:01.066 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.CreateFactoryTransactionVoucherModify (SSE.ServerAPI)'
+2023-12-18 09:12:01.100 +07:00 [INF] Route matched with {action = "CreateFactoryTransactionVoucherModify", controller = "Manufacturing"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.Order.CommonsResponse] CreateFactoryTransactionVoucherModify(SSE.Common.Api.v1.Requests.Manufacturing.ManufacturingRequest) on controller SSE_Server.Api.v1.Controllers.ManufacturingController (SSE.ServerAPI).
+2023-12-18 09:12:01.674 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.ManufacturingController.CreateFactoryTransactionVoucherModify (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-18 09:12:03.277 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.ManufacturingController.CreateFactoryTransactionVoucherModify (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1595.4715ms.
+2023-12-18 09:12:03.285 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.Order.CommonsResponse'.
+2023-12-18 09:12:03.316 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.ManufacturingController.CreateFactoryTransactionVoucherModify (SSE.ServerAPI) in 2210.4097ms
+2023-12-18 09:12:03.319 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.CreateFactoryTransactionVoucherModify (SSE.ServerAPI)'
+2023-12-18 09:12:03.322 +07:00 [INF] Request finished in 2491.8424ms 200 application/json; charset=utf-8
+2023-12-18 09:33:55.193 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/manufacturing/request-section-item?request=&route=QT01&page_index=1&page_count=10  
+2023-12-18 09:33:55.195 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/manufacturing/request-section-item 
+QueryString: ?request=&route=QT01&page_index=1&page_count=10 
+Request Body:  
+
+2023-12-18 09:33:55.209 +07:00 [INF] Successfully validated the token.
+2023-12-18 09:33:55.211 +07:00 [INF] Authorization was successful.
+2023-12-18 09:33:55.213 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI)'
+2023-12-18 09:33:55.220 +07:00 [INF] Route matched with {action = "RequestSectionItem", controller = "Manufacturing"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Common.DynamicResponse] RequestSectionItem(System.String, System.String, Int32, Int32) on controller SSE_Server.Api.v1.Controllers.ManufacturingController (SSE.ServerAPI).
+2023-12-18 09:33:55.488 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-18 09:33:56.035 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 544.6059ms.
+2023-12-18 09:33:56.038 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Common.DynamicResponse'.
+2023-12-18 09:33:56.045 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI) in 823.7642ms
+2023-12-18 09:33:56.047 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI)'
+2023-12-18 09:33:56.051 +07:00 [INF] Request finished in 857.9663ms 200 application/json; charset=utf-8
+2023-12-18 09:34:01.490 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/manufacturing/request-section-item?request=LSX001001&route=&page_index=1&page_count=10  
+2023-12-18 09:34:01.494 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/manufacturing/request-section-item 
+QueryString: ?request=LSX001001&route=&page_index=1&page_count=10 
+Request Body:  
+
+2023-12-18 09:34:01.497 +07:00 [INF] Successfully validated the token.
+2023-12-18 09:34:01.500 +07:00 [INF] Authorization was successful.
+2023-12-18 09:34:01.503 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI)'
+2023-12-18 09:34:01.506 +07:00 [INF] Route matched with {action = "RequestSectionItem", controller = "Manufacturing"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Common.DynamicResponse] RequestSectionItem(System.String, System.String, Int32, Int32) on controller SSE_Server.Api.v1.Controllers.ManufacturingController (SSE.ServerAPI).
+2023-12-18 09:34:01.854 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-18 09:34:02.268 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 411.3269ms.
+2023-12-18 09:34:02.272 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Common.DynamicResponse'.
+2023-12-18 09:34:02.275 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI) in 767.0067ms
+2023-12-18 09:34:02.277 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI)'
+2023-12-18 09:34:02.279 +07:00 [INF] Request finished in 788.6815ms 200 application/json; charset=utf-8
+2023-12-18 09:34:04.336 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/manufacturing/request-section-item?request=LSX001001&route=QT01&page_index=1&page_count=10  
+2023-12-18 09:34:04.341 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/manufacturing/request-section-item 
+QueryString: ?request=LSX001001&route=QT01&page_index=1&page_count=10 
+Request Body:  
+
+2023-12-18 09:34:04.347 +07:00 [INF] Successfully validated the token.
+2023-12-18 09:34:04.350 +07:00 [INF] Authorization was successful.
+2023-12-18 09:34:04.353 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI)'
+2023-12-18 09:34:04.355 +07:00 [INF] Route matched with {action = "RequestSectionItem", controller = "Manufacturing"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Common.DynamicResponse] RequestSectionItem(System.String, System.String, Int32, Int32) on controller SSE_Server.Api.v1.Controllers.ManufacturingController (SSE.ServerAPI).
+2023-12-18 09:34:04.660 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-18 09:34:04.722 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 59.6068ms.
+2023-12-18 09:34:04.724 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Common.DynamicResponse'.
+2023-12-18 09:34:04.736 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI) in 378.3099ms
+2023-12-18 09:34:04.738 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI)'
+2023-12-18 09:34:04.740 +07:00 [INF] Request finished in 403.9776ms 200 application/json; charset=utf-8
+2023-12-18 10:00:16.047 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/manufacturing/request-section-item?request=&route=&page_index=1&page_count=10  
+2023-12-18 10:00:16.049 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/manufacturing/request-section-item 
+QueryString: ?request=&route=&page_index=1&page_count=10 
+Request Body:  
+
+2023-12-18 10:00:16.053 +07:00 [INF] Successfully validated the token.
+2023-12-18 10:00:16.055 +07:00 [INF] Authorization was successful.
+2023-12-18 10:00:16.057 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI)'
+2023-12-18 10:00:16.060 +07:00 [INF] Route matched with {action = "RequestSectionItem", controller = "Manufacturing"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Common.DynamicResponse] RequestSectionItem(System.String, System.String, Int32, Int32) on controller SSE_Server.Api.v1.Controllers.ManufacturingController (SSE.ServerAPI).
+2023-12-18 10:00:16.231 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-18 10:00:16.678 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 445.571ms.
+2023-12-18 10:00:16.687 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Common.DynamicResponse'.
+2023-12-18 10:00:16.689 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI) in 626.6185ms
+2023-12-18 10:00:16.696 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI)'
+2023-12-18 10:00:16.698 +07:00 [INF] Request finished in 650.4992ms 200 application/json; charset=utf-8
+2023-12-18 10:00:24.857 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/manufacturing/request-section-item?request=&route=QT01&page_index=1&page_count=10  
+2023-12-18 10:00:24.859 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/manufacturing/request-section-item 
+QueryString: ?request=&route=QT01&page_index=1&page_count=10 
+Request Body:  
+
+2023-12-18 10:00:24.861 +07:00 [INF] Successfully validated the token.
+2023-12-18 10:00:24.864 +07:00 [INF] Authorization was successful.
+2023-12-18 10:00:24.865 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI)'
+2023-12-18 10:00:24.867 +07:00 [INF] Route matched with {action = "RequestSectionItem", controller = "Manufacturing"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Common.DynamicResponse] RequestSectionItem(System.String, System.String, Int32, Int32) on controller SSE_Server.Api.v1.Controllers.ManufacturingController (SSE.ServerAPI).
+2023-12-18 10:00:25.157 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-18 10:00:25.213 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 53.5936ms.
+2023-12-18 10:00:25.216 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Common.DynamicResponse'.
+2023-12-18 10:00:25.219 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI) in 350.0704ms
+2023-12-18 10:00:25.221 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI)'
+2023-12-18 10:00:25.223 +07:00 [INF] Request finished in 366.09ms 200 application/json; charset=utf-8
+2023-12-18 10:00:30.861 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/manufacturing/request-section-item?request=LSX001001&route=QT01&page_index=1&page_count=10  
+2023-12-18 10:00:30.864 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/manufacturing/request-section-item 
+QueryString: ?request=LSX001001&route=QT01&page_index=1&page_count=10 
+Request Body:  
+
+2023-12-18 10:00:30.866 +07:00 [INF] Successfully validated the token.
+2023-12-18 10:00:30.869 +07:00 [INF] Authorization was successful.
+2023-12-18 10:00:30.870 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI)'
+2023-12-18 10:00:30.872 +07:00 [INF] Route matched with {action = "RequestSectionItem", controller = "Manufacturing"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Common.DynamicResponse] RequestSectionItem(System.String, System.String, Int32, Int32) on controller SSE_Server.Api.v1.Controllers.ManufacturingController (SSE.ServerAPI).
+2023-12-18 10:00:31.097 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-18 10:00:31.168 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 69.1905ms.
+2023-12-18 10:00:31.171 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Common.DynamicResponse'.
+2023-12-18 10:00:31.173 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI) in 298.5665ms
+2023-12-18 10:00:31.176 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI)'
+2023-12-18 10:00:31.179 +07:00 [INF] Request finished in 318.229ms 200 application/json; charset=utf-8
+2023-12-18 10:00:42.625 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/manufacturing/request-section-item?request=&route=&page_index=1&page_count=10  
+2023-12-18 10:00:42.627 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/manufacturing/request-section-item 
+QueryString: ?request=&route=&page_index=1&page_count=10 
+Request Body:  
+
+2023-12-18 10:00:42.630 +07:00 [INF] Successfully validated the token.
+2023-12-18 10:00:42.634 +07:00 [INF] Authorization was successful.
+2023-12-18 10:00:42.636 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI)'
+2023-12-18 10:00:42.639 +07:00 [INF] Route matched with {action = "RequestSectionItem", controller = "Manufacturing"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Common.DynamicResponse] RequestSectionItem(System.String, System.String, Int32, Int32) on controller SSE_Server.Api.v1.Controllers.ManufacturingController (SSE.ServerAPI).
+2023-12-18 10:00:42.903 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-18 10:00:42.991 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 86.4078ms.
+2023-12-18 10:00:42.994 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Common.DynamicResponse'.
+2023-12-18 10:00:42.996 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI) in 355.2538ms
+2023-12-18 10:00:42.998 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI)'
+2023-12-18 10:00:43.000 +07:00 [INF] Request finished in 375.0847ms 200 application/json; charset=utf-8
+2023-12-18 10:07:14.647 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/manufacturing/request-section-item?request=&route=&page_index=1&page_count=10  
+2023-12-18 10:07:14.650 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/manufacturing/request-section-item 
+QueryString: ?request=&route=&page_index=1&page_count=10 
+Request Body:  
+
+2023-12-18 10:07:14.654 +07:00 [INF] Successfully validated the token.
+2023-12-18 10:07:14.657 +07:00 [INF] Authorization was successful.
+2023-12-18 10:07:14.659 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI)'
+2023-12-18 10:07:14.662 +07:00 [INF] Route matched with {action = "RequestSectionItem", controller = "Manufacturing"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Common.DynamicResponse] RequestSectionItem(System.String, System.String, Int32, Int32) on controller SSE_Server.Api.v1.Controllers.ManufacturingController (SSE.ServerAPI).
+2023-12-18 10:07:14.833 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-18 10:07:15.291 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 454.5877ms.
+2023-12-18 10:07:15.294 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Common.DynamicResponse'.
+2023-12-18 10:07:15.296 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI) in 632.0792ms
+2023-12-18 10:07:15.298 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI)'
+2023-12-18 10:07:15.300 +07:00 [INF] Request finished in 653.3342ms 200 application/json; charset=utf-8
+2023-12-18 10:10:26.877 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/manufacturing/request-section-item?request=&route=&page_index=1&page_count=10  
+2023-12-18 10:10:26.879 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/manufacturing/request-section-item 
+QueryString: ?request=&route=&page_index=1&page_count=10 
+Request Body:  
+
+2023-12-18 10:10:26.882 +07:00 [INF] Successfully validated the token.
+2023-12-18 10:10:26.884 +07:00 [INF] Authorization was successful.
+2023-12-18 10:10:26.887 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI)'
+2023-12-18 10:10:26.889 +07:00 [INF] Route matched with {action = "RequestSectionItem", controller = "Manufacturing"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Common.DynamicResponse] RequestSectionItem(System.String, System.String, Int32, Int32) on controller SSE_Server.Api.v1.Controllers.ManufacturingController (SSE.ServerAPI).
+2023-12-18 10:10:27.086 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-18 10:10:27.174 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 85.7297ms.
+2023-12-18 10:10:27.176 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Common.DynamicResponse'.
+2023-12-18 10:10:27.178 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI) in 287.2165ms
+2023-12-18 10:10:27.180 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI)'
+2023-12-18 10:10:27.182 +07:00 [INF] Request finished in 305.6548ms 200 application/json; charset=utf-8
+2023-12-18 10:12:46.141 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/manufacturing/get-voucher-transaction?vCCode=SF1  
+2023-12-18 10:12:46.144 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/manufacturing/get-voucher-transaction 
+QueryString: ?vCCode=SF1 
+Request Body:  
+
+2023-12-18 10:12:46.146 +07:00 [INF] Successfully validated the token.
+2023-12-18 10:12:46.149 +07:00 [INF] Authorization was successful.
+2023-12-18 10:12:46.151 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.GetVoucherTransaction (SSE.ServerAPI)'
+2023-12-18 10:12:46.158 +07:00 [INF] Route matched with {action = "GetVoucherTransaction", controller = "Manufacturing"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Common.DynamicResponse] GetVoucherTransaction(System.String) on controller SSE_Server.Api.v1.Controllers.ManufacturingController (SSE.ServerAPI).
+2023-12-18 10:12:46.332 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.ManufacturingController.GetVoucherTransaction (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-18 10:12:46.396 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.ManufacturingController.GetVoucherTransaction (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 62.3182ms.
+2023-12-18 10:12:46.400 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Common.DynamicResponse'.
+2023-12-18 10:12:46.402 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.ManufacturingController.GetVoucherTransaction (SSE.ServerAPI) in 242.1654ms
+2023-12-18 10:12:46.404 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.GetVoucherTransaction (SSE.ServerAPI)'
+2023-12-18 10:12:46.406 +07:00 [INF] Request finished in 265.3994ms 200 application/json; charset=utf-8
+2023-12-18 10:14:52.329 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-18 10:14:52.773 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-18 10:14:52.775 +07:00 [INF] Hosting environment: Development
+2023-12-18 10:14:52.777 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI
+2023-12-18 10:14:52.806 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2023-12-18 10:14:52.952 +07:00 [INF] Request finished in 148.4869ms 200 text/html;charset=utf-8
+2023-12-18 10:14:52.977 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2023-12-18 10:14:52.983 +07:00 [INF] Request finished in 5.8171ms 200 application/javascript; charset=utf-8
+2023-12-18 10:14:52.985 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2023-12-18 10:14:53.008 +07:00 [INF] Request finished in 23.3584ms 200 text/javascript; charset=UTF-8
+2023-12-18 10:14:53.080 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2023-12-18 10:14:53.362 +07:00 [INF] Request finished in 282.3279ms 200 application/json;charset=utf-8
+2023-12-18 10:15:06.379 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/manufacturing/get-voucher-transaction?vCCode=SF1  
+2023-12-18 10:15:06.387 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/manufacturing/get-voucher-transaction 
+QueryString: ?vCCode=SF1 
+Request Body:  
+
+2023-12-18 10:15:06.391 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-18 10:15:06.587 +07:00 [INF] Successfully validated the token.
+2023-12-18 10:15:06.595 +07:00 [INF] Authorization was successful.
+2023-12-18 10:15:06.597 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.GetVoucherTransaction (SSE.ServerAPI)'
+2023-12-18 10:15:06.630 +07:00 [INF] Route matched with {action = "GetVoucherTransaction", controller = "Manufacturing"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Common.DynamicResponse] GetVoucherTransaction(System.String) on controller SSE_Server.Api.v1.Controllers.ManufacturingController (SSE.ServerAPI).
+2023-12-18 10:15:07.187 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.ManufacturingController.GetVoucherTransaction (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-18 10:15:19.399 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.ManufacturingController.GetVoucherTransaction (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 12205.7928ms.
+2023-12-18 10:15:19.406 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Common.DynamicResponse'.
+2023-12-18 10:15:19.457 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.ManufacturingController.GetVoucherTransaction (SSE.ServerAPI) in 12819.7681ms
+2023-12-18 10:15:19.459 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.GetVoucherTransaction (SSE.ServerAPI)'
+2023-12-18 10:15:19.463 +07:00 [INF] Request finished in 13083.9013ms 200 application/json; charset=utf-8
+2023-12-18 10:15:24.272 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/users/signin application/json 164
+2023-12-18 10:15:24.279 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/signin 
+QueryString:  
+Request Body: {
+    "hostId": "https://thienvuong-cloud.sse.net.vn",
+    "userName": "dat",
+    "password": "123abc",
+    "devideToken": "",
+    "language": "V"  
+}
+
+
+
+ 
+
+2023-12-18 10:15:24.286 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI)'
+2023-12-18 10:15:24.290 +07:00 [INF] Route matched with {action = "Signin", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.SignInResponse] Signin(SSE.Common.Api.v1.Requests.User.SigninRequest) on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-18 10:15:24.459 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-18 10:15:24.752 +07:00 [INF] Entity Framework Core 3.1.7 initialized 'GlobalDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=1000 
+2023-12-18 10:15:25.418 +07:00 [INF] Executed DbCommand (103ms) [Parameters=[@__hostId_0='?' (Size = -1) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [d].[HostId], [d].[UserName], [d].[ServerName], [d].[SqlPassLogin], [d].[SqlUserLogin], [d].[SysDbName]
+FROM [DbSysInfo] AS [d]
+WHERE [d].[HostId] = @__hostId_0
+2023-12-18 10:15:26.004 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1543.1692ms.
+2023-12-18 10:15:26.007 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.SignInResponse'.
+2023-12-18 10:15:26.014 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI) in 1722.1891ms
+2023-12-18 10:15:26.016 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI)'
+2023-12-18 10:15:26.020 +07:00 [INF] Request finished in 1748.5273ms 200 application/json; charset=utf-8
+2023-12-18 10:15:28.213 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/users/companies  
+2023-12-18 10:15:28.216 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/companies 
+QueryString:  
+Request Body:  
+
+2023-12-18 10:15:28.230 +07:00 [INF] Successfully validated the token.
+2023-12-18 10:15:28.234 +07:00 [INF] Authorization was successful.
+2023-12-18 10:15:28.237 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI)'
+2023-12-18 10:15:28.245 +07:00 [INF] Route matched with {action = "GetCompanies", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.GetCompaniesResponse] GetCompanies() on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-18 10:15:28.397 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-18 10:15:28.567 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 168.7723ms.
+2023-12-18 10:15:28.570 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.GetCompaniesResponse'.
+2023-12-18 10:15:28.577 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI) in 329.7251ms
+2023-12-18 10:15:28.579 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI)'
+2023-12-18 10:15:28.581 +07:00 [INF] Request finished in 367.9637ms 200 application/json; charset=utf-8
+2023-12-18 10:15:31.530 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/users/units  
+2023-12-18 10:15:31.533 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/units 
+QueryString:  
+Request Body:  
+
+2023-12-18 10:15:31.536 +07:00 [INF] Successfully validated the token.
+2023-12-18 10:15:31.538 +07:00 [INF] Authorization was successful.
+2023-12-18 10:15:31.541 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI)'
+2023-12-18 10:15:31.547 +07:00 [INF] Route matched with {action = "GetUnits", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.GetUnitsResponse] GetUnits() on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-18 10:15:31.685 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-18 10:15:31.795 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 108.6746ms.
+2023-12-18 10:15:31.798 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.GetUnitsResponse'.
+2023-12-18 10:15:31.804 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI) in 254.6147ms
+2023-12-18 10:15:31.805 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI)'
+2023-12-18 10:15:31.808 +07:00 [INF] Request finished in 277.9781ms 200 application/json; charset=utf-8
+2023-12-18 10:15:40.420 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/users/stores?unitId=CTY  
+2023-12-18 10:15:40.422 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/stores 
+QueryString: ?unitId=CTY 
+Request Body:  
+
+2023-12-18 10:15:40.425 +07:00 [INF] Successfully validated the token.
+2023-12-18 10:15:40.427 +07:00 [INF] Authorization was successful.
+2023-12-18 10:15:40.429 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.GeStores (SSE.ServerAPI)'
+2023-12-18 10:15:40.436 +07:00 [INF] Route matched with {action = "GeStores", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.GetStoresResponse] GeStores(System.String) on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-18 10:15:40.586 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.GeStores (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-18 10:15:40.747 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.GeStores (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 158.9976ms.
+2023-12-18 10:15:40.749 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.GetStoresResponse'.
+2023-12-18 10:15:40.754 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.GeStores (SSE.ServerAPI) in 316.2251ms
+2023-12-18 10:15:40.756 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.GeStores (SSE.ServerAPI)'
+2023-12-18 10:15:40.758 +07:00 [INF] Request finished in 338.5067ms 200 application/json; charset=utf-8
+2023-12-18 10:15:50.001 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/users/config application/json 27
+2023-12-18 10:15:50.004 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/config 
+QueryString:  
+Request Body: {
+  "CompanyId": "1012"
+} 
+
+2023-12-18 10:15:50.007 +07:00 [INF] Successfully validated the token.
+2023-12-18 10:15:50.010 +07:00 [INF] Authorization was successful.
+2023-12-18 10:15:50.013 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.Config (SSE.ServerAPI)'
+2023-12-18 10:15:50.017 +07:00 [INF] Route matched with {action = "Config", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Common.CommonResponse] Config(SSE.Common.Api.v1.Requests.User.ConfigRequest) on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-18 10:15:50.167 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.Config (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-18 10:15:50.436 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.Config (SSE.ServerAPI) in 416.9054ms
+2023-12-18 10:15:50.438 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.Config (SSE.ServerAPI)'
+2023-12-18 10:15:50.534 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'app_get_app_db_name'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReader(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.ExecuteScalarImplAsync[T](IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1247
+   at SSE.Core.Services.Dapper.DapperService.ExecuteScalarAsync[T](String sql, Object parameters, CommandType commandType) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Core\Services\Dapper\DapperService.cs:line 170
+   at SSE.DataAccess.Api.v1.Implements.UserDAL.GetAppDbName(String companyId) in F:\Project2023\API\DMS\Version 1.0.0\SSE.DataAccess\Api\v1\Implements\UserDAL.cs:line 45
+   at SSE.Business.Api.v1.Implements.UserBLL.Config(ConfigRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Business\Api\v1\Implements\UserBLL.cs:line 162
+   at SSE_Server.Api.v1.Controllers.UserController.Config(ConfigRequest request) in F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI\Api\v1\Controllers\UserController.cs:line 38
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at SSE.Common.Services.ApiLoggingMiddleware.InvokeAsync(HttpContext context) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Core\Services\Middleware\ApiLoggingMiddleware.cs:line 58
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:f14d79c3-c75d-463d-9c3e-eeb73a1ec7e4
+Error Number:2812,State:62,Class:16
+2023-12-18 10:15:50.628 +07:00 [INF] Request finished in 626.6008ms 500 text/plain
+2023-12-18 10:16:04.604 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/order/get-info-item-for-barcode?barcode=20231212171244112  
+2023-12-18 10:16:04.608 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/order/get-info-item-for-barcode 
+QueryString: ?barcode=20231212171244112 
+Request Body:  
+
+2023-12-18 10:16:04.611 +07:00 [INF] Successfully validated the token.
+2023-12-18 10:16:04.613 +07:00 [INF] Authorization was successful.
+2023-12-18 10:16:04.615 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.OrderController.GetInforItemForBarCode (SSE.ServerAPI)'
+2023-12-18 10:16:04.620 +07:00 [INF] Route matched with {action = "GetInforItemForBarCode", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.Order.ItemFromBarCodeResponse] GetInforItemForBarCode(System.String) on controller SSE_Server.Api.v1.Controllers.OrderController (SSE.ServerAPI).
+2023-12-18 10:16:04.814 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.OrderController.GetInforItemForBarCode (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-18 10:16:05.010 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.OrderController.GetInforItemForBarCode (SSE.ServerAPI) in 388.4156ms
+2023-12-18 10:16:05.013 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.OrderController.GetInforItemForBarCode (SSE.ServerAPI)'
+2023-12-18 10:16:05.096 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'app_get_item_by_barcode'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Dapper.SqlMapper.QueryMultipleAsync(IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1050
+   at SSE.Core.Services.Dapper.DapperService.QueryMultipleAsync(String sql, DynamicParameters parameters, CommandType commandType) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Core\Services\Dapper\DapperService.cs:line 270
+   at SSE.DataAccess.Api.v1.Implements.OrderDAL.GetInforItemForBarCode(Int64 UserId, String unitID, String barcode) in F:\Project2023\API\DMS\Version 1.0.0\SSE.DataAccess\Api\v1\Implements\OrderDAL.cs:line 1248
+   at SSE.Business.Api.v1.Implements.OrderBLL.GetInforItemForBarCode(String barcode) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Business\Api\v1\Implements\OrderBLL.cs:line 974
+   at SSE_Server.Api.v1.Controllers.OrderController.GetInforItemForBarCode(String barcode) in F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI\Api\v1\Controllers\OrderController.cs:line 331
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at SSE.Common.Services.ApiLoggingMiddleware.InvokeAsync(HttpContext context) in F:\Project2023\API\DMS\Version 1.0.0\SSE.Core\Services\Middleware\ApiLoggingMiddleware.cs:line 58
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:21e9aa4a-7e9f-42ef-98cd-5baa2ae13f83
+Error Number:2812,State:62,Class:16
+2023-12-18 10:16:05.113 +07:00 [INF] Request finished in 509.1553ms 500 text/plain
+2023-12-18 10:16:15.398 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/users/companies  
+2023-12-18 10:16:15.400 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/companies 
+QueryString:  
+Request Body:  
+
+2023-12-18 10:16:15.404 +07:00 [INF] Successfully validated the token.
+2023-12-18 10:16:15.406 +07:00 [INF] Authorization was successful.
+2023-12-18 10:16:15.408 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI)'
+2023-12-18 10:16:15.410 +07:00 [INF] Route matched with {action = "GetCompanies", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.GetCompaniesResponse] GetCompanies() on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-18 10:16:15.560 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-18 10:16:15.701 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 139.5575ms.
+2023-12-18 10:16:15.704 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.GetCompaniesResponse'.
+2023-12-18 10:16:15.706 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI) in 294.6192ms
+2023-12-18 10:16:15.708 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI)'
+2023-12-18 10:16:15.710 +07:00 [INF] Request finished in 312.6559ms 200 application/json; charset=utf-8
+2023-12-18 10:16:18.284 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/users/units  
+2023-12-18 10:16:18.286 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/units 
+QueryString:  
+Request Body:  
+
+2023-12-18 10:16:18.291 +07:00 [INF] Successfully validated the token.
+2023-12-18 10:16:18.293 +07:00 [INF] Authorization was successful.
+2023-12-18 10:16:18.295 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI)'
+2023-12-18 10:16:18.297 +07:00 [INF] Route matched with {action = "GetUnits", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.GetUnitsResponse] GetUnits() on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-18 10:16:18.440 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-18 10:16:18.522 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 80.8642ms.
+2023-12-18 10:16:18.535 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.GetUnitsResponse'.
+2023-12-18 10:16:18.540 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI) in 241.711ms
+2023-12-18 10:16:18.556 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI)'
+2023-12-18 10:16:18.560 +07:00 [INF] Request finished in 276.038ms 200 application/json; charset=utf-8
+2023-12-18 10:16:23.295 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/order/get-info-item-for-barcode?barcode=20231212171244112  
+2023-12-18 10:16:23.298 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/order/get-info-item-for-barcode 
+QueryString: ?barcode=20231212171244112 
+Request Body:  
+
+2023-12-18 10:16:23.311 +07:00 [INF] Successfully validated the token.
+2023-12-18 10:16:23.313 +07:00 [INF] Authorization was successful.
+2023-12-18 10:16:23.314 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.OrderController.GetInforItemForBarCode (SSE.ServerAPI)'
+2023-12-18 10:16:23.316 +07:00 [INF] Route matched with {action = "GetInforItemForBarCode", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.Order.ItemFromBarCodeResponse] GetInforItemForBarCode(System.String) on controller SSE_Server.Api.v1.Controllers.OrderController (SSE.ServerAPI).
+2023-12-18 10:16:23.486 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.OrderController.GetInforItemForBarCode (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-18 10:16:23.557 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.OrderController.GetInforItemForBarCode (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 67.7711ms.
+2023-12-18 10:16:23.561 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.Order.ItemFromBarCodeResponse'.
+2023-12-18 10:16:23.568 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.OrderController.GetInforItemForBarCode (SSE.ServerAPI) in 250.6454ms
+2023-12-18 10:16:23.570 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.OrderController.GetInforItemForBarCode (SSE.ServerAPI)'
+2023-12-18 10:16:23.572 +07:00 [INF] Request finished in 276.9094ms 200 application/json; charset=utf-8
+2023-12-18 10:16:58.760 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/order/get-info-item-for-barcode?barcode=20231212171244112  
+2023-12-18 10:16:58.763 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/order/get-info-item-for-barcode 
+QueryString: ?barcode=20231212171244112 
+Request Body:  
+
+2023-12-18 10:16:58.766 +07:00 [INF] Successfully validated the token.
+2023-12-18 10:16:58.769 +07:00 [INF] Authorization was successful.
+2023-12-18 10:16:58.771 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.OrderController.GetInforItemForBarCode (SSE.ServerAPI)'
+2023-12-18 10:16:58.773 +07:00 [INF] Route matched with {action = "GetInforItemForBarCode", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.Order.ItemFromBarCodeResponse] GetInforItemForBarCode(System.String) on controller SSE_Server.Api.v1.Controllers.OrderController (SSE.ServerAPI).
+2023-12-18 10:16:58.966 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.OrderController.GetInforItemForBarCode (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-18 10:17:06.214 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.OrderController.GetInforItemForBarCode (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 7242.3136ms.
+2023-12-18 10:17:06.228 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.Order.ItemFromBarCodeResponse'.
+2023-12-18 10:17:06.240 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.OrderController.GetInforItemForBarCode (SSE.ServerAPI) in 7465.9208ms
+2023-12-18 10:17:06.242 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.OrderController.GetInforItemForBarCode (SSE.ServerAPI)'
+2023-12-18 10:17:06.245 +07:00 [INF] Request finished in 7485.5631ms 200 application/json; charset=utf-8
+2023-12-18 10:17:13.136 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/manufacturing/request-section-item?request=&route=&page_index=1&page_count=10  
+2023-12-18 10:17:13.138 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/manufacturing/request-section-item 
+QueryString: ?request=&route=&page_index=1&page_count=10 
+Request Body:  
+
+2023-12-18 10:17:13.144 +07:00 [INF] Successfully validated the token.
+2023-12-18 10:17:13.146 +07:00 [INF] Authorization was successful.
+2023-12-18 10:17:13.148 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI)'
+2023-12-18 10:17:13.155 +07:00 [INF] Route matched with {action = "RequestSectionItem", controller = "Manufacturing"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Common.DynamicResponse] RequestSectionItem(System.String, System.String, Int32, Int32) on controller SSE_Server.Api.v1.Controllers.ManufacturingController (SSE.ServerAPI).
+2023-12-18 10:17:13.327 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-18 10:17:13.430 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 100.8746ms.
+2023-12-18 10:17:13.432 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Common.DynamicResponse'.
+2023-12-18 10:17:13.435 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI) in 277.6423ms
+2023-12-18 10:17:13.436 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI)'
+2023-12-18 10:17:13.439 +07:00 [INF] Request finished in 302.9781ms 200 application/json; charset=utf-8
+2023-12-18 10:17:31.098 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/manufacturing/get-voucher-transaction?vCCode=SF1  
+2023-12-18 10:17:31.100 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/manufacturing/get-voucher-transaction 
+QueryString: ?vCCode=SF1 
+Request Body:  
+
+2023-12-18 10:17:31.103 +07:00 [INF] Successfully validated the token.
+2023-12-18 10:17:31.106 +07:00 [INF] Authorization was successful.
+2023-12-18 10:17:31.108 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.GetVoucherTransaction (SSE.ServerAPI)'
+2023-12-18 10:17:31.111 +07:00 [INF] Route matched with {action = "GetVoucherTransaction", controller = "Manufacturing"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Common.DynamicResponse] GetVoucherTransaction(System.String) on controller SSE_Server.Api.v1.Controllers.ManufacturingController (SSE.ServerAPI).
+2023-12-18 10:17:31.278 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.ManufacturingController.GetVoucherTransaction (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-18 10:17:42.556 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.ManufacturingController.GetVoucherTransaction (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 11275.8823ms.
+2023-12-18 10:17:42.560 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Common.DynamicResponse'.
+2023-12-18 10:17:42.562 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.ManufacturingController.GetVoucherTransaction (SSE.ServerAPI) in 11450.0408ms
+2023-12-18 10:17:42.564 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.GetVoucherTransaction (SSE.ServerAPI)'
+2023-12-18 10:17:42.566 +07:00 [INF] Request finished in 11468.6664ms 200 application/json; charset=utf-8
+2023-12-18 10:42:59.267 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/manufacturing/request-section-item?request=&route=QT02&page_index=1&page_count=10  
+2023-12-18 10:42:59.270 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/manufacturing/request-section-item 
+QueryString: ?request=&route=QT02&page_index=1&page_count=10 
+Request Body:  
+
+2023-12-18 10:42:59.273 +07:00 [INF] Successfully validated the token.
+2023-12-18 10:42:59.276 +07:00 [INF] Authorization was successful.
+2023-12-18 10:42:59.277 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI)'
+2023-12-18 10:42:59.280 +07:00 [INF] Route matched with {action = "RequestSectionItem", controller = "Manufacturing"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Common.DynamicResponse] RequestSectionItem(System.String, System.String, Int32, Int32) on controller SSE_Server.Api.v1.Controllers.ManufacturingController (SSE.ServerAPI).
+2023-12-18 10:42:59.491 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-18 10:42:59.932 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 438.9233ms.
+2023-12-18 10:42:59.937 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Common.DynamicResponse'.
+2023-12-18 10:42:59.940 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI) in 658.6948ms
+2023-12-18 10:42:59.942 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI)'
+2023-12-18 10:42:59.944 +07:00 [INF] Request finished in 677.5093ms 200 application/json; charset=utf-8
+2023-12-18 10:43:05.604 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/manufacturing/request-section-item?request=40001&route=QT02&page_index=1&page_count=10  
+2023-12-18 10:43:05.608 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/manufacturing/request-section-item 
+QueryString: ?request=40001&route=QT02&page_index=1&page_count=10 
+Request Body:  
+
+2023-12-18 10:43:05.611 +07:00 [INF] Successfully validated the token.
+2023-12-18 10:43:05.613 +07:00 [INF] Authorization was successful.
+2023-12-18 10:43:05.615 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI)'
+2023-12-18 10:43:05.617 +07:00 [INF] Route matched with {action = "RequestSectionItem", controller = "Manufacturing"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Common.DynamicResponse] RequestSectionItem(System.String, System.String, Int32, Int32) on controller SSE_Server.Api.v1.Controllers.ManufacturingController (SSE.ServerAPI).
+2023-12-18 10:43:05.806 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-18 10:43:06.010 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 200.1381ms.
+2023-12-18 10:43:06.016 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Common.DynamicResponse'.
+2023-12-18 10:43:06.018 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI) in 399.3452ms
+2023-12-18 10:43:06.021 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.RequestSectionItem (SSE.ServerAPI)'
+2023-12-18 10:43:06.024 +07:00 [INF] Request finished in 419.744ms 200 application/json; charset=utf-8
+2023-12-18 11:29:58.003 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/manufacturing/get-semi-products?lsx=40001&section=QT02&searchValue&page_index=1&page_count=10  
+2023-12-18 11:29:58.005 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/manufacturing/get-semi-products 
+QueryString: ?lsx=40001&section=QT02&searchValue&page_index=1&page_count=10 
+Request Body:  
+
+2023-12-18 11:29:58.009 +07:00 [INF] Successfully validated the token.
+2023-12-18 11:29:58.013 +07:00 [INF] Authorization was successful.
+2023-12-18 11:29:58.016 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI)'
+2023-12-18 11:29:58.033 +07:00 [INF] Route matched with {action = "GetSemiProducts", controller = "Manufacturing"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Common.DynamicResponse] GetSemiProducts(System.String, System.String, System.String, Int32, Int32) on controller SSE_Server.Api.v1.Controllers.ManufacturingController (SSE.ServerAPI).
+2023-12-18 11:29:58.246 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-18 11:29:58.828 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 579.2735ms.
+2023-12-18 11:29:58.832 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Common.DynamicResponse'.
+2023-12-18 11:29:58.838 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI) in 767.8338ms
+2023-12-18 11:29:58.841 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI)'
+2023-12-18 11:29:58.843 +07:00 [INF] Request finished in 839.8843ms 200 application/json; charset=utf-8
+2023-12-18 11:30:32.735 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/manufacturing/get-semi-products?lsx=40001&section=QT02&searchValue&page_index=1&page_count=10  
+2023-12-18 11:30:32.740 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/manufacturing/get-semi-products 
+QueryString: ?lsx=40001&section=QT02&searchValue&page_index=1&page_count=10 
+Request Body:  
+
+2023-12-18 11:30:32.743 +07:00 [INF] Successfully validated the token.
+2023-12-18 11:30:32.746 +07:00 [INF] Authorization was successful.
+2023-12-18 11:30:32.749 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI)'
+2023-12-18 11:30:32.754 +07:00 [INF] Route matched with {action = "GetSemiProducts", controller = "Manufacturing"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Common.DynamicResponse] GetSemiProducts(System.String, System.String, System.String, Int32, Int32) on controller SSE_Server.Api.v1.Controllers.ManufacturingController (SSE.ServerAPI).
+2023-12-18 11:30:33.014 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-18 11:30:33.110 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 93.2709ms.
+2023-12-18 11:30:33.120 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Common.DynamicResponse'.
+2023-12-18 11:30:33.123 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI) in 336.3006ms
+2023-12-18 11:30:33.125 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI)'
+2023-12-18 11:30:33.128 +07:00 [INF] Request finished in 392.4321ms 200 application/json; charset=utf-8
+2023-12-18 11:31:18.288 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/manufacturing/get-semi-products?lsx=40001&section=QT02&searchValue&page_index=1&page_count=10  
+2023-12-18 11:31:18.290 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/manufacturing/get-semi-products 
+QueryString: ?lsx=40001&section=QT02&searchValue&page_index=1&page_count=10 
+Request Body:  
+
+2023-12-18 11:31:18.294 +07:00 [INF] Successfully validated the token.
+2023-12-18 11:31:18.298 +07:00 [INF] Authorization was successful.
+2023-12-18 11:31:18.301 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI)'
+2023-12-18 11:31:18.304 +07:00 [INF] Route matched with {action = "GetSemiProducts", controller = "Manufacturing"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Common.DynamicResponse] GetSemiProducts(System.String, System.String, System.String, Int32, Int32) on controller SSE_Server.Api.v1.Controllers.ManufacturingController (SSE.ServerAPI).
+2023-12-18 11:31:18.493 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-18 11:31:18.571 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 76.0841ms.
+2023-12-18 11:31:18.574 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Common.DynamicResponse'.
+2023-12-18 11:31:18.577 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI) in 269.647ms
+2023-12-18 11:31:18.580 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI)'
+2023-12-18 11:31:18.583 +07:00 [INF] Request finished in 295.201ms 200 application/json; charset=utf-8
+2023-12-18 11:33:24.729 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/manufacturing/get-semi-products?lsx=40001&section=CD1&searchValue&page_index=1&page_count=10  
+2023-12-18 11:33:24.731 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/manufacturing/get-semi-products 
+QueryString: ?lsx=40001&section=CD1&searchValue&page_index=1&page_count=10 
+Request Body:  
+
+2023-12-18 11:33:24.733 +07:00 [INF] Successfully validated the token.
+2023-12-18 11:33:24.736 +07:00 [INF] Authorization was successful.
+2023-12-18 11:33:24.738 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI)'
+2023-12-18 11:33:24.742 +07:00 [INF] Route matched with {action = "GetSemiProducts", controller = "Manufacturing"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Common.DynamicResponse] GetSemiProducts(System.String, System.String, System.String, Int32, Int32) on controller SSE_Server.Api.v1.Controllers.ManufacturingController (SSE.ServerAPI).
+2023-12-18 11:33:24.930 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-18 11:33:25.025 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 93.43ms.
+2023-12-18 11:33:25.028 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Common.DynamicResponse'.
+2023-12-18 11:33:25.030 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI) in 285.9415ms
+2023-12-18 11:33:25.032 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI)'
+2023-12-18 11:33:25.035 +07:00 [INF] Request finished in 306.0572ms 200 application/json; charset=utf-8
+2023-12-18 11:33:33.464 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/manufacturing/get-semi-products?lsx=40001&section=CD2&searchValue&page_index=1&page_count=10  
+2023-12-18 11:33:33.468 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/manufacturing/get-semi-products 
+QueryString: ?lsx=40001&section=CD2&searchValue&page_index=1&page_count=10 
+Request Body:  
+
+2023-12-18 11:33:33.470 +07:00 [INF] Successfully validated the token.
+2023-12-18 11:33:33.472 +07:00 [INF] Authorization was successful.
+2023-12-18 11:33:33.473 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI)'
+2023-12-18 11:33:33.475 +07:00 [INF] Route matched with {action = "GetSemiProducts", controller = "Manufacturing"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Common.DynamicResponse] GetSemiProducts(System.String, System.String, System.String, Int32, Int32) on controller SSE_Server.Api.v1.Controllers.ManufacturingController (SSE.ServerAPI).
+2023-12-18 11:33:33.660 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-18 11:33:33.736 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 73.404ms.
+2023-12-18 11:33:33.738 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Common.DynamicResponse'.
+2023-12-18 11:33:33.741 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI) in 263.6092ms
+2023-12-18 11:33:33.743 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI)'
+2023-12-18 11:33:33.745 +07:00 [INF] Request finished in 280.8654ms 200 application/json; charset=utf-8
+2023-12-18 11:33:57.747 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/manufacturing/get-semi-products?lsx=40001&section=&searchValue&page_index=1&page_count=10  
+2023-12-18 11:33:57.750 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/manufacturing/get-semi-products 
+QueryString: ?lsx=40001&section=&searchValue&page_index=1&page_count=10 
+Request Body:  
+
+2023-12-18 11:33:57.753 +07:00 [INF] Successfully validated the token.
+2023-12-18 11:33:57.757 +07:00 [INF] Authorization was successful.
+2023-12-18 11:33:57.760 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI)'
+2023-12-18 11:33:57.761 +07:00 [INF] Route matched with {action = "GetSemiProducts", controller = "Manufacturing"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Common.DynamicResponse] GetSemiProducts(System.String, System.String, System.String, Int32, Int32) on controller SSE_Server.Api.v1.Controllers.ManufacturingController (SSE.ServerAPI).
+2023-12-18 11:33:57.939 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-18 11:33:58.039 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 96.4467ms.
+2023-12-18 11:33:58.048 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Common.DynamicResponse'.
+2023-12-18 11:33:58.050 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI) in 286.6432ms
+2023-12-18 11:33:58.053 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI)'
+2023-12-18 11:33:58.056 +07:00 [INF] Request finished in 308.2114ms 200 application/json; charset=utf-8
+2023-12-18 11:34:02.615 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/manufacturing/get-semi-products?lsx=&section=CD2&searchValue&page_index=1&page_count=10  
+2023-12-18 11:34:02.618 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/manufacturing/get-semi-products 
+QueryString: ?lsx=&section=CD2&searchValue&page_index=1&page_count=10 
+Request Body:  
+
+2023-12-18 11:34:02.620 +07:00 [INF] Successfully validated the token.
+2023-12-18 11:34:02.622 +07:00 [INF] Authorization was successful.
+2023-12-18 11:34:02.625 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI)'
+2023-12-18 11:34:02.627 +07:00 [INF] Route matched with {action = "GetSemiProducts", controller = "Manufacturing"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Common.DynamicResponse] GetSemiProducts(System.String, System.String, System.String, Int32, Int32) on controller SSE_Server.Api.v1.Controllers.ManufacturingController (SSE.ServerAPI).
+2023-12-18 11:34:02.817 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-18 11:34:02.918 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 97.5603ms.
+2023-12-18 11:34:02.921 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Common.DynamicResponse'.
+2023-12-18 11:34:02.924 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI) in 294.0809ms
+2023-12-18 11:34:02.926 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI)'
+2023-12-18 11:34:02.928 +07:00 [INF] Request finished in 313.235ms 200 application/json; charset=utf-8
+2023-12-18 11:34:15.770 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/manufacturing/get-semi-products?lsx=40001&section=CD2&searchValue&page_index=1&page_count=10  
+2023-12-18 11:34:15.773 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/manufacturing/get-semi-products 
+QueryString: ?lsx=40001&section=CD2&searchValue&page_index=1&page_count=10 
+Request Body:  
+
+2023-12-18 11:34:15.777 +07:00 [INF] Successfully validated the token.
+2023-12-18 11:34:15.779 +07:00 [INF] Authorization was successful.
+2023-12-18 11:34:15.781 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI)'
+2023-12-18 11:34:15.783 +07:00 [INF] Route matched with {action = "GetSemiProducts", controller = "Manufacturing"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Common.DynamicResponse] GetSemiProducts(System.String, System.String, System.String, Int32, Int32) on controller SSE_Server.Api.v1.Controllers.ManufacturingController (SSE.ServerAPI).
+2023-12-18 11:34:15.978 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-18 11:34:16.080 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 100.5886ms.
+2023-12-18 11:34:16.083 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Common.DynamicResponse'.
+2023-12-18 11:34:16.085 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI) in 299.8004ms
+2023-12-18 11:34:16.087 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI)'
+2023-12-18 11:34:16.090 +07:00 [INF] Request finished in 319.6313ms 200 application/json; charset=utf-8
+2023-12-18 11:34:22.174 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/manufacturing/get-semi-products?lsx=40001&section=CD1&searchValue&page_index=1&page_count=10  
+2023-12-18 11:34:22.177 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/manufacturing/get-semi-products 
+QueryString: ?lsx=40001&section=CD1&searchValue&page_index=1&page_count=10 
+Request Body:  
+
+2023-12-18 11:34:22.181 +07:00 [INF] Successfully validated the token.
+2023-12-18 11:34:22.185 +07:00 [INF] Authorization was successful.
+2023-12-18 11:34:22.188 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI)'
+2023-12-18 11:34:22.190 +07:00 [INF] Route matched with {action = "GetSemiProducts", controller = "Manufacturing"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Common.DynamicResponse] GetSemiProducts(System.String, System.String, System.String, Int32, Int32) on controller SSE_Server.Api.v1.Controllers.ManufacturingController (SSE.ServerAPI).
+2023-12-18 11:34:22.352 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-18 11:34:22.415 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 61.0985ms.
+2023-12-18 11:34:22.418 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Common.DynamicResponse'.
+2023-12-18 11:34:22.421 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI) in 228.1172ms
+2023-12-18 11:34:22.423 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI)'
+2023-12-18 11:34:22.426 +07:00 [INF] Request finished in 251.7567ms 200 application/json; charset=utf-8
+2023-12-18 11:47:50.752 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/manufacturing/get-item-materials?item=BOBLAN001  
+2023-12-18 11:47:50.756 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/manufacturing/get-item-materials 
+QueryString: ?item=BOBLAN001 
+Request Body:  
+
+2023-12-18 11:47:50.759 +07:00 [INF] Successfully validated the token.
+2023-12-18 11:47:50.761 +07:00 [INF] Authorization was successful.
+2023-12-18 11:47:50.763 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.GetItemMaterials (SSE.ServerAPI)'
+2023-12-18 11:47:50.768 +07:00 [INF] Route matched with {action = "GetItemMaterials", controller = "Manufacturing"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Common.DynamicResponse] GetItemMaterials(System.String) on controller SSE_Server.Api.v1.Controllers.ManufacturingController (SSE.ServerAPI).
+2023-12-18 11:47:50.951 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.ManufacturingController.GetItemMaterials (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-18 11:47:51.456 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.ManufacturingController.GetItemMaterials (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 502.1722ms.
+2023-12-18 11:47:51.462 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Common.DynamicResponse'.
+2023-12-18 11:47:51.465 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.ManufacturingController.GetItemMaterials (SSE.ServerAPI) in 694.9626ms
+2023-12-18 11:47:51.466 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.GetItemMaterials (SSE.ServerAPI)'
+2023-12-18 11:47:51.468 +07:00 [INF] Request finished in 716.0169ms 200 application/json; charset=utf-8
+2023-12-18 11:48:18.210 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/manufacturing/get-item-materials?item=SFC.A1  
+2023-12-18 11:48:18.213 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/manufacturing/get-item-materials 
+QueryString: ?item=SFC.A1 
+Request Body:  
+
+2023-12-18 11:48:18.217 +07:00 [INF] Successfully validated the token.
+2023-12-18 11:48:18.220 +07:00 [INF] Authorization was successful.
+2023-12-18 11:48:18.224 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.GetItemMaterials (SSE.ServerAPI)'
+2023-12-18 11:48:18.226 +07:00 [INF] Route matched with {action = "GetItemMaterials", controller = "Manufacturing"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Common.DynamicResponse] GetItemMaterials(System.String) on controller SSE_Server.Api.v1.Controllers.ManufacturingController (SSE.ServerAPI).
+2023-12-18 11:48:18.394 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.ManufacturingController.GetItemMaterials (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-18 11:48:18.486 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.ManufacturingController.GetItemMaterials (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 89.9132ms.
+2023-12-18 11:48:18.488 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Common.DynamicResponse'.
+2023-12-18 11:48:18.491 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.ManufacturingController.GetItemMaterials (SSE.ServerAPI) in 262.974ms
+2023-12-18 11:48:18.493 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.GetItemMaterials (SSE.ServerAPI)'
+2023-12-18 11:48:18.496 +07:00 [INF] Request finished in 286.2689ms 200 application/json; charset=utf-8
+2023-12-18 16:31:54.335 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/manufacturing/get-item-materials?item=BOBLAN001  
+2023-12-18 16:31:54.339 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/manufacturing/get-item-materials 
+QueryString: ?item=BOBLAN001 
+Request Body:  
+
+2023-12-18 16:31:54.344 +07:00 [INF] Successfully validated the token.
+2023-12-18 16:31:54.348 +07:00 [INF] Authorization was successful.
+2023-12-18 16:31:54.350 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.GetItemMaterials (SSE.ServerAPI)'
+2023-12-18 16:31:54.353 +07:00 [INF] Route matched with {action = "GetItemMaterials", controller = "Manufacturing"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Common.DynamicResponse] GetItemMaterials(System.String) on controller SSE_Server.Api.v1.Controllers.ManufacturingController (SSE.ServerAPI).
+2023-12-18 16:31:54.551 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.ManufacturingController.GetItemMaterials (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-18 16:31:54.986 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.ManufacturingController.GetItemMaterials (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 433.2553ms.
+2023-12-18 16:31:54.991 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Common.DynamicResponse'.
+2023-12-18 16:31:54.994 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.ManufacturingController.GetItemMaterials (SSE.ServerAPI) in 638.2178ms
+2023-12-18 16:31:54.996 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.GetItemMaterials (SSE.ServerAPI)'
+2023-12-18 16:31:54.999 +07:00 [INF] Request finished in 663.8827ms 200 application/json; charset=utf-8
+2023-12-18 16:56:01.885 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/manufacturing/get-semi-products?lsx=&section=&searchValue&page_index=1&page_count=10  
+2023-12-18 16:56:01.888 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/manufacturing/get-semi-products 
+QueryString: ?lsx=&section=&searchValue&page_index=1&page_count=10 
+Request Body:  
+
+2023-12-18 16:56:01.890 +07:00 [INF] Successfully validated the token.
+2023-12-18 16:56:01.893 +07:00 [INF] Authorization was successful.
+2023-12-18 16:56:01.922 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI)'
+2023-12-18 16:56:01.925 +07:00 [INF] Route matched with {action = "GetSemiProducts", controller = "Manufacturing"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Common.DynamicResponse] GetSemiProducts(System.String, System.String, System.String, Int32, Int32) on controller SSE_Server.Api.v1.Controllers.ManufacturingController (SSE.ServerAPI).
+2023-12-18 16:56:02.147 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-18 16:56:02.656 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 507.195ms.
+2023-12-18 16:56:02.659 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Common.DynamicResponse'.
+2023-12-18 16:56:02.663 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI) in 735.783ms
+2023-12-18 16:56:02.665 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.ManufacturingController.GetSemiProducts (SSE.ServerAPI)'
+2023-12-18 16:56:02.668 +07:00 [INF] Request finished in 783.3993ms 200 application/json; charset=utf-8

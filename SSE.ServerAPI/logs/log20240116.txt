@@ -1,0 +1,137 @@
+2024-01-16 11:35:36.091 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-16 11:35:36.954 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-16 11:35:36.956 +07:00 [INF] Hosting environment: Development
+2024-01-16 11:35:36.958 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.ServerAPI
+2024-01-16 11:35:36.991 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2024-01-16 11:35:37.686 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/swagger-ui-bundle.js  
+2024-01-16 11:35:37.686 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/swagger-ui-standalone-preset.js  
+2024-01-16 11:35:37.686 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/swagger-ui.css  
+2024-01-16 11:35:37.692 +07:00 [INF] Request finished in 697.3261ms 200 text/html;charset=utf-8
+2024-01-16 11:35:37.770 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-01-16 11:35:37.770 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-01-16 11:35:37.773 +07:00 [INF] Request finished in 86.9633ms 200 text/css
+2024-01-16 11:35:37.774 +07:00 [INF] Request finished in 87.9341ms 200 application/javascript
+2024-01-16 11:35:37.778 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-01-16 11:35:37.780 +07:00 [INF] Request finished in 94.1076ms 200 application/javascript
+2024-01-16 11:35:37.785 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2024-01-16 11:35:37.790 +07:00 [INF] Request finished in 4.8956ms 200 application/javascript; charset=utf-8
+2024-01-16 11:35:37.801 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2024-01-16 11:35:37.869 +07:00 [INF] Request finished in 67.9021ms 200 text/javascript; charset=UTF-8
+2024-01-16 11:35:37.949 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2024-01-16 11:35:38.180 +07:00 [INF] Request finished in 231.209ms 200 application/json;charset=utf-8
+2024-01-16 15:55:24.356 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-16 15:55:25.246 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-16 15:55:25.249 +07:00 [INF] Hosting environment: Development
+2024-01-16 15:55:25.251 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Thien-Vuong\Version 1.0.0\SSE.ServerAPI
+2024-01-16 15:55:25.283 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2024-01-16 15:55:25.451 +07:00 [INF] Request finished in 168.3101ms 200 text/html;charset=utf-8
+2024-01-16 15:55:25.454 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2024-01-16 15:55:25.471 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2024-01-16 15:55:25.476 +07:00 [INF] Request finished in 21.3055ms 200 application/javascript; charset=utf-8
+2024-01-16 15:55:25.528 +07:00 [INF] Request finished in 56.6639ms 200 text/javascript; charset=UTF-8
+2024-01-16 15:55:25.626 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2024-01-16 15:55:25.937 +07:00 [INF] Request finished in 310.8324ms 200 application/json;charset=utf-8
+2024-01-16 15:55:49.500 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/users/signin application/json 164
+2024-01-16 15:55:49.512 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/signin 
+QueryString:  
+Request Body: {
+    "hostId": "https://thienvuong-cloud.sse.net.vn",
+    "userName": "dat",
+    "password": "123abc",
+    "devideToken": "",
+    "language": "V"  
+}
+
+
+
+ 
+
+2024-01-16 15:55:49.517 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-01-16 15:55:49.779 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI)'
+2024-01-16 15:55:49.815 +07:00 [INF] Route matched with {action = "Signin", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.SignInResponse] Signin(SSE.Common.Api.v1.Requests.User.SigninRequest) on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2024-01-16 15:55:50.748 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI) - Validation state: "Valid"
+2024-01-16 15:55:51.111 +07:00 [INF] Entity Framework Core 3.1.7 initialized 'GlobalDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=1000 
+2024-01-16 15:55:52.113 +07:00 [INF] Executed DbCommand (89ms) [Parameters=[@__hostId_0='?' (Size = -1) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [d].[HostId], [d].[UserName], [d].[ServerName], [d].[SqlPassLogin], [d].[SqlUserLogin], [d].[SysDbName]
+FROM [DbSysInfo] AS [d]
+WHERE [d].[HostId] = @__hostId_0
+2024-01-16 15:55:52.807 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2051.6579ms.
+2024-01-16 15:55:52.814 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.SignInResponse'.
+2024-01-16 15:55:52.834 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI) in 3011.4703ms
+2024-01-16 15:55:52.836 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI)'
+2024-01-16 15:55:52.841 +07:00 [INF] Request finished in 3342.8657ms 200 application/json; charset=utf-8
+2024-01-16 15:55:54.585 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/users/companies  
+2024-01-16 15:55:54.588 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/companies 
+QueryString:  
+Request Body:  
+
+2024-01-16 15:55:54.646 +07:00 [INF] Successfully validated the token.
+2024-01-16 15:55:54.652 +07:00 [INF] Authorization was successful.
+2024-01-16 15:55:54.653 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI)'
+2024-01-16 15:55:54.658 +07:00 [INF] Route matched with {action = "GetCompanies", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.GetCompaniesResponse] GetCompanies() on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2024-01-16 15:55:54.795 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI) - Validation state: "Valid"
+2024-01-16 15:55:54.956 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 159.846ms.
+2024-01-16 15:55:54.962 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.GetCompaniesResponse'.
+2024-01-16 15:55:54.980 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI) in 319.4238ms
+2024-01-16 15:55:54.981 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI)'
+2024-01-16 15:55:54.983 +07:00 [INF] Request finished in 399.0464ms 200 application/json; charset=utf-8
+2024-01-16 15:56:00.083 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/users/units  
+2024-01-16 15:56:00.085 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/units 
+QueryString:  
+Request Body:  
+
+2024-01-16 15:56:00.090 +07:00 [INF] Successfully validated the token.
+2024-01-16 15:56:00.094 +07:00 [INF] Authorization was successful.
+2024-01-16 15:56:00.097 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI)'
+2024-01-16 15:56:00.108 +07:00 [INF] Route matched with {action = "GetUnits", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.GetUnitsResponse] GetUnits() on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2024-01-16 15:56:00.254 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI) - Validation state: "Valid"
+2024-01-16 15:56:00.462 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 205.6112ms.
+2024-01-16 15:56:00.469 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.GetUnitsResponse'.
+2024-01-16 15:56:00.475 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI) in 363.7818ms
+2024-01-16 15:56:00.477 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI)'
+2024-01-16 15:56:00.480 +07:00 [INF] Request finished in 397.7107ms 200 application/json; charset=utf-8
+2024-01-16 15:56:05.723 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/order/list-status-order?vcCode=  
+2024-01-16 15:56:05.727 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/order/list-status-order 
+QueryString: ?vcCode= 
+Request Body:  
+
+2024-01-16 15:56:05.731 +07:00 [INF] Successfully validated the token.
+2024-01-16 15:56:05.733 +07:00 [INF] Authorization was successful.
+2024-01-16 15:56:05.735 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.OrderController.GetListStatusOrder (SSE.ServerAPI)'
+2024-01-16 15:56:05.741 +07:00 [INF] Route matched with {action = "GetListStatusOrder", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Common.DynamicResponse] GetListStatusOrder(System.String) on controller SSE_Server.Api.v1.Controllers.OrderController (SSE.ServerAPI).
+2024-01-16 15:56:05.907 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.OrderController.GetListStatusOrder (SSE.ServerAPI) - Validation state: "Valid"
+2024-01-16 15:56:06.003 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.OrderController.GetListStatusOrder (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 94.2882ms.
+2024-01-16 15:56:06.006 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Common.DynamicResponse'.
+2024-01-16 15:56:06.019 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.OrderController.GetListStatusOrder (SSE.ServerAPI) in 277.3011ms
+2024-01-16 15:56:06.022 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.OrderController.GetListStatusOrder (SSE.ServerAPI)'
+2024-01-16 15:56:06.024 +07:00 [INF] Request finished in 301.2196ms 200 application/json; charset=utf-8
+2024-01-16 15:56:12.700 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/order/list-status-order?vcCode=DX2  
+2024-01-16 15:56:12.703 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/order/list-status-order 
+QueryString: ?vcCode=DX2 
+Request Body:  
+
+2024-01-16 15:56:12.718 +07:00 [INF] Successfully validated the token.
+2024-01-16 15:56:12.721 +07:00 [INF] Authorization was successful.
+2024-01-16 15:56:12.724 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.OrderController.GetListStatusOrder (SSE.ServerAPI)'
+2024-01-16 15:56:12.727 +07:00 [INF] Route matched with {action = "GetListStatusOrder", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Common.DynamicResponse] GetListStatusOrder(System.String) on controller SSE_Server.Api.v1.Controllers.OrderController (SSE.ServerAPI).
+2024-01-16 15:56:12.904 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.OrderController.GetListStatusOrder (SSE.ServerAPI) - Validation state: "Valid"
+2024-01-16 15:56:12.960 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.OrderController.GetListStatusOrder (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 53.117ms.
+2024-01-16 15:56:12.963 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Common.DynamicResponse'.
+2024-01-16 15:56:12.965 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.OrderController.GetListStatusOrder (SSE.ServerAPI) in 234.5891ms
+2024-01-16 15:56:12.966 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.OrderController.GetListStatusOrder (SSE.ServerAPI)'
+2024-01-16 15:56:12.968 +07:00 [INF] Request finished in 268.0031ms 200 application/json; charset=utf-8

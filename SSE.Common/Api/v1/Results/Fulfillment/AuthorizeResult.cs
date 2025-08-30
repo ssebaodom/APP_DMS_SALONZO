@@ -1,0 +1,9 @@
+﻿using SSE.Common.Api.v1.Common;
+
+namespace SSE.Common.Api.v1.Results.Fulfillment
+{
+    public class AuthorizeResult : CommonResult
+    {
+    }
+   
+}

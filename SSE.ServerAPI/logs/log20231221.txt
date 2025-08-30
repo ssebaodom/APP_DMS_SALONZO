@@ -1,0 +1,220 @@
+2023-12-21 16:42:09.472 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-21 16:42:10.380 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-21 16:42:10.382 +07:00 [INF] Hosting environment: Development
+2023-12-21 16:42:10.383 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI
+2023-12-21 16:42:10.414 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2023-12-21 16:42:10.597 +07:00 [INF] Request finished in 184.0099ms 200 text/html;charset=utf-8
+2023-12-21 16:42:10.625 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2023-12-21 16:42:10.631 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2023-12-21 16:42:10.635 +07:00 [INF] Request finished in 10.2105ms 200 application/javascript; charset=utf-8
+2023-12-21 16:42:10.694 +07:00 [INF] Request finished in 62.7112ms 200 text/javascript; charset=UTF-8
+2023-12-21 16:42:10.762 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2023-12-21 16:42:11.082 +07:00 [INF] Request finished in 320.509ms 200 application/json;charset=utf-8
+2023-12-21 16:42:30.609 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/users/signin application/json 164
+2023-12-21 16:42:30.619 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/signin 
+QueryString:  
+Request Body: {
+    "hostId": "https://thienvuong-cloud.sse.net.vn",
+    "userName": "dat",
+    "password": "123abc",
+    "devideToken": "",
+    "language": "V"  
+}
+
+
+
+ 
+
+2023-12-21 16:42:30.623 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-21 16:42:30.882 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI)'
+2023-12-21 16:42:30.914 +07:00 [INF] Route matched with {action = "Signin", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.SignInResponse] Signin(SSE.Common.Api.v1.Requests.User.SigninRequest) on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-21 16:42:31.823 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-21 16:42:32.177 +07:00 [INF] Entity Framework Core 3.1.7 initialized 'GlobalDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=1000 
+2023-12-21 16:42:33.086 +07:00 [INF] Executed DbCommand (74ms) [Parameters=[@__hostId_0='?' (Size = -1) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [d].[HostId], [d].[UserName], [d].[ServerName], [d].[SqlPassLogin], [d].[SqlUserLogin], [d].[SysDbName]
+FROM [DbSysInfo] AS [d]
+WHERE [d].[HostId] = @__hostId_0
+2023-12-21 16:42:34.012 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2182.6593ms.
+2023-12-21 16:42:34.023 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.SignInResponse'.
+2023-12-21 16:42:34.042 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI) in 3122.6127ms
+2023-12-21 16:42:34.045 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI)'
+2023-12-21 16:42:34.051 +07:00 [INF] Request finished in 3442.1443ms 200 application/json; charset=utf-8
+2023-12-21 16:42:42.946 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/users/companies  
+2023-12-21 16:42:42.949 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/companies 
+QueryString:  
+Request Body:  
+
+2023-12-21 16:42:43.008 +07:00 [INF] Successfully validated the token.
+2023-12-21 16:42:43.014 +07:00 [INF] Authorization was successful.
+2023-12-21 16:42:43.015 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI)'
+2023-12-21 16:42:43.020 +07:00 [INF] Route matched with {action = "GetCompanies", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.GetCompaniesResponse] GetCompanies() on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-21 16:42:43.186 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-21 16:42:43.353 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 164.3481ms.
+2023-12-21 16:42:43.355 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.GetCompaniesResponse'.
+2023-12-21 16:42:43.366 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI) in 344.4785ms
+2023-12-21 16:42:43.368 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI)'
+2023-12-21 16:42:43.370 +07:00 [INF] Request finished in 424.3404ms 200 application/json; charset=utf-8
+2023-12-21 16:43:07.623 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/users/units  
+2023-12-21 16:43:07.625 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/units 
+QueryString:  
+Request Body:  
+
+2023-12-21 16:43:07.629 +07:00 [INF] Successfully validated the token.
+2023-12-21 16:43:07.632 +07:00 [INF] Authorization was successful.
+2023-12-21 16:43:07.634 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI)'
+2023-12-21 16:43:07.641 +07:00 [INF] Route matched with {action = "GetUnits", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.GetUnitsResponse] GetUnits() on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-21 16:43:07.799 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-21 16:43:08.263 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 461.3909ms.
+2023-12-21 16:43:08.268 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.GetUnitsResponse'.
+2023-12-21 16:43:08.274 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI) in 631.6516ms
+2023-12-21 16:43:08.276 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI)'
+2023-12-21 16:43:08.277 +07:00 [INF] Request finished in 654.8214ms 200 application/json; charset=utf-8
+2023-12-21 16:45:03.675 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/users/get-permission-user-v2  
+2023-12-21 16:45:03.677 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/get-permission-user-v2 
+QueryString:  
+Request Body:  
+
+2023-12-21 16:45:03.681 +07:00 [INF] Successfully validated the token.
+2023-12-21 16:45:03.684 +07:00 [INF] Authorization was successful.
+2023-12-21 16:45:03.686 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetPermissionOfUser2 (SSE.ServerAPI)'
+2023-12-21 16:45:03.690 +07:00 [INF] Route matched with {action = "GetPermissionOfUser2", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.PermissionUserResponse] GetPermissionOfUser2() on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-21 16:45:03.862 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.GetPermissionOfUser2 (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-21 16:45:04.021 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.GetPermissionOfUser2 (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 157.814ms.
+2023-12-21 16:45:04.024 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.PermissionUserResponse'.
+2023-12-21 16:45:04.030 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.GetPermissionOfUser2 (SSE.ServerAPI) in 338.2411ms
+2023-12-21 16:45:04.037 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetPermissionOfUser2 (SSE.ServerAPI)'
+2023-12-21 16:45:04.039 +07:00 [INF] Request finished in 364.4222ms 200 application/json; charset=utf-8
+2023-12-21 16:45:27.683 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/users/get-setting-options-v2  
+2023-12-21 16:45:27.685 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/get-setting-options-v2 
+QueryString:  
+Request Body:  
+
+2023-12-21 16:45:27.689 +07:00 [INF] Successfully validated the token.
+2023-12-21 16:45:27.692 +07:00 [INF] Authorization was successful.
+2023-12-21 16:45:27.695 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetSettingOptionsV2 (SSE.ServerAPI)'
+2023-12-21 16:45:27.704 +07:00 [INF] Route matched with {action = "GetSettingOptionsV2", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.GetSettingOptionsV2Response] GetSettingOptionsV2() on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-21 16:45:27.862 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.GetSettingOptionsV2 (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-21 16:45:27.994 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.GetSettingOptionsV2 (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 129.5909ms.
+2023-12-21 16:45:27.996 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.GetSettingOptionsV2Response'.
+2023-12-21 16:45:28.019 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.GetSettingOptionsV2 (SSE.ServerAPI) in 312.4726ms
+2023-12-21 16:45:28.021 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetSettingOptionsV2 (SSE.ServerAPI)'
+2023-12-21 16:45:28.024 +07:00 [INF] Request finished in 340.8698ms 200 application/json; charset=utf-8
+2023-12-21 16:49:54.952 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-21 16:49:55.426 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-21 16:49:55.428 +07:00 [INF] Hosting environment: Development
+2023-12-21 16:49:55.429 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI
+2023-12-21 16:49:55.461 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2023-12-21 16:49:55.608 +07:00 [INF] Request finished in 148.9954ms 200 text/html;charset=utf-8
+2023-12-21 16:49:55.624 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2023-12-21 16:49:55.640 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2023-12-21 16:49:55.643 +07:00 [INF] Request finished in 18.686ms 200 application/javascript; charset=utf-8
+2023-12-21 16:49:55.660 +07:00 [INF] Request finished in 20.2335ms 200 text/javascript; charset=UTF-8
+2023-12-21 16:49:55.725 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2023-12-21 16:49:55.959 +07:00 [INF] Request finished in 234.8988ms 200 application/json;charset=utf-8
+2023-12-21 16:50:01.499 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/users/get-setting-options-v2  
+2023-12-21 16:50:01.506 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/get-setting-options-v2 
+QueryString:  
+Request Body:  
+
+2023-12-21 16:50:01.511 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-21 16:50:01.724 +07:00 [INF] Successfully validated the token.
+2023-12-21 16:50:01.732 +07:00 [INF] Authorization was successful.
+2023-12-21 16:50:01.734 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetSettingOptionsV2 (SSE.ServerAPI)'
+2023-12-21 16:50:01.763 +07:00 [INF] Route matched with {action = "GetSettingOptionsV2", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.GetSettingOptionsV2Response] GetSettingOptionsV2() on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-21 16:50:02.515 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.GetSettingOptionsV2 (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-21 16:50:03.908 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.GetSettingOptionsV2 (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1386.8131ms.
+2023-12-21 16:50:03.918 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.GetSettingOptionsV2Response'.
+2023-12-21 16:50:03.982 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.GetSettingOptionsV2 (SSE.ServerAPI) in 2212.2576ms
+2023-12-21 16:50:03.986 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetSettingOptionsV2 (SSE.ServerAPI)'
+2023-12-21 16:50:03.989 +07:00 [INF] Request finished in 2489.4658ms 200 application/json; charset=utf-8
+2023-12-21 17:39:32.627 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/users/get-setting-options-v2  
+2023-12-21 17:39:32.634 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/get-setting-options-v2 
+QueryString:  
+Request Body:  
+
+2023-12-21 17:39:32.659 +07:00 [INF] Successfully validated the token.
+2023-12-21 17:39:32.663 +07:00 [INF] Authorization was successful.
+2023-12-21 17:39:32.665 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetSettingOptionsV2 (SSE.ServerAPI)'
+2023-12-21 17:39:32.668 +07:00 [INF] Route matched with {action = "GetSettingOptionsV2", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.GetSettingOptionsV2Response] GetSettingOptionsV2() on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-21 17:39:32.819 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.GetSettingOptionsV2 (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-21 17:39:33.255 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.GetSettingOptionsV2 (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 434.3691ms.
+2023-12-21 17:39:33.258 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.GetSettingOptionsV2Response'.
+2023-12-21 17:39:33.263 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.GetSettingOptionsV2 (SSE.ServerAPI) in 594.0904ms
+2023-12-21 17:39:33.266 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetSettingOptionsV2 (SSE.ServerAPI)'
+2023-12-21 17:39:33.268 +07:00 [INF] Request finished in 642.3024ms 200 application/json; charset=utf-8
+2023-12-21 17:52:44.591 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-21 17:52:45.449 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-21 17:52:45.451 +07:00 [INF] Hosting environment: Development
+2023-12-21 17:52:45.453 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI
+2023-12-21 17:52:45.487 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2023-12-21 17:52:45.637 +07:00 [INF] Request finished in 150.77ms 200 text/html;charset=utf-8
+2023-12-21 17:52:45.645 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2023-12-21 17:52:45.658 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2023-12-21 17:52:45.670 +07:00 [INF] Request finished in 24.7938ms 200 application/javascript; charset=utf-8
+2023-12-21 17:52:45.703 +07:00 [INF] Request finished in 45.4905ms 200 text/javascript; charset=UTF-8
+2023-12-21 17:52:45.772 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2023-12-21 17:52:46.023 +07:00 [INF] Request finished in 250.2605ms 200 application/json;charset=utf-8
+2023-12-21 18:14:29.505 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-21 18:14:29.942 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-21 18:14:29.944 +07:00 [INF] Hosting environment: Development
+2023-12-21 18:14:29.952 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI
+2023-12-21 18:14:29.983 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2023-12-21 18:14:30.130 +07:00 [INF] Request finished in 148.6295ms 200 text/html;charset=utf-8
+2023-12-21 18:14:30.149 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2023-12-21 18:14:30.163 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2023-12-21 18:14:30.168 +07:00 [INF] Request finished in 18.766ms 200 application/javascript; charset=utf-8
+2023-12-21 18:14:30.187 +07:00 [INF] Request finished in 23.9513ms 200 text/javascript; charset=UTF-8
+2023-12-21 18:14:30.252 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2023-12-21 18:14:30.476 +07:00 [INF] Request finished in 224.7132ms 200 application/json;charset=utf-8
+2023-12-21 18:15:09.692 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/users/get-setting-options-v2  
+2023-12-21 18:15:09.700 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/get-setting-options-v2 
+QueryString:  
+Request Body:  
+
+2023-12-21 18:15:09.705 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-21 18:15:10.168 +07:00 [INF] Successfully validated the token.
+2023-12-21 18:15:10.182 +07:00 [INF] Authorization was successful.
+2023-12-21 18:15:10.185 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetSettingOptionsV2 (SSE.ServerAPI)'
+2023-12-21 18:15:10.221 +07:00 [INF] Route matched with {action = "GetSettingOptionsV2", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.GetSettingOptionsV2Response] GetSettingOptionsV2() on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-21 18:15:11.022 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.GetSettingOptionsV2 (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-21 18:15:11.801 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.GetSettingOptionsV2 (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 771.6243ms.
+2023-12-21 18:15:11.809 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.GetSettingOptionsV2Response'.
+2023-12-21 18:15:11.866 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.GetSettingOptionsV2 (SSE.ServerAPI) in 1639.3638ms
+2023-12-21 18:15:11.869 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetSettingOptionsV2 (SSE.ServerAPI)'
+2023-12-21 18:15:11.872 +07:00 [INF] Request finished in 2180.5956ms 200 application/json; charset=utf-8
+2023-12-21 19:11:53.493 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-21 19:11:54.025 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-21 19:11:54.028 +07:00 [INF] Hosting environment: Development
+2023-12-21 19:11:54.030 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI
+2023-12-21 19:11:54.066 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2023-12-21 19:11:54.308 +07:00 [INF] Request finished in 243.1386ms 200 text/html;charset=utf-8
+2023-12-21 19:11:54.317 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2023-12-21 19:11:54.339 +07:00 [INF] Request finished in 19.2217ms 200 application/javascript; charset=utf-8
+2023-12-21 19:11:54.340 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2023-12-21 19:11:54.543 +07:00 [INF] Request finished in 206.2743ms 200 text/javascript; charset=UTF-8
+2023-12-21 19:11:54.629 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2023-12-21 19:11:54.942 +07:00 [INF] Request finished in 313.0602ms 200 application/json;charset=utf-8

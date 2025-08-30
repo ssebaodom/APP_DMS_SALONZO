@@ -1,0 +1,328 @@
+2023-12-24 12:00:36.235 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-24 12:00:37.058 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-24 12:00:37.060 +07:00 [INF] Hosting environment: Development
+2023-12-24 12:00:37.062 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI
+2023-12-24 12:00:37.093 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2023-12-24 12:00:37.277 +07:00 [INF] Request finished in 186.86ms 200 text/html;charset=utf-8
+2023-12-24 12:00:37.320 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2023-12-24 12:00:37.327 +07:00 [INF] Request finished in 6.1619ms 200 application/javascript; charset=utf-8
+2023-12-24 12:00:37.337 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2023-12-24 12:00:37.433 +07:00 [INF] Request finished in 96.3606ms 200 text/javascript; charset=UTF-8
+2023-12-24 12:00:37.536 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2023-12-24 12:00:37.788 +07:00 [INF] Request finished in 251.7699ms 200 application/json;charset=utf-8
+2023-12-24 12:01:50.687 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:8699/api/v1/users/signin application/json 164
+2023-12-24 12:01:50.699 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/signin 
+QueryString:  
+Request Body: {
+    "hostId": "https://thienvuong-cloud.sse.net.vn",
+    "userName": "dat",
+    "password": "123abc",
+    "devideToken": "",
+    "language": "V"  
+}
+
+
+
+ 
+
+2023-12-24 12:01:50.703 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-24 12:01:50.932 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI)'
+2023-12-24 12:01:50.969 +07:00 [INF] Route matched with {action = "Signin", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.SignInResponse] Signin(SSE.Common.Api.v1.Requests.User.SigninRequest) on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-24 12:01:51.760 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-24 12:01:52.071 +07:00 [INF] Entity Framework Core 3.1.7 initialized 'GlobalDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=1000 
+2023-12-24 12:01:52.950 +07:00 [INF] Executed DbCommand (72ms) [Parameters=[@__hostId_0='?' (Size = -1) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [d].[HostId], [d].[UserName], [d].[ServerName], [d].[SqlPassLogin], [d].[SqlUserLogin], [d].[SysDbName]
+FROM [DbSysInfo] AS [d]
+WHERE [d].[HostId] = @__hostId_0
+2023-12-24 12:01:53.903 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2136.3275ms.
+2023-12-24 12:01:53.912 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.SignInResponse'.
+2023-12-24 12:01:53.930 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI) in 2956.047ms
+2023-12-24 12:01:53.933 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.Signin (SSE.ServerAPI)'
+2023-12-24 12:01:53.937 +07:00 [INF] Request finished in 3251.2276ms 200 application/json; charset=utf-8
+2023-12-24 12:01:55.911 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/users/companies  
+2023-12-24 12:01:55.915 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/companies 
+QueryString:  
+Request Body:  
+
+2023-12-24 12:01:55.971 +07:00 [INF] Successfully validated the token.
+2023-12-24 12:01:55.977 +07:00 [INF] Authorization was successful.
+2023-12-24 12:01:55.980 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI)'
+2023-12-24 12:01:55.985 +07:00 [INF] Route matched with {action = "GetCompanies", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.GetCompaniesResponse] GetCompanies() on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-24 12:01:56.121 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-24 12:01:56.270 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 147.5883ms.
+2023-12-24 12:01:56.273 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.GetCompaniesResponse'.
+2023-12-24 12:01:56.283 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI) in 296.1125ms
+2023-12-24 12:01:56.285 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetCompanies (SSE.ServerAPI)'
+2023-12-24 12:01:56.287 +07:00 [INF] Request finished in 376.4003ms 200 application/json; charset=utf-8
+2023-12-24 12:01:59.488 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/users/units  
+2023-12-24 12:01:59.490 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/units 
+QueryString:  
+Request Body:  
+
+2023-12-24 12:01:59.494 +07:00 [INF] Successfully validated the token.
+2023-12-24 12:01:59.498 +07:00 [INF] Authorization was successful.
+2023-12-24 12:01:59.501 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI)'
+2023-12-24 12:01:59.506 +07:00 [INF] Route matched with {action = "GetUnits", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.GetUnitsResponse] GetUnits() on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-24 12:01:59.635 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-24 12:02:00.076 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 439.4598ms.
+2023-12-24 12:02:00.079 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.GetUnitsResponse'.
+2023-12-24 12:02:00.086 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI) in 577.7091ms
+2023-12-24 12:02:00.088 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetUnits (SSE.ServerAPI)'
+2023-12-24 12:02:00.090 +07:00 [INF] Request finished in 602.1001ms 200 application/json; charset=utf-8
+2023-12-24 12:02:16.024 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/order/get-dynacmic-list?voucher_code=HDF&dateFrom=2023-12-01%2014:55:35.920&dateTo=2023-12-22%2014:55:35.920  
+2023-12-24 12:02:16.027 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/order/get-dynacmic-list 
+QueryString: ?voucher_code=HDF&dateFrom=2023-12-01%2014:55:35.920&dateTo=2023-12-22%2014:55:35.920 
+Request Body:  
+
+2023-12-24 12:02:16.030 +07:00 [INF] Successfully validated the token.
+2023-12-24 12:02:16.033 +07:00 [INF] Authorization was successful.
+2023-12-24 12:02:16.035 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI)'
+2023-12-24 12:02:16.041 +07:00 [INF] Route matched with {action = "GetDynamicList", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.Order.GetDynamicListResponse] GetDynamicList(System.String, System.String, System.String) on controller SSE_Server.Api.v1.Controllers.OrderController (SSE.ServerAPI).
+2023-12-24 12:02:16.203 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-24 12:02:16.337 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 132.0752ms.
+2023-12-24 12:02:16.339 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.Order.GetDynamicListResponse'.
+2023-12-24 12:02:16.351 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI) in 308.7984ms
+2023-12-24 12:02:16.353 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI)'
+2023-12-24 12:02:16.356 +07:00 [INF] Request finished in 331.4918ms 200 application/json; charset=utf-8
+2023-12-24 12:02:25.098 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/order/get-dynacmic-list?voucher_code=HDF&dateFrom=2023-12-01%2014:55:35.920&dateTo=2023-12-27%2014:55:35.920  
+2023-12-24 12:02:25.101 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/order/get-dynacmic-list 
+QueryString: ?voucher_code=HDF&dateFrom=2023-12-01%2014:55:35.920&dateTo=2023-12-27%2014:55:35.920 
+Request Body:  
+
+2023-12-24 12:02:25.118 +07:00 [INF] Successfully validated the token.
+2023-12-24 12:02:25.121 +07:00 [INF] Authorization was successful.
+2023-12-24 12:02:25.126 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI)'
+2023-12-24 12:02:25.131 +07:00 [INF] Route matched with {action = "GetDynamicList", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.Order.GetDynamicListResponse] GetDynamicList(System.String, System.String, System.String) on controller SSE_Server.Api.v1.Controllers.OrderController (SSE.ServerAPI).
+2023-12-24 12:02:25.286 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-24 12:02:25.483 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 194.7511ms.
+2023-12-24 12:02:25.485 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.Order.GetDynamicListResponse'.
+2023-12-24 12:02:25.491 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI) in 357.7152ms
+2023-12-24 12:02:25.494 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI)'
+2023-12-24 12:02:25.497 +07:00 [INF] Request finished in 399.2195ms 200 application/json; charset=utf-8
+2023-12-24 12:02:41.780 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/order/get-dynacmic-list?voucher_code=&dateFrom=2023-12-01%2014:55:35.920&dateTo=2023-12-27%2014:55:35.920  
+2023-12-24 12:02:41.783 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/order/get-dynacmic-list 
+QueryString: ?voucher_code=&dateFrom=2023-12-01%2014:55:35.920&dateTo=2023-12-27%2014:55:35.920 
+Request Body:  
+
+2023-12-24 12:02:41.785 +07:00 [INF] Successfully validated the token.
+2023-12-24 12:02:41.787 +07:00 [INF] Authorization was successful.
+2023-12-24 12:02:41.789 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI)'
+2023-12-24 12:02:41.795 +07:00 [INF] Route matched with {action = "GetDynamicList", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.Order.GetDynamicListResponse] GetDynamicList(System.String, System.String, System.String) on controller SSE_Server.Api.v1.Controllers.OrderController (SSE.ServerAPI).
+2023-12-24 12:02:41.972 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-24 12:02:42.061 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 86.2317ms.
+2023-12-24 12:02:42.063 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.Order.GetDynamicListResponse'.
+2023-12-24 12:02:42.066 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI) in 268.6481ms
+2023-12-24 12:02:42.068 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI)'
+2023-12-24 12:02:42.070 +07:00 [INF] Request finished in 289.9567ms 200 application/json; charset=utf-8
+2023-12-24 12:02:46.922 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/order/get-dynacmic-list?voucher_code=HDF&dateFrom=2023-12-01%2014:55:35.920&dateTo=2023-12-27%2014:55:35.920  
+2023-12-24 12:02:46.924 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/order/get-dynacmic-list 
+QueryString: ?voucher_code=HDF&dateFrom=2023-12-01%2014:55:35.920&dateTo=2023-12-27%2014:55:35.920 
+Request Body:  
+
+2023-12-24 12:02:46.927 +07:00 [INF] Successfully validated the token.
+2023-12-24 12:02:46.931 +07:00 [INF] Authorization was successful.
+2023-12-24 12:02:46.933 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI)'
+2023-12-24 12:02:46.935 +07:00 [INF] Route matched with {action = "GetDynamicList", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.Order.GetDynamicListResponse] GetDynamicList(System.String, System.String, System.String) on controller SSE_Server.Api.v1.Controllers.OrderController (SSE.ServerAPI).
+2023-12-24 12:02:47.084 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-24 12:02:47.151 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 65.6515ms.
+2023-12-24 12:02:47.153 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.Order.GetDynamicListResponse'.
+2023-12-24 12:02:47.156 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI) in 218.8627ms
+2023-12-24 12:02:47.157 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI)'
+2023-12-24 12:02:47.160 +07:00 [INF] Request finished in 238.5459ms 200 application/json; charset=utf-8
+2023-12-24 12:07:55.275 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/order/get-dynacmic-list?voucher_code=HDA&dateFrom=2023-12-01%2014:55:35.920&dateTo=2023-12-27%2014:55:35.920  
+2023-12-24 12:07:55.277 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/order/get-dynacmic-list 
+QueryString: ?voucher_code=HDA&dateFrom=2023-12-01%2014:55:35.920&dateTo=2023-12-27%2014:55:35.920 
+Request Body:  
+
+2023-12-24 12:07:55.280 +07:00 [INF] Successfully validated the token.
+2023-12-24 12:07:55.282 +07:00 [INF] Authorization was successful.
+2023-12-24 12:07:55.284 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI)'
+2023-12-24 12:07:55.286 +07:00 [INF] Route matched with {action = "GetDynamicList", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.Order.GetDynamicListResponse] GetDynamicList(System.String, System.String, System.String) on controller SSE_Server.Api.v1.Controllers.OrderController (SSE.ServerAPI).
+2023-12-24 12:07:55.458 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-24 12:07:55.530 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 70.5301ms.
+2023-12-24 12:07:55.533 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.Order.GetDynamicListResponse'.
+2023-12-24 12:07:55.536 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI) in 246.085ms
+2023-12-24 12:07:55.541 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI)'
+2023-12-24 12:07:55.544 +07:00 [INF] Request finished in 269.1564ms 200 application/json; charset=utf-8
+2023-12-24 12:08:05.442 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/users/get-setting-options-v2  
+2023-12-24 12:08:05.445 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/get-setting-options-v2 
+QueryString:  
+Request Body:  
+
+2023-12-24 12:08:05.455 +07:00 [INF] Successfully validated the token.
+2023-12-24 12:08:05.458 +07:00 [INF] Authorization was successful.
+2023-12-24 12:08:05.461 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetSettingOptionsV2 (SSE.ServerAPI)'
+2023-12-24 12:08:05.469 +07:00 [INF] Route matched with {action = "GetSettingOptionsV2", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.GetSettingOptionsV2Response] GetSettingOptionsV2() on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-24 12:08:05.602 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.GetSettingOptionsV2 (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-24 12:08:05.699 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.GetSettingOptionsV2 (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 95.1402ms.
+2023-12-24 12:08:05.702 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.GetSettingOptionsV2Response'.
+2023-12-24 12:08:05.717 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.GetSettingOptionsV2 (SSE.ServerAPI) in 244.8378ms
+2023-12-24 12:08:05.719 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetSettingOptionsV2 (SSE.ServerAPI)'
+2023-12-24 12:08:05.721 +07:00 [INF] Request finished in 279.5026ms 200 application/json; charset=utf-8
+2023-12-24 14:45:52.962 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/users/get-setting-options-v2  
+2023-12-24 14:45:52.985 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/get-setting-options-v2 
+QueryString:  
+Request Body:  
+
+2023-12-24 14:45:53.013 +07:00 [INF] Successfully validated the token.
+2023-12-24 14:45:53.049 +07:00 [INF] Authorization was successful.
+2023-12-24 14:45:53.051 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetSettingOptionsV2 (SSE.ServerAPI)'
+2023-12-24 14:45:53.101 +07:00 [INF] Route matched with {action = "GetSettingOptionsV2", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.GetSettingOptionsV2Response] GetSettingOptionsV2() on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-24 14:45:53.332 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.GetSettingOptionsV2 (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-24 14:45:53.809 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.GetSettingOptionsV2 (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 474.3126ms.
+2023-12-24 14:45:53.814 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.GetSettingOptionsV2Response'.
+2023-12-24 14:45:53.821 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.GetSettingOptionsV2 (SSE.ServerAPI) in 717.1841ms
+2023-12-24 14:45:53.823 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetSettingOptionsV2 (SSE.ServerAPI)'
+2023-12-24 14:45:53.825 +07:00 [INF] Request finished in 867.0607ms 200 application/json; charset=utf-8
+2023-12-24 14:51:16.312 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-24 14:51:16.817 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-24 14:51:16.819 +07:00 [INF] Hosting environment: Development
+2023-12-24 14:51:16.820 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI
+2023-12-24 14:51:16.853 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2023-12-24 14:51:16.997 +07:00 [INF] Request finished in 147.0891ms 200 text/html;charset=utf-8
+2023-12-24 14:51:17.000 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2023-12-24 14:51:17.014 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2023-12-24 14:51:17.016 +07:00 [INF] Request finished in 16.3446ms 200 application/javascript; charset=utf-8
+2023-12-24 14:51:17.045 +07:00 [INF] Request finished in 31.1486ms 200 text/javascript; charset=UTF-8
+2023-12-24 14:51:17.162 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2023-12-24 14:51:17.390 +07:00 [INF] Request finished in 228.0746ms 200 application/json;charset=utf-8
+2023-12-24 14:51:27.436 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/users/get-setting-options-v2  
+2023-12-24 14:51:27.442 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/users/get-setting-options-v2 
+QueryString:  
+Request Body:  
+
+2023-12-24 14:51:27.448 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-24 14:51:27.651 +07:00 [INF] Successfully validated the token.
+2023-12-24 14:51:27.658 +07:00 [INF] Authorization was successful.
+2023-12-24 14:51:27.660 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetSettingOptionsV2 (SSE.ServerAPI)'
+2023-12-24 14:51:27.687 +07:00 [INF] Route matched with {action = "GetSettingOptionsV2", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.User.GetSettingOptionsV2Response] GetSettingOptionsV2() on controller SSE_Server.Api.v1.Controllers.UserController (SSE.ServerAPI).
+2023-12-24 14:51:28.151 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.UserController.GetSettingOptionsV2 (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-24 14:51:28.829 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.UserController.GetSettingOptionsV2 (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 671.7293ms.
+2023-12-24 14:51:28.838 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.User.GetSettingOptionsV2Response'.
+2023-12-24 14:51:28.897 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.UserController.GetSettingOptionsV2 (SSE.ServerAPI) in 1205.8121ms
+2023-12-24 14:51:28.900 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.UserController.GetSettingOptionsV2 (SSE.ServerAPI)'
+2023-12-24 14:51:28.905 +07:00 [INF] Request finished in 1468.806ms 200 application/json; charset=utf-8
+2023-12-24 15:20:25.570 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/order/get-dynacmic-list?voucher_code=&dateFrom=2023-12-01%2014:55:35.920&dateTo=2023-12-27%2014:55:35.920  
+2023-12-24 15:20:25.573 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/order/get-dynacmic-list 
+QueryString: ?voucher_code=&dateFrom=2023-12-01%2014:55:35.920&dateTo=2023-12-27%2014:55:35.920 
+Request Body:  
+
+2023-12-24 15:20:25.588 +07:00 [INF] Successfully validated the token.
+2023-12-24 15:20:25.590 +07:00 [INF] Authorization was successful.
+2023-12-24 15:20:25.594 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI)'
+2023-12-24 15:20:25.606 +07:00 [INF] Route matched with {action = "GetDynamicList", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.Order.GetDynamicListResponse] GetDynamicList(System.String, System.String, System.String) on controller SSE_Server.Api.v1.Controllers.OrderController (SSE.ServerAPI).
+2023-12-24 15:20:25.782 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-24 15:20:26.337 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 552.6577ms.
+2023-12-24 15:20:26.341 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.Order.GetDynamicListResponse'.
+2023-12-24 15:20:26.347 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI) in 739.0636ms
+2023-12-24 15:20:26.349 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI)'
+2023-12-24 15:20:26.353 +07:00 [INF] Request finished in 782.8006ms 200 application/json; charset=utf-8
+2023-12-24 15:31:14.745 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-24 15:31:15.167 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-24 15:31:15.169 +07:00 [INF] Hosting environment: Development
+2023-12-24 15:31:15.170 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI
+2023-12-24 15:31:15.201 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2023-12-24 15:31:15.335 +07:00 [INF] Request finished in 134.8542ms 200 text/html;charset=utf-8
+2023-12-24 15:31:15.339 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2023-12-24 15:31:15.349 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2023-12-24 15:31:15.359 +07:00 [INF] Request finished in 19.5171ms 200 application/javascript; charset=utf-8
+2023-12-24 15:31:15.438 +07:00 [INF] Request finished in 88.6797ms 200 text/javascript; charset=UTF-8
+2023-12-24 15:31:15.499 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2023-12-24 15:31:15.715 +07:00 [INF] Request finished in 216.2148ms 200 application/json;charset=utf-8
+2023-12-24 15:33:23.890 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-24 15:33:24.314 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-24 15:33:24.315 +07:00 [INF] Hosting environment: Development
+2023-12-24 15:33:24.316 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI
+2023-12-24 15:33:24.347 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2023-12-24 15:33:24.500 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2023-12-24 15:33:24.508 +07:00 [INF] Request finished in 155.5634ms 200 text/html;charset=utf-8
+2023-12-24 15:33:24.511 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2023-12-24 15:33:24.518 +07:00 [INF] Request finished in 18.1813ms 200 application/javascript; charset=utf-8
+2023-12-24 15:33:24.612 +07:00 [INF] Request finished in 100.7098ms 200 text/javascript; charset=UTF-8
+2023-12-24 15:33:24.674 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2023-12-24 15:33:24.930 +07:00 [INF] Request finished in 256.83ms 200 application/json;charset=utf-8
+2023-12-24 15:33:35.392 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/order/get-dynamic-list?voucher_code=HDA&dateFrom=2023-12-01%2014:55:35.920&dateTo=2023-12-27%2014:55:35.920  
+2023-12-24 15:33:35.397 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/order/get-dynamic-list 
+QueryString: ?voucher_code=HDA&dateFrom=2023-12-01%2014:55:35.920&dateTo=2023-12-27%2014:55:35.920 
+Request Body:  
+
+2023-12-24 15:33:35.401 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-24 15:33:35.596 +07:00 [INF] Successfully validated the token.
+2023-12-24 15:33:35.604 +07:00 [INF] Authorization was successful.
+2023-12-24 15:33:35.606 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI)'
+2023-12-24 15:33:35.640 +07:00 [INF] Route matched with {action = "GetDynamicList", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.Order.GetDynamicListResponse] GetDynamicList(System.String, System.String, System.String) on controller SSE_Server.Api.v1.Controllers.OrderController (SSE.ServerAPI).
+2023-12-24 15:33:36.142 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-24 15:33:36.800 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 651.6231ms.
+2023-12-24 15:33:36.808 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.Order.GetDynamicListResponse'.
+2023-12-24 15:33:36.856 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI) in 1211.3468ms
+2023-12-24 15:33:36.859 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI)'
+2023-12-24 15:33:36.869 +07:00 [INF] Request finished in 1477.532ms 200 application/json; charset=utf-8
+2023-12-24 15:33:46.677 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/api/v1/order/get-dynamic-list?voucher_code=HDF&dateFrom=2023-12-01%2014:55:35.920&dateTo=2023-12-27%2014:55:35.920  
+2023-12-24 15:33:46.681 +07:00 [INF] Http Request Information:
+Schema:http 
+Host: localhost:8699 
+Path: /api/v1/order/get-dynamic-list 
+QueryString: ?voucher_code=HDF&dateFrom=2023-12-01%2014:55:35.920&dateTo=2023-12-27%2014:55:35.920 
+Request Body:  
+
+2023-12-24 15:33:46.700 +07:00 [INF] Successfully validated the token.
+2023-12-24 15:33:46.703 +07:00 [INF] Authorization was successful.
+2023-12-24 15:33:46.704 +07:00 [INF] Executing endpoint 'SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI)'
+2023-12-24 15:33:46.706 +07:00 [INF] Route matched with {action = "GetDynamicList", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[SSE.Common.Api.v1.Responses.Order.GetDynamicListResponse] GetDynamicList(System.String, System.String, System.String) on controller SSE_Server.Api.v1.Controllers.OrderController (SSE.ServerAPI).
+2023-12-24 15:33:46.849 +07:00 [INF] Executing action method SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI) - Validation state: "Valid"
+2023-12-24 15:33:46.945 +07:00 [INF] Executed action method SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 94.5751ms.
+2023-12-24 15:33:46.948 +07:00 [INF] Executing ObjectResult, writing value of type 'SSE.Common.Api.v1.Responses.Order.GetDynamicListResponse'.
+2023-12-24 15:33:46.953 +07:00 [INF] Executed action SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI) in 246.1624ms
+2023-12-24 15:33:46.956 +07:00 [INF] Executed endpoint 'SSE_Server.Api.v1.Controllers.OrderController.GetDynamicList (SSE.ServerAPI)'
+2023-12-24 15:33:46.958 +07:00 [INF] Request finished in 282.1233ms 200 application/json; charset=utf-8
+2023-12-24 16:05:59.820 +07:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-24 16:06:00.309 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-24 16:06:00.312 +07:00 [INF] Hosting environment: Development
+2023-12-24 16:06:00.314 +07:00 [INF] Content root path: F:\Project2023\API\DMS\Version 1.0.0\SSE.ServerAPI
+2023-12-24 16:06:00.348 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/index.html  
+2023-12-24 16:06:00.505 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_framework/aspnetcore-browser-refresh.js  
+2023-12-24 16:06:00.505 +07:00 [INF] Request finished in 159.0228ms 200 text/html;charset=utf-8
+2023-12-24 16:06:00.517 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/_vs/browserLink  
+2023-12-24 16:06:00.521 +07:00 [INF] Request finished in 12.379ms 200 application/javascript; charset=utf-8
+2023-12-24 16:06:00.597 +07:00 [INF] Request finished in 79.8502ms 200 text/javascript; charset=UTF-8
+2023-12-24 16:06:00.664 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:8699/swagger/v1/swagger.json  
+2023-12-24 16:06:01.002 +07:00 [INF] Request finished in 337.6337ms 200 application/json;charset=utf-8

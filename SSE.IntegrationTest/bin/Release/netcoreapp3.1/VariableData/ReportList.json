@@ -1,0 +1,98 @@
+﻿[
+  {
+    "ReportId": "001001",
+    "ReportName": "Bảng kê bán hàng",
+    "SQLStoreName": "[app_rs_rptSalesInvoiceList]"
+  },
+  {
+    "ReportId": "001003",
+    "ReportName": "Báo cáo bán hàng 2 chỉ tiêu",
+    "SQLStoreName": "[app_rs_rptSalesSummaryByTwoCriteria]"
+  },
+  {
+    "ReportId": "001004",
+    "ReportName": "Báo cáo kế hoạch giao hàng",
+    "SQLStoreName": "[app_kehoachgiaohang]"
+  },
+  {
+    "ReportId": "001005",
+    "ReportName": "Báo cáo thống kê công đoạn",
+    "SQLStoreName": "[app_rpt_thongkecongdoan]"
+  },
+  {
+    "ReportId": "001006",
+    "ReportName": "Báo cáo số lượng hàng bán và dự trù",
+    "SQLStoreName": "[app_rs_rptTTandDT]"
+  },
+  {
+    "ReportId": "001007",
+    "ReportName": "Báo cáo bán hàng chi tiết theo mặt hàng",
+    "SQLStoreName": "[app_rs_rptSalesReportDetailedByItem]"
+  },
+  {
+    "ReportId": "001008",
+    "ReportName": "Báo cáo doanh số bán hàng",
+    "SQLStoreName": "[app_rptSalesdsList]"
+  },
+  {
+    "ReportId": "002001",
+    "ReportName": "Báo cáo tồn kho",
+    "SQLStoreName": "[app_rs_rptStockReport]"
+  },
+  {
+    "ReportId": "002002",
+    "ReportName": "Báo cáo tồn theo kho",
+    "SQLStoreName": "[app_rs_rptStockBySite]"
+  },
+  {
+    "ReportId": "002003",
+    "ReportName": "Tổng hợp NXT",
+    "SQLStoreName": "[app_rs_rptStockSummary]"
+  },
+  {
+    "ReportId": "003001",
+    "ReportName": "Bảng cân đối phát sinh các tài khoản",
+    "SQLStoreName": "[app_rs_rptTrialBalance]"
+  },
+  {
+    "ReportId": "003002",
+    "ReportName": "Bảng cân đối kế toán",
+    "SQLStoreName": "[app_rs_rptBalanceSheet]"
+  },
+  {
+    "ReportId": "003003",
+    "ReportName": "Báo cáo kết quả SXKD",
+    "SQLStoreName": "[app_rs_rptIncomeStatement]"
+  },
+  {
+    "ReportId": "004001",
+    "ReportName": "Sổ quỹ",
+    "SQLStoreName": "[app_rs_rptCashBook]"
+  },
+  //NAFACO
+  {
+    "ReportId": "004002",
+    "ReportName": "Báo cáo tiền hàng ngày",
+    "SQLStoreName": "[app_rs_rptCongNoTheoKH]"
+  },
+  {
+    "ReportId": "004003",
+    "ReportName": " Công nợ theo nhân viên",
+    "SQLStoreName": "[App_rs_rptSalesEmployeesBalance]"
+  },
+  {
+    "ReportId": "004004",
+    "ReportName": "Sổ nhật ký chi tiền",
+    "SQLStoreName": "[app_rs_rptCashDisbursementJournal]"
+  },
+  {
+    "ReportId": "004005",
+    "ReportName": "Sổ nhật ký thu tiền",
+    "SQLStoreName": "[App_rs_rptCashReceiptJournal]"
+  },
+  {
+    "ReportId": "002004",
+    "ReportName": "Báo cáo tồn kho đại lý",
+    "SQLStoreName": "[App_rs_rptdealerStockReport]"
+  }
+]
